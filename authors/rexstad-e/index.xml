@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rexstad E on </title>
+    <link>/authors/rexstad-e/</link>
+    <description>Recent content in Rexstad E on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/authors/rexstad-e/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Southern Hemisphere Breeding Stock D humpback whale population estimates from North West Cape, Western Australia</title>
+      <link>/publication/2012-salgado-jcrm/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/2012-salgado-jcrm/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Letessier T on </title>
+    <link>/authors/letessier-t/</link>
+    <description>Recent content in Letessier T on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/authors/letessier-t/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Oceanic Shoals Commonwealth Marine Reserve (Timor Sea) Biodiversity Survey</title>
+      <link>/report/2013-nichol-oceanicshoals/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0100</pubDate>
+      
+      <guid>/report/2013-nichol-oceanicshoals/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

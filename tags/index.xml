@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 02 May 2019 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ecology</title>
+      <link>/tags/ecology/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Freshwater &amp; Marine Ecology</title>
+      <link>/tags/freshwater-marine-ecology/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/freshwater-marine-ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marine &amp; Freshwater Sciences</title>
+      <link>/tags/marine-freshwater-sciences/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/marine-freshwater-sciences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zoology</title>
+      <link>/tags/zoology/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/zoology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive modeling</title>
+      <link>/tags/predictive-modeling/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/predictive-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>extrapolation</title>
+      <link>/tags/extrapolation/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/extrapolation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>generality</title>
+      <link>/tags/generality/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/generality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>habitat models</title>
+      <link>/tags/habitat-models/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/habitat-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>model transfers</title>
+      <link>/tags/model-transfers/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/model-transfers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>species distribution models</title>
+      <link>/tags/species-distribution-models/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/species-distribution-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uncertainty</title>
+      <link>/tags/uncertainty/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/uncertainty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topography</title>
+      <link>/tags/topography/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/topography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>catch rate standardization</title>
+      <link>/tags/catch-rate-standardization/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/catch-rate-standardization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fisheries data</title>
+      <link>/tags/fisheries-data/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/fisheries-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>geomorphometrics</title>
+      <link>/tags/geomorphometrics/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/geomorphometrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hotspot</title>
+      <link>/tags/hotspot/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/hotspot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>marine reserves</title>
+      <link>/tags/marine-reserves/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/marine-reserves/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pelagic fishes</title>
+      <link>/tags/pelagic-fishes/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/pelagic-fishes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>random forest</title>
+      <link>/tags/random-forest/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/random-forest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spatial modelling</title>
+      <link>/tags/spatial-modelling/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/spatial-modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>submarine canyons</title>
+      <link>/tags/submarine-canyons/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/submarine-canyons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>/tags/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>/tags/demo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>/tags/academic/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/tags/r-markdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plot</title>
+      <link>/tags/plot/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regression</title>
+      <link>/tags/regression/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aggregations</title>
+      <link>/tags/aggregations/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/aggregations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biodiversity monitoring</title>
+      <link>/tags/biodiversity-monitoring/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/biodiversity-monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complexity</title>
+      <link>/tags/complexity/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/complexity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geomorphometry</title>
+      <link>/tags/geomorphometry/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/geomorphometry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hotspots</title>
+      <link>/tags/hotspots/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/hotspots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Landscape</title>
+      <link>/tags/landscape/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/landscape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marine reserve</title>
+      <link>/tags/marine-reserve/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/marine-reserve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marine spatial planning</title>
+      <link>/tags/marine-spatial-planning/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/marine-spatial-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maxent</title>
+      <link>/tags/maxent/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/maxent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metrics</title>
+      <link>/tags/metrics/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/metrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mid-water BRUVS</title>
+      <link>/tags/mid-water-bruvs/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/mid-water-bruvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Occupancy modeling</title>
+      <link>/tags/occupancy-modeling/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/occupancy-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Offshore sampling</title>
+      <link>/tags/offshore-sampling/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/offshore-sampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pelagic fish and sharks</title>
+      <link>/tags/pelagic-fish-and-sharks/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/pelagic-fish-and-sharks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perth canyon</title>
+      <link>/tags/perth-canyon/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/perth-canyon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predators</title>
+      <link>/tags/predators/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/predators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stereo-videography</title>
+      <link>/tags/stereo-videography/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/stereo-videography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Western Australia</title>
+      <link>/tags/western-australia/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/western-australia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wildlife conservation</title>
+      <link>/tags/wildlife-conservation/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/wildlife-conservation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source Themes</title>
+      <link>/tags/source-themes/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/source-themes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

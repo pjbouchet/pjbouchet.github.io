@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regnery R on </title>
+    <link>/authors/regnery-r/</link>
+    <description>Recent content in Regnery R on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/authors/regnery-r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Key research questions of global importance for cetacean conservation</title>
+      <link>/publication/2015-parsons-esr/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/2015-parsons-esr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
