@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Internal Project</title>
       <link>/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
       
       <guid>/project/internal-project/</guid>
       <description>An example of using the in-built project page.</description>
