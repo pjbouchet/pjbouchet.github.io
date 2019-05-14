@@ -185,13 +185,18 @@
   </url>
   
   <url>
+    <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/4/</loc>
     <lastmod>2018-05-01T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/report/11-2018-bouchet-d2/</loc>
+    <loc>/report/13-2018-bouchet-d2/</loc>
     <lastmod>2018-05-01T00:00:00+01:00</lastmod>
   </url>
   
@@ -201,22 +206,22 @@
   </url>
   
   <url>
-    <loc>/report/10-2018-bouchet-fieldmanual/</loc>
+    <loc>/report/12-2018-bouchet-fieldmanual/</loc>
     <lastmod>2018-04-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/report/09-2018-langlois-fieldmanual/</loc>
+    <loc>/report/11-2018-langlois-fieldmanual/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/report/08-2018-bouchet-nesp-emergingpriorities/</loc>
+    <loc>/report/10-2018-bouchet-nesp-emergingpriorities/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/report/07-2018-bouchet-bremeraerial/</loc>
+    <loc>/report/09-2018-bouchet-bremeraerial/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -301,7 +306,7 @@
   </url>
   
   <url>
-    <loc>/report/06-2017-miller-d1/</loc>
+    <loc>/report/08-2017-miller-d1/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -351,7 +356,7 @@
   </url>
   
   <url>
-    <loc>/report/05-2016-meeuwig-bremer/</loc>
+    <loc>/report/07-2016-meeuwig-bremer/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -391,7 +396,7 @@
   </url>
   
   <url>
-    <loc>/report/04-2015-caley-oceanicshoals/</loc>
+    <loc>/report/06-2015-caley-oceanicshoals/</loc>
     <lastmod>2015-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -472,7 +477,7 @@
   </url>
   
   <url>
-    <loc>/report/03-2015-przeslawski-d1/</loc>
+    <loc>/report/05-2015-przeslawski-d1/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -535,7 +540,7 @@
   </url>
   
   <url>
-    <loc>/report/02-2013-huang-metadata/</loc>
+    <loc>/report/04-2013-huang-metadata/</loc>
     <lastmod>2013-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -545,7 +550,7 @@
   </url>
   
   <url>
-    <loc>/report/01-2013-nichol-oceanicshoals/</loc>
+    <loc>/report/03-2013-nichol-oceanicshoals/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -558,6 +563,16 @@
   <url>
     <loc>/publication/01-2012-salgado-jcrm/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/report/02-2010-jenner-humpbacks/</loc>
+    <lastmod>2010-03-31T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/report/01-2010-salgado-humpbacks/</loc>
+    <lastmod>2010-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
