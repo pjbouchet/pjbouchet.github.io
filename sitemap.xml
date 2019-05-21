@@ -185,6 +185,11 @@
   </url>
   
   <url>
+    <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/4/</loc>
     <lastmod>2018-05-01T00:00:00+01:00</lastmod>
     <priority>0</priority>
@@ -228,12 +233,6 @@
   <url>
     <loc>/publication/09-2018-bouchet-geb/</loc>
     <lastmod>2017-08-24T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/topography/</loc>
-    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -286,6 +285,12 @@
   
   <url>
     <loc>/tags/submarine-canyons/</loc>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/topography/</loc>
     <lastmod>2017-08-24T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
