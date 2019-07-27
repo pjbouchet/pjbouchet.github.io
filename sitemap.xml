@@ -20,54 +20,59 @@
   
   <url>
     <loc>/publication_types/2/</loc>
-    <lastmod>2019-05-02T00:00:00+01:00</lastmod>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ecology/</loc>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/freshwater-marine-ecology/</loc>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/marine-freshwater-sciences/</loc>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/15-2019-rendina-mer/</loc>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/zoology/</loc>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/14-2019-bouchet-tree/</loc>
     <lastmod>2019-05-02T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ecology/</loc>
-    <lastmod>2019-05-02T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/freshwater-marine-ecology/</loc>
-    <lastmod>2019-05-02T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/marine-freshwater-sciences/</loc>
-    <lastmod>2019-05-02T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-05-02T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2019-05-02T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-05-02T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/zoology/</loc>
-    <lastmod>2019-05-02T00:00:00+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -185,11 +190,6 @@
   </url>
   
   <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/4/</loc>
     <lastmod>2018-05-01T00:00:00+01:00</lastmod>
     <priority>0</priority>
@@ -233,6 +233,12 @@
   <url>
     <loc>/publication/09-2018-bouchet-geb/</loc>
     <lastmod>2017-08-24T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/topography/</loc>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -285,12 +291,6 @@
   
   <url>
     <loc>/tags/submarine-canyons/</loc>
-    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/topography/</loc>
     <lastmod>2017-08-24T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
