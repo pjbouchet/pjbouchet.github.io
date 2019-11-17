@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>From here and now to there and then: Practical recommendations for extrapolating cetacean density surface models to novel conditions</title>
+      <link>/report/14-2019-bouchet-denmod/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/report/14-2019-bouchet-denmod/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Comparative assessment of pelagic sampling methods used in marine monitoring</title>
@@ -22,7 +31,7 @@
     </item>
     
     <item>
-      <title>Chapter 6: Marine sampling field manual for pelagic BRUVS (Baited Remote Underwater Videos).</title>
+      <title>Chapter 6: Marine sampling field manual for pelagic BRUVS (Baited Remote Underwater Videos)</title>
       <link>/report/12-2018-bouchet-fieldmanual/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0100</pubDate>
       
@@ -31,7 +40,7 @@
     </item>
     
     <item>
-      <title>Chapter 5: Marine sampling field manual for benthic stereo BRUVS (Baited Remote Underwater Videos).</title>
+      <title>Chapter 5: Marine sampling field manual for benthic stereo BRUVS (Baited Remote Underwater Videos)</title>
       <link>/report/11-2018-langlois-fieldmanual/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
