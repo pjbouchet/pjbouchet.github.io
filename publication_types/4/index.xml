@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>From here and now to there and then: Practical recommendations for extrapolating cetacean density surface models to novel conditions</title>
       <link>/report/14-2019-bouchet-denmod/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0200</pubDate>
       
       <guid>/report/14-2019-bouchet-denmod/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Comparative assessment of pelagic sampling methods used in marine monitoring</title>
       <link>/report/13-2018-bouchet-d2/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0200</pubDate>
       
       <guid>/report/13-2018-bouchet-d2/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Chapter 6: Marine sampling field manual for pelagic BRUVS (Baited Remote Underwater Videos)</title>
       <link>/report/12-2018-bouchet-fieldmanual/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
       
       <guid>/report/12-2018-bouchet-fieldmanual/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Chapter 5: Marine sampling field manual for benthic stereo BRUVS (Baited Remote Underwater Videos)</title>
       <link>/report/11-2018-langlois-fieldmanual/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0100</pubDate>
       
       <guid>/report/11-2018-langlois-fieldmanual/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Bremer Canyon Emerging Priorities Project EP2: Occurrence and distribution of marine wildlife in the Bremer Bay region - Final Report</title>
       <link>/report/10-2018-bouchet-nesp-emergingpriorities/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0100</pubDate>
       
       <guid>/report/10-2018-bouchet-nesp-emergingpriorities/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Aerial visual survey of cetaceans and other megafauna in the Bremer Marine Park and surrounding areas</title>
       <link>/report/09-2018-bouchet-bremeraerial/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
       
       <guid>/report/09-2018-bouchet-bremeraerial/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>NESP Project D1 Ecosystem understanding to support sustainable use, management and monitoring of marine assets in the North and North-West regions - Final Report 2016</title>
       <link>/report/08-2017-miller-d1/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>/report/08-2017-miller-d1/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>Bremer Canyon Science Report: Workshop held 25 October 2016</title>
       <link>/report/07-2016-meeuwig-bremer/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
       
       <guid>/report/07-2016-meeuwig-bremer/</guid>
       <description></description>
@@ -87,7 +87,7 @@
     <item>
       <title>Oceanic Shoals Commonwealth Marine Reserve - A guide</title>
       <link>/report/06-2015-caley-oceanicshoals/</link>
-      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0100</pubDate>
       
       <guid>/report/06-2015-caley-oceanicshoals/</guid>
       <description></description>
@@ -96,7 +96,7 @@
     <item>
       <title>NESP D1: Developing a toolbox of predictive models for the monitoring and management of KEFs and CMRs in the North and North-west regions</title>
       <link>/report/05-2015-przeslawski-d1/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
       
       <guid>/report/05-2015-przeslawski-d1/</guid>
       <description></description>
@@ -105,7 +105,7 @@
     <item>
       <title>Australian marine environmental data: Descriptions and metadata</title>
       <link>/report/04-2013-huang-metadata/</link>
-      <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Feb 2013 00:00:00 +0100</pubDate>
       
       <guid>/report/04-2013-huang-metadata/</guid>
       <description></description>
@@ -114,7 +114,7 @@
     <item>
       <title>Oceanic Shoals Commonwealth Marine Reserve (Timor Sea) Biodiversity Survey</title>
       <link>/report/03-2013-nichol-oceanicshoals/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0100</pubDate>
       
       <guid>/report/03-2013-nichol-oceanicshoals/</guid>
       <description></description>
@@ -123,7 +123,7 @@
     <item>
       <title>A comparison of southern hemisphere breeding stock &#39;D&#39; humpback whale population estimates from two key locations along the Western Australian coast</title>
       <link>/report/02-2010-jenner-humpbacks/</link>
-      <pubDate>Wed, 31 Mar 2010 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 31 Mar 2010 00:00:00 +0200</pubDate>
       
       <guid>/report/02-2010-jenner-humpbacks/</guid>
       <description></description>
@@ -132,7 +132,7 @@
     <item>
       <title>Southern hemisphere breeding stock &#39;D&#39; humpback whale population estimates from North West cape, Western Australia</title>
       <link>/report/01-2010-salgado-humpbacks/</link>
-      <pubDate>Sun, 21 Mar 2010 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 21 Mar 2010 00:00:00 +0100</pubDate>
       
       <guid>/report/01-2010-salgado-humpbacks/</guid>
       <description></description>
