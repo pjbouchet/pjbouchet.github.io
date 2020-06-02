@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/ecology/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>A standard protocol for describing species distribution models</title>
+      <link>/publication/17-2020-zurell-ecography/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/17-2020-zurell-ecography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Remote reefs and seamounts are the last refuges for marine predators across the Indo-Pacific</title>
       <link>/publication/16-2019-letessier-plosb/</link>
-      <pubDate>Tue, 06 Aug 2019 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0100</pubDate>
       
       <guid>/publication/16-2019-letessier-plosb/</guid>
       <description></description>
@@ -24,7 +33,7 @@
     <item>
       <title>Physiological response of the coralline alga Corallina officinalis L. to both predicted long-term increases in temperature and short-term heatwave events</title>
       <link>/publication/15-2019-rendina-mer/</link>
-      <pubDate>Sat, 27 Jul 2019 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0100</pubDate>
       
       <guid>/publication/15-2019-rendina-mer/</guid>
       <description></description>
@@ -33,7 +42,7 @@
     <item>
       <title>Better Model Transfers Require Knowledge of Mechanisms</title>
       <link>/publication/14-2019-bouchet-tree/</link>
-      <pubDate>Thu, 02 May 2019 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0100</pubDate>
       
       <guid>/publication/14-2019-bouchet-tree/</guid>
       <description></description>
@@ -42,7 +51,7 @@
     <item>
       <title>First underwater sighting of Shepherd&#39;s beaked whale (Tasmacetus shepherdi)</title>
       <link>/publication/12-2019-thompson-mbr/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/publication/12-2019-thompson-mbr/</guid>
       <description></description>
