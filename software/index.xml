@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Softwares on </title>
+    <link>/software/</link>
+    <description>Recent content in Softwares on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    
+	<atom:link href="/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/software/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/software/readme/</guid>
+      <description>Extrapolation tools for density surface models    dsmextra provides a toolkit for quantifying and visualising extrapolation in ecological models (with a focus on density surface models, as implemented in package dsm) projected into novel environmental space. Currently, dsmextra defines extrapolation on the basis of two metrics: (1) ExDet (Mesgaran et al. 2014), and (2) %N (the percentage of data nearby, King &amp;amp; Zeng 2007).
+dsmextra offers a variety of numerical and graphical outputs, including summary plots and interactive maps created as ggplot2 and html objects, respectively.</description>
+    </item>
+    
+  </channel>
+</rss>

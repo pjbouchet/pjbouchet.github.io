@@ -37,6 +37,15 @@
     </item>
     
     <item>
+      <title>Seasonal productivity drives aggregations of killer whales and other cetaceans over submarine canyons of the Bremer Sub-Basin, south-western Australia</title>
+      <link>/publication/18-2020-salgado-ausmam/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/18-2020-salgado-ausmam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A standard protocol for describing species distribution models</title>
       <link>/publication/17-2020-zurell-ecography/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0100</pubDate>
@@ -856,6 +865,85 @@ Figure 1: A fancy pie chart.
       
       <guid>/report/01-2010-salgado-humpbacks/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/software/</guid>
+      <description>
+
+&lt;h3 id=&#34;dsmextra-extrapolation-tools-for-density-surface-models-img-src-https-github-com-densitymodelling-dsmextra-blob-master-hex-dsmextra-hex-png-raw-true-align-left-class-dsmextra-logo&#34;&gt;&lt;strong&gt;dsmextra: Extrapolation tools for density surface models&lt;/strong&gt; &lt;img src=&#34;https://github.com/densitymodelling/dsmextra/blob/master/hex/dsmextra-hex.png?raw=true&#34; align=&#34;left&#34; class=&#34;dsmextra_logo&#34;/&gt;&lt;/h3&gt;
+
+&lt;!-- badges: start --&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://img.shields.io/badge/lifecycle-maturing-blue.svg?style=flat-square&#34; align=&#34;left&#34; class=&#34;package_badge&#34;/&gt;
+&lt;img src=&#34;https://img.shields.io/badge/DOI-10.5281.zenodo.3529465-green.svg?style=flat-square&#34; align=&#34;left&#34; class=&#34;package_badge&#34;/&gt;&lt;br /&gt;
+&lt;!-- badges: end --&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;dsmextra&lt;/code&gt; provides a toolkit for quantifying and visualising extrapolation in ecological models (with a focus on density surface models, as implemented in package &lt;a href=&#34;https://cran.r-project.org/web/packages/dsm/index.html&#34; target=&#34;_blank&#34;&gt;dsm&lt;/a&gt;) projected into novel environmental space. Currently, &lt;code&gt;dsmextra&lt;/code&gt; defines extrapolation on the basis of two metrics: &lt;strong&gt;(1) ExDet&lt;/strong&gt; (Mesgaran et al. 2014), and &lt;strong&gt;(2) %N&lt;/strong&gt; (the percentage of data nearby, King &amp;amp; Zeng 2007).&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;dsmextra&lt;/code&gt; offers a variety of numerical and graphical outputs, including summary plots and interactive maps created as &lt;a href=&#34;https://ggplot2.tidyverse.org/&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt; and &lt;a href=&#34;https://rstudio.github.io/leaflet/&#34; target=&#34;_blank&#34;&gt;html&lt;/a&gt; objects, respectively. Additional functionality (e.g. assessment methods for dynamic covariates) will be added in future releases.&lt;/p&gt;
+
+&lt;p&gt;The idea behind &lt;code&gt;dsmextra&lt;/code&gt; is to aid ecologists, practitioners, and model end-users in identifying conditions (e.g. areas) under which predicted density surfaces may be prone to errors. In so doing, &lt;code&gt;dsmextra&lt;/code&gt; may support:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Better-informed interpretations of (density surface) model outputs and their associated uncertainties.&lt;/li&gt;
+&lt;li&gt;Improvements to model development and covariate selection protocols.&lt;/li&gt;
+&lt;li&gt;Cost-effective allocation of future survey effort towards priority, data-poor areas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;getting-started&#34;&gt;Getting started&lt;/h3&gt;
+
+&lt;p&gt;If you are just getting started with &lt;code&gt;dsmextra&lt;/code&gt;, we recommend reading the tutorial &lt;a href=&#34;https://densitymodelling.github.io/dsmextra/articles/dsmextra-vignette.html&#34; target=&#34;_blank&#34;&gt;vignette&lt;/a&gt;, which provides a quick introduction to the package. You may also find the below technical report useful:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bouchet et al. (2019). &lt;a href=&#34;https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/18509/Denmod_ExtrapolationReport_final_Aug2019.pdf?sequence=1&amp;amp;isAllowed=y&#34; target=&#34;_blank&#34;&gt;From here and now to there and then: Practical recommendations for extrapolating cetacean density surface models to novel conditions&lt;/a&gt;. CREEM technical report 2019-01, Centre for Research into Ecological &amp;amp; Environmental Modelling (CREEM), University of St Andrews, 59 p.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;additional-reading&#34;&gt;Additional reading&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Mannocci et al. (2018). Assessing cetacean surveys throughout the mediterranean sea: A gap analysis in environmental space. &lt;em&gt;Scientific Reports&lt;/em&gt; &lt;strong&gt;8&lt;/strong&gt;, art3126. DOI: &lt;a href=&#34;https://www.nature.com/articles/s41598-018-19842-9&#34; target=&#34;_blank&#34;&gt;10.1038/s41598-018-19842-9&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mannocci et al. (2017). Extrapolating cetacean densities to quantitatively assess human impacts on populations in the high seas. &lt;em&gt;Conservation Biology&lt;/em&gt; &lt;strong&gt;31&lt;/strong&gt;, 601–614. DOI: &lt;a href=&#34;https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/cobi.12856&#34; target=&#34;_blank&#34;&gt;10.1111/cobi.12856&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mesgaran et al. (2014). Here be dragons: A tool for quantifying novelty due to covariate range and correlation change when projecting species distribution models. &lt;em&gt;Diversity and Distributions&lt;/em&gt; &lt;strong&gt;20&lt;/strong&gt;, 1147–1159. DOI: &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12209&#34; target=&#34;_blank&#34;&gt;10.1111/ddi.12209&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Miller et al. (2013). Spatial models for distance sampling data: Recent developments and future directions. &lt;em&gt;Methods in Ecology and Evolution&lt;/em&gt; &lt;strong&gt;4&lt;/strong&gt;, 1001–1010. DOI: &lt;a href=&#34;https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12105&#34; target=&#34;_blank&#34;&gt;10.&lt;sup&gt;1111&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2041&lt;/sub&gt;-210X.12105&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;King G &amp;amp; Zeng L (2007). When can history be our guide? The pitfalls of counterfactual inference. &lt;em&gt;International Studies Quarterly&lt;/em&gt; &lt;strong&gt;51&lt;/strong&gt;, 183–210. DOI: &lt;a href=&#34;https://doi.org/10.1111/j.1468-2478.2007.00445.x&#34; target=&#34;_blank&#34;&gt;10.1111/j.1468-2478.2007.00445.x&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h3&gt;
+
+&lt;p&gt;This R package was developed for the &lt;a href=&#34;https://synergy.st-andrews.ac.uk/denmod/&#34; target=&#34;_blank&#34;&gt;DenMod project&lt;/a&gt; (Working group for the advancement of marine species density surface modelling), and was funded by OPNAV N45 and the SURTASS LFA Settlement Agreement, being managed by the U.S. Navy’s Living Marine Resources program under Contract No. N39430-17-C-1982. The sperm whale data showcased in the &lt;a href=&#34;https://densitymodelling.github.io/dsmextra/articles/dsmextra-vignette.html&#34; target=&#34;_blank&#34;&gt;online vignette&lt;/a&gt; were provided by Debi Palka (NOAA North East Fisheries Science Center) and Lance Garrison (NOAA South East Fisheries Science Center). Initial data processing was undertaken by Jason Roberts (Marine Geospatial Ecology Lab, Duke University).&lt;/p&gt;
+
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;The latest development version can be installed from Github (requires the &lt;a href=&#34;https://github.com/r-lib/remotes&#34; target=&#34;_blank&#34;&gt;remotes&lt;/a&gt; package):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;if (!require(&amp;quot;remotes&amp;quot;)) install.packages(&amp;quot;remotes&amp;quot;)
+remotes::install_github(&amp;quot;densitymodelling/dsmextra&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;important-note&#34;&gt;Important note&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;May 2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://gking.harvard.edu/whatif&#34; target=&#34;_blank&#34;&gt;WhatIf&lt;/a&gt; package, on which &lt;code&gt;dsmextra&lt;/code&gt; depends, was removed from CRAN on 2020-03-07. Similarly, the &lt;a href=&#34;https://zeligproject.org/&#34; target=&#34;_blank&#34;&gt;Zelig&lt;/a&gt; package (a dependency of WhatIf) was temporarily archived on 2020-03-24. As this may cause issues when first setting up &lt;code&gt;dsmextra&lt;/code&gt;, a patch correction has been released under version 1.1.0 to ensure that &lt;code&gt;WhatIf&lt;/code&gt; and &lt;code&gt;Zelig&lt;/code&gt; are automatically pulled from Github during installation. Alternatively, both packages can be manually installed either from Github or from their respective archives (see &lt;a href=&#34;https://cran.r-project.org/web/packages/WhatIf/index.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://cran.r-project.org/web/packages/Zelig/index.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;if (!require(&amp;quot;remotes&amp;quot;)) install.packages(&amp;quot;remotes&amp;quot;)
+remotes::install_github(&amp;quot;IQSS/Zelig&amp;quot;)
+remotes::install_github(&amp;quot;IQSS/WhatIf&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;found-a-bug-have-a-feature-request&#34;&gt;Found a bug? Have a feature request?&lt;/h3&gt;
+
+&lt;p&gt;Please submit an issue or send a pull request to the &lt;a href=&#34;https://github.com/densitymodelling/dsmextra/&#34; target=&#34;_blank&#34;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>

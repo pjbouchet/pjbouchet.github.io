@@ -20,36 +20,41 @@
   
   <url>
     <loc>/publication_types/2/</loc>
-    <lastmod>2020-06-01T00:00:00+01:00</lastmod>
+    <lastmod>2020-06-25T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ecology/</loc>
+    <lastmod>2020-06-25T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-06-25T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-06-25T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/18-2020-salgado-ausmam/</loc>
+    <lastmod>2020-06-25T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-25T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/17-2020-zurell-ecography/</loc>
     <lastmod>2020-06-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ecology/</loc>
-    <lastmod>2020-06-01T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-06-01T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-06-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-06-01T00:00:00+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -597,6 +602,11 @@
   
   <url>
     <loc>/author/phil/</loc>
+  </url>
+  
+  <url>
+    <loc>/software/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
