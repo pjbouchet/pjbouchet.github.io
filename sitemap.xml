@@ -20,36 +20,46 @@
   
   <url>
     <loc>/publication_types/2/</loc>
-    <lastmod>2020-06-30T00:00:00+01:00</lastmod>
+    <lastmod>2020-08-20T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>/publication/21-2020-langlois-mee/</loc>
+    <lastmod>2020-08-20T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/ecology/</loc>
-    <lastmod>2020-06-30T00:00:00+01:00</lastmod>
+    <lastmod>2020-08-20T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication_types/</loc>
-    <lastmod>2020-06-30T00:00:00+01:00</lastmod>
+    <lastmod>2020-08-20T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/</loc>
-    <lastmod>2020-06-30T00:00:00+01:00</lastmod>
+    <lastmod>2020-08-20T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-08-20T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/20-2020-bouchet-mee/</loc>
+    <lastmod>2020-08-19T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/19-2020-bouchet-fmars/</loc>
     <lastmod>2020-06-30T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-06-30T00:00:00+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -223,11 +233,6 @@
     <loc>/tags/uncertainty/</loc>
     <lastmod>2018-10-01T00:00:00+01:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
