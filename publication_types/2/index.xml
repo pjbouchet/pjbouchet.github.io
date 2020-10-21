@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>True blue: Temporal and spatial stability of pelagic wildlife at a submarine canyon</title>
+      <link>/publication/22-2020-forrest-ecosphere/</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/22-2020-forrest-ecosphere/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A field and video‐annotation guide for baited remote underwater stereo‐video surveys of demersal fish assemblages</title>
@@ -18,15 +27,6 @@
       <pubDate>Thu, 20 Aug 2020 00:00:00 +0100</pubDate>
       
       <guid>/publication/21-2020-langlois-mee/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>True blue: Temporal and spatial stability of pelagic wildlife at a submarine canyon</title>
-      <link>/publication/22-2020-forrest-ecosphere/</link>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 +0100</pubDate>
-      
-      <guid>/publication/22-2020-forrest-ecosphere/</guid>
       <description></description>
     </item>
     
