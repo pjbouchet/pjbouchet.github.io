@@ -101,7 +101,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.67c533cf69b661d0df2f5d165d05f6a2.css">
+    <link rel="stylesheet" href="/css/academic.0e04aa067b4e80fcab7dede1b0354272.css">
   
 
   
@@ -121,6 +121,25 @@
     
   
   
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+
 
   
   <link rel="alternate" href="/publication_types/2/index.xml" type="application/rss+xml" title="">
@@ -151,7 +170,7 @@
   <meta property="og:description" content="Quantitative Ecologist"><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2021-03-31T00:00:00&#43;01:00">
+  <meta property="og:updated_time" content="2021-04-07T00:00:00&#43;02:00">
   
 
   
@@ -263,27 +282,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/research/">
-            
-            <span>Research</span>
-            
-            <span class="mastdiv">/</span>
-          </a>
-
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link" href="/publications/">
             
             <span>Publications</span>
@@ -318,21 +316,41 @@
         
 
         
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/software/">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             
             <span>Software</span>
             
+            
             <span class="mastdiv">/</span>
           </a>
-
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://densitymodelling.github.io/dsmextra/">
+                
+                <span>dsmextra</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://pjbouchet.github.io/respondR/">
+                
+                <span>respondR</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://github.com/pjbouchet/espresso/">
+                
+                <span>espresso</span>
+                
+                </a>
+            </li>
+            
+          </ul>
         </li>
 
         
@@ -462,7 +480,16 @@
   
   
   <div>
-    <h2><a href="/publication/24-2021-pittman-meps/">Seascape ecology: identifying research priorities for an emerging ocean sustainability science</a></h2>
+    <h2><a href="/publication/25-2021-bouchet-fims/bouchet_etal_2021/">Assessing the role of sampling uncertainty when predicting behavioral responses of tagged cetaceans exposed to naval sonar</a></h2>
+    <div class="article-style">
+      
+      Concerns over cetacean mortality events coincident with maritime warfare exercises have motivated efforts to characterize the effects of anthropogenic noise on free-ranging whales and dolphins. By monitoring the movement, diving, and acoustic …
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/publication/24-2021-pittman-meps/pittman_etal_2021/">Seascape ecology: Identifying research priorities for an emerging ocean sustainability science</a></h2>
     <div class="article-style">
       
       Seascape ecology, the marine-centric counterpart to landscape ecology, is rapidly emerging as an interdisciplinary and spatially explicit ecological science with relevance to marine management, biodiversity conservation, and restoration. While …
@@ -471,7 +498,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/23-2020-forrest-ecosphere/">True blue: Temporal and spatial stability of pelagic wildlife at a submarine canyon</a></h2>
+    <h2><a href="/publication/23-2020-forrest-ecosphere/forrest_etal_2021/">True blue: Temporal and spatial stability of pelagic wildlife at a submarine canyon</a></h2>
     <div class="article-style">
       
       In coastal systems, marine protected areas (MPAs) have been shown to increase the diversity, abundance, and biomass of wildlife assemblages as well as their resilience to climate change. The effectiveness of pelagic MPAs is less clear, with arguments …
@@ -480,7 +507,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/22-2021-bouchet-frontiers/">Regional assessment of the conservation status of snubfin dolphins (Orcaella heinsohni) in the Kimberley region, Western Australia</a></h2>
+    <h2><a href="/publication/22-2021-bouchet-frontiers/bouchet_etal_2021/">Regional assessment of the conservation status of snubfin dolphins (Orcaella heinsohni) in the Kimberley region, Western Australia</a></h2>
     <div class="article-style">
       
       Implementing conservation measures for data-limited species is a fundamental challenge for wildlife managers and policy-makers, and proves difficult for cryptic marine animals occurring in naturally low numbers across remote seascapes. There is …
@@ -489,7 +516,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/21-2020-langlois-mee/">A field and video‐annotation guide for baited remote underwater stereo‐video surveys of demersal fish assemblages</a></h2>
+    <h2><a href="/publication/21-2020-langlois-mee/langlois_etal_2020/">A field and video‐annotation guide for baited remote underwater stereo‐video surveys of demersal fish assemblages</a></h2>
     <div class="article-style">
       
       1. Baited remote underwater stereo‐video systems (stereo‐BRUVs) are a popular tool to sample demersal fish assemblages and gather data on their relative abundance and body‐size structure in a robust, cost‐effective, and non‐invasive manner. Given the …
@@ -498,7 +525,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/20-2020-bouchet-mee/">dsmextra: Extrapolation assessment tools for density surface models</a></h2>
+    <h2><a href="/publication/20-2020-bouchet-mee/bouchet_etal_2020/">dsmextra: Extrapolation assessment tools for density surface models</a></h2>
     <div class="article-style">
       
       1. Forecasting the responses of biodiversity to global change has never been more important. However, many ecologists faced with limited sample sizes and shoestring budgets often resort to extrapolating predictive models beyond the range of their …
@@ -507,7 +534,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/19-2020-bouchet-fmars/">Submerged carbonate banks aggregate pelagic megafauna in offshore tropical Australia</a></h2>
+    <h2><a href="/publication/19-2020-bouchet-fmars/bouchet_etal_2020/">Submerged carbonate banks aggregate pelagic megafauna in offshore tropical Australia</a></h2>
     <div class="article-style">
       
       The conservation of marine biodiversity is firmly embedded in national and international policy frameworks. However, the difficulties associated with conducting broad-scale surveys of oceanic environments restrict the evidence base available for …
@@ -516,7 +543,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/18-2020-salgado-ausmam/">Seasonal productivity drives aggregations of killer whales and other cetaceans over submarine canyons of the Bremer Sub-Basin, south-western Australia</a></h2>
+    <h2><a href="/publication/18-2020-salgado-ausmam/salgado_etal_2020/">Seasonal productivity drives aggregations of killer whales and other cetaceans over submarine canyons of the Bremer Sub-Basin, south-western Australia</a></h2>
     <div class="article-style">
       
       Cetaceans are iconic predators that serve as important indicators of marine ecosystem health. The Bremer Sub-Basin, south-western Australia, supports a diverse cetacean community including the largest documented aggregation of killer whales (Orcinus …
@@ -525,7 +552,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/17-2020-zurell-ecography/">A standard protocol for describing species distribution models</a></h2>
+    <h2><a href="/publication/17-2020-zurell-ecography/zurell_etal_2020/">A standard protocol for describing species distribution models</a></h2>
     <div class="article-style">
       
       Species distribution models (SDMs) constitute the most common class of models across ecology, evolution and conservation. The advent of ready‐to‐use software packages and increasing availability of digital geoinformation have considerably assisted …
@@ -534,19 +561,10 @@
   </div>
   
   <div>
-    <h2><a href="/publication/16-2019-letessier-plosb/">Remote reefs and seamounts are the last refuges for marine predators across the Indo-Pacific</a></h2>
+    <h2><a href="/publication/16-2019-letessier-plosb/letessier_etal_2019/">Remote reefs and seamounts are the last refuges for marine predators across the Indo-Pacific</a></h2>
     <div class="article-style">
       
       Since the 1950s, industrial fisheries have expanded globally, as fishing vessels are required to travel further afield for fishing opportunities. Technological advancements and fishery subsidies have granted ever-increasing access to populations of …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/15-2019-rendina-mer/">Physiological response of the coralline alga Corallina officinalis L. to both predicted long-term increases in temperature and short-term heatwave events</a></h2>
-    <div class="article-style">
-      
-      Climate change is leading to an increase of mean sea surface temperatures and extreme heat events. There is an urgent need to better understand the capabilities of marine macroalgae to adapt to these rapid changes. In this study, the responses of …
       
     </div>
   </div>
@@ -569,9 +587,9 @@
 
   
   <p class="powered-by">
-    &copy; 2021 &middot; 
+    &copy; 2022 &middot; 
 
-    Powered by Hugo and designed by Phil Bouchet / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: <a href="https://www.instagram.com/manusanfelix_official/?hl=en" target="blank">Manu San Félix</a>
+    Powered by Hugo / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: Manu San Félix
       
     
     <span class="float-right" aria-hidden="true">
@@ -708,7 +726,22 @@
     
     
     <script src="/js/academic.min.eeda67bb2d1f96265d85659d1edc7a5e.js"></script>
-
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+      </script>
   </body>
 </html>
 

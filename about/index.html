@@ -99,7 +99,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.67c533cf69b661d0df2f5d165d05f6a2.css">
+    <link rel="stylesheet" href="/css/academic.0e04aa067b4e80fcab7dede1b0354272.css">
   
 
   
@@ -119,6 +119,25 @@
     
   
   
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+
 
   
 
@@ -146,9 +165,9 @@
   <meta property="og:description" content=""><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-01-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-01-01T00:00:00&#43;01:00">
   
-  <meta property="article:modified_time" content="2019-01-01T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2019-01-01T00:00:00&#43;01:00">
   
 
   
@@ -260,27 +279,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/research/">
-            
-            <span>Research</span>
-            
-            <span class="mastdiv">/</span>
-          </a>
-
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link" href="/publications/">
             
             <span>Publications</span>
@@ -315,21 +313,41 @@
         
 
         
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/software/">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             
             <span>Software</span>
             
+            
             <span class="mastdiv">/</span>
           </a>
-
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://densitymodelling.github.io/dsmextra/">
+                
+                <span>dsmextra</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://pjbouchet.github.io/respondR/">
+                
+                <span>respondR</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://github.com/pjbouchet/espresso/">
+                
+                <span>espresso</span>
+                
+                </a>
+            </li>
+            
+          </ul>
         </li>
 
         
@@ -469,26 +487,17 @@
 
 <div class="text-block">
 
-      <p><p>I am currently a Postdoctoral Research Fellow within the <a href="https://synergy.st-andrews.ac.uk/mocha/" target="_blank">Double Mocha</a> project led by the <a href="https://www.creem.st-andrews.ac.uk/" target="_blank">Centre for Research into Ecological &amp; Environmental Modelling (CREEM)</a> at the University of St Andrews, Scotland. In this role, I am designing new methods for predicting behavioural responses of marine mammals to Navy sonar exposure. In 2019, I also worked under CREEM&rsquo;s <a href="https://synergy.st-andrews.ac.uk/denmod/" target="_blank">DenMod</a> project, which focused on developing tools and guidelines for the assessment of extrapolation in predictive models of cetacean populations.</p>
+      <p><p>Hi! My name is Phil.</p>
 
-<p><img src="/img/phil_bouchet.jpg" alt="Phil. J Bouchet" class="headshot" height="420"/></p>
+<p>I am a 🇫🇷 quantitative ecologist with an active interest in the use of GIS and statistical methods to address pressing wildlife conservation problems 🐋+🐬+🐟+🦈. I work as a Research Fellow within the <a href="https://www.creem.st-andrews.ac.uk/" target="_blank">Centre for Research into Ecological &amp; Environmental Modelling (CREEM)</a> at the University of St Andrews, Scotland.</p>
 
-<p>My <a href="/research">research</a> broadly spans the field of quantitative ecology, and covers an array of marine taxa (fishes, sharks, turtles &amp; cetaceans), habitats (coastal, pelagic), approaches (empirical, simulation, theoretical), scales (local, regional, global), and bioregions (temperate, tropical).</p>
+<p><img src="/img/philbouchet_wide_text.jpg" alt="Phil. J Bouchet" class="headshot" height="420"/></p>
 
-<p>I always get a kick out of crunching numbers, and have an active interest in the use of GIS and statistical methods to address pressing wildlife conservation problems. In particular, I try to better understand the ecological processes that drive the distribution and abundance of animal populations. My <a href="/publications">work</a> strives to have a strong applied focus, linking theory with empirical data to improve on-the-ground management and policy decisions as much as possible.</p>
+<p>I always get a kick out of crunching numbers. My research has a strong applied focus and links theory with empirical data to improve on-the-ground management and policy decisions. With support from the U.S. <a href="https://www.boem.gov/" target="_blank">Bureau of Ocean Energy Management (BOEM)</a>, I am currently developing a bioenergetic model to predict the population consequences of disturbance from offshore wind developments on endangered North Atlantic right whales.</p>
 
-<p>I completed my PhD at the <a href="https://www.uwa.edu.au/" target="_blank">University of Western Australia</a> in 2016, where I explored the role of seabed features (e.g. <a href="http://www.pnas.org/content/114/12/3252" target="_blank">submarine canyons</a>) in aggregating marine megafauna, and helped develop a new generation of <a href="http://www.pnas.org/content/114/12/3252" target="_blank">midwater baited underwater video camera systems</a> to sample wildlife in offshore habitats.</p>
+<p>I have recently been involved in the <a href="https://synergy.st-andrews.ac.uk/mocha/" target="_blank">Double MOCHA </a> project, for which I implemented new Bayesian methods for estimating behavioural responses in marine mammals exposed to naval sonar. In 2019, I was also part of the team behind the <a href="https://synergy.st-andrews.ac.uk/denmod/" target="_blank">DenMod</a> project, which focused on developing tools and guidelines for the <a href="https://doi.org/10.1111/2041-210X.13469" target="_blank">assessment of extrapolation</a> in predictive models of wildlife populations.</p>
 
-<p>My primary areas of research include:</p>
-
-<ul>
-<li><a href="https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(18)30181-2" target="_blank">Model transferability</a>, and the application of predictive models to novel conditions.</li>
-<li>Conservation ecology, e.g. spatial models of <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12619" target="_blank">pelagic fish abundance</a> or <a href="https://www.nature.com/articles/s41598-017-05189-0" target="_blank">population size estimates</a> for impacted species.</li>
-<li>Ecological sampling techniques, e.g. <a href="https://www.frontiersin.org/articles/10.3389/fmars.2019.00177/full" target="_blank">field manuals for underwater video surveys</a>.</li>
-<li>Quantitative methods, e.g. standard protocols for species distribution models.</li>
-</ul>
-
-<p>I also act as Associate Editor for <a href="http://zslpublications.onlinelibrary.wiley.com/hub/journal/10.1002/(ISSN)2056-3485/" target="_blank">Remote Sensing in Ecology and Conservation</a> and as Review Editor for the Marine Megafauna section of <a href="https://www.frontiersin.org/journals/marine-science" target="_blank">Frontiers in Marine Science</a>.</p>
+<p>I act as an editor for <a href="https://besjournals.onlinelibrary.wiley.com/journal/2041210X" target="_blank">Methods in Ecology and Evolution</a>, <a href="http://zslpublications.onlinelibrary.wiley.com/hub/journal/10.1002/(ISSN)2056-3485/" target="_blank">Remote Sensing in Ecology and Conservation</a>,  <a href="https://www.frontiersin.org/journals/marine-science" target="_blank">Frontiers in Marine Science</a> and <a href="http://www.int-res.com/journals/esr/esr-home/" target="_blank">Endangered Species Research</a>.</p>
 </p>
 
 </div>
@@ -503,9 +512,9 @@
 
   
   <p class="powered-by">
-    &copy; 2021 &middot; 
+    &copy; 2022 &middot; 
 
-    Powered by Hugo and designed by Phil Bouchet / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: <a href="https://www.instagram.com/manusanfelix_official/?hl=en" target="blank">Manu San Félix</a>
+    Powered by Hugo / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: Manu San Félix
       
     
     <span class="float-right" aria-hidden="true">
@@ -642,7 +651,22 @@
     
     
     <script src="/js/academic.min.eeda67bb2d1f96265d85659d1edc7a5e.js"></script>
-
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+      </script>
   </body>
 </html>
 

@@ -101,7 +101,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.67c533cf69b661d0df2f5d165d05f6a2.css">
+    <link rel="stylesheet" href="/css/academic.0e04aa067b4e80fcab7dede1b0354272.css">
   
 
   
@@ -121,6 +121,25 @@
     
   
   
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+
 
   
   <link rel="alternate" href="/publication_types/2/index.xml" type="application/rss+xml" title="">
@@ -151,7 +170,7 @@
   <meta property="og:description" content="Quantitative Ecologist"><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2021-03-31T00:00:00&#43;01:00">
+  <meta property="og:updated_time" content="2021-04-07T00:00:00&#43;02:00">
   
 
   
@@ -263,27 +282,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/research/">
-            
-            <span>Research</span>
-            
-            <span class="mastdiv">/</span>
-          </a>
-
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link" href="/publications/">
             
             <span>Publications</span>
@@ -318,21 +316,41 @@
         
 
         
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/software/">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             
             <span>Software</span>
             
+            
             <span class="mastdiv">/</span>
           </a>
-
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://densitymodelling.github.io/dsmextra/">
+                
+                <span>dsmextra</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://pjbouchet.github.io/respondR/">
+                
+                <span>respondR</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://github.com/pjbouchet/espresso/">
+                
+                <span>espresso</span>
+                
+                </a>
+            </li>
+            
+          </ul>
         </li>
 
         
@@ -462,14 +480,23 @@
   
   
   <div>
-    <h2><a href="/publication/14-2019-bouchet-tree/">Better Model Transfers Require Knowledge of Mechanisms</a></h2>
+    <h2><a href="/publication/15-2019-rendina-mer/rendina_etal_2019/">Physiological response of the coralline alga Corallina officinalis L. to both predicted long-term increases in temperature and short-term heatwave events</a></h2>
+    <div class="article-style">
+      
+      Climate change is leading to an increase of mean sea surface temperatures and extreme heat events. There is an urgent need to better understand the capabilities of marine macroalgae to adapt to these rapid changes. In this study, the responses of …
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/publication/14-2019-bouchet-tree/bouchet_etal_2019/">Better Model Transfers Require Knowledge of Mechanisms</a></h2>
     <div class="article-style">
       
     </div>
   </div>
   
   <div>
-    <h2><a href="/publication/13-2019-przeslawski-fmars/">A Suite of Field Manuals for Marine Sampling to Monitor Australian Waters</a></h2>
+    <h2><a href="/publication/13-2019-przeslawski-fmars/przeslawski_etal_2019/">A Suite of Field Manuals for Marine Sampling to Monitor Australian Waters</a></h2>
     <div class="article-style">
       
       One of the main challenges in assessing marine biodiversity is the lack of consistent approaches to monitor it. This threatens to undermine ocean best practice in marine monitoring, as it impedes a reduction in the bias and variance of sampled data …
@@ -478,7 +505,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/12-2019-thompson-mbr/">First underwater sighting of Shepherd&#39;s beaked whale (Tasmacetus shepherdi)</a></h2>
+    <h2><a href="/publication/12-2019-thompson-mbr/thomspon_etal_2019/">First underwater sighting of Shepherd&#39;s beaked whale (Tasmacetus shepherdi)</a></h2>
     <div class="article-style">
       
       Here we describe the first underwater sighting of Shepherd's beaked whale (Tasmacetus shepherdi). Two individuals were observed together on video footage obtained via mid-water stereo-Baited Remote Underwater Video Systems (BRUVS) deployed off the …
@@ -487,7 +514,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/11-2018-bouchetyates-tree/">Outstanding Challenges in the Transferability of Ecological Models</a></h2>
+    <h2><a href="/publication/11-2018-bouchetyates-tree/bouchetyates_etal_2018/">Outstanding Challenges in the Transferability of Ecological Models</a></h2>
     <div class="article-style">
       
       Predictive models are central to many scientific disciplines and vital for informing management in a rapidly changing world. However, limited understanding of the accuracy and precision of models transferred to novel conditions (their …
@@ -496,7 +523,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/10-2018-sequeira-mee/">Transferring biodiversity models for conservation: Opportunities and challenges</a></h2>
+    <h2><a href="/publication/10-2018-sequeira-mee/sequeira_etal_2018/">Transferring biodiversity models for conservation: Opportunities and challenges</a></h2>
     <div class="article-style">
       
       After decades of extensive surveying, knowledge of the global distribution of species still remains inadequate for many purposes. In the short to medium term, such knowledge is unlikely to improve greatly given the often prohibitive costs of …
@@ -505,7 +532,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/09-2018-bouchet-geb/">Continental-scale hotspots of pelagic fish abundance inferred from commercial catch records</a></h2>
+    <h2><a href="/publication/09-2018-bouchet-geb/bouchet_etal_2018/">Continental-scale hotspots of pelagic fish abundance inferred from commercial catch records</a></h2>
     <div class="article-style">
       
       Aim Protected areas have become pivotal to the modern conservation planning toolbox, but a limited understanding of marine macroecology is hampering their efficient design and implementation in pelagic environments. We explored the respective …
@@ -514,7 +541,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/08-2017-allen-scirep/">Preliminary estimates of the abundance and fidelity of dolphins associating with a demersal trawl fishery</a></h2>
+    <h2><a href="/publication/08-2017-allen-scirep/allen_etal_2017/">Preliminary estimates of the abundance and fidelity of dolphins associating with a demersal trawl fishery</a></h2>
     <div class="article-style">
       
       The incidental capture of wildlife in fishing gear presents a global conservation challenge. As a baseline to inform assessments of the impact of bycatch on bottlenose dolphins (Tursiops truncatus) interacting with an Australian trawl fishery, we …
@@ -523,7 +550,7 @@
   </div>
   
   <div>
-    <h2><a href="/publication/07-2017-letessier-biolrev/">Sampling mobile oceanic fishes and sharks: Implications for fisheries and conservation planning</a></h2>
+    <h2><a href="/publication/07-2017-letessier-biolrev/letessier_etal_2017/">Sampling mobile oceanic fishes and sharks: Implications for fisheries and conservation planning</a></h2>
     <div class="article-style">
       
       Tuna, billfish, and oceanic sharks [hereafter referred to as ‘mobile oceanic fishes and sharks’ (MOFS)] are characterised by conservative life‐history strategies and highly migratory behaviour across large, transnational ranges. Intense exploitation …
@@ -532,19 +559,10 @@
   </div>
   
   <div>
-    <h2><a href="/publication/06-2015-bouchet-ecosphere/">Drifting baited stereo-videography: A novel sampling tool for surveying pelagic wildlife in offshore marine reserves</a></h2>
+    <h2><a href="/publication/06-2015-bouchet-ecosphere/bouchet_etal_2015/">Drifting baited stereo-videography: A novel sampling tool for surveying pelagic wildlife in offshore marine reserves</a></h2>
     <div class="article-style">
       
       We present a novel system of drifting pelagic baited stereo-video cameras that operate in deep-water, topographically complex environments typically considered inaccessible for sampling. The instruments are portable, semi-autonomous and inexpensive, …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/05-2015-parsons-esr/">Key research questions of global importance for cetacean conservation</a></h2>
-    <div class="article-style">
-      
-      Limited resources and increasing environmental concerns have prompted calls to identify the critical questions that most need to be answered to advance conservation, thereby providing an agenda for scientific research priorities. Cetaceans are often …
       
     </div>
   </div>
@@ -569,9 +587,9 @@
 
   
   <p class="powered-by">
-    &copy; 2021 &middot; 
+    &copy; 2022 &middot; 
 
-    Powered by Hugo and designed by Phil Bouchet / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: <a href="https://www.instagram.com/manusanfelix_official/?hl=en" target="blank">Manu San Félix</a>
+    Powered by Hugo / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: Manu San Félix
       
     
     <span class="float-right" aria-hidden="true">
@@ -708,7 +726,22 @@
     
     
     <script src="/js/academic.min.eeda67bb2d1f96265d85659d1edc7a5e.js"></script>
-
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+      </script>
   </body>
 </html>
 

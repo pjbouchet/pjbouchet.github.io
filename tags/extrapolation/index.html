@@ -101,7 +101,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.67c533cf69b661d0df2f5d165d05f6a2.css">
+    <link rel="stylesheet" href="/css/academic.0e04aa067b4e80fcab7dede1b0354272.css">
   
 
   
@@ -121,6 +121,25 @@
     
   
   
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+
 
   
   <link rel="alternate" href="/tags/extrapolation/index.xml" type="application/rss+xml" title="">
@@ -151,7 +170,7 @@
   <meta property="og:description" content="Quantitative Ecologist"><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-10-01T00:00:00&#43;01:00">
+  <meta property="og:updated_time" content="2018-10-01T00:00:00&#43;02:00">
   
 
   
@@ -263,27 +282,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/research/">
-            
-            <span>Research</span>
-            
-            <span class="mastdiv">/</span>
-          </a>
-
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link" href="/publications/">
             
             <span>Publications</span>
@@ -318,21 +316,41 @@
         
 
         
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/software/">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             
             <span>Software</span>
             
+            
             <span class="mastdiv">/</span>
           </a>
-
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://densitymodelling.github.io/dsmextra/">
+                
+                <span>dsmextra</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://pjbouchet.github.io/respondR/">
+                
+                <span>respondR</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://github.com/pjbouchet/espresso/">
+                
+                <span>espresso</span>
+                
+                </a>
+            </li>
+            
+          </ul>
         </li>
 
         
@@ -462,10 +480,28 @@
   
   
   <div>
-    <h2><a href="/publication/11-2018-bouchetyates-tree/">Outstanding Challenges in the Transferability of Ecological Models</a></h2>
+    <h2><a href="/publication/11-2018-bouchetyates-tree/bouchetyates_etal_2018/">Outstanding Challenges in the Transferability of Ecological Models</a></h2>
     <div class="article-style">
       
       Predictive models are central to many scientific disciplines and vital for informing management in a rapidly changing world. However, limited understanding of the accuracy and precision of models transferred to novel conditions (their …
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/transferability/">Model transferability</a></h2>
+    <div class="article-style">
+      
+      Predictive models have become ubiquitous in ecology, where they are used to understand where and why species occur, and what impacts anthropogenic change may have on biodiversity. Very often, the need for model predictions is highest in systems, areas, or time periods where little or even no biological knowledge currently exists. Models that can produce accurate and precise predictions when transferred into these novel conditions are both highly desirable and of great utility for conservation and management.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/ocean-sampling/">Ocean sampling</a></h2>
+    <div class="article-style">
+      
+      Pelagic protected areas have undergone exponential growth on a global scale in response to concerns over the footprint of human activities on the world's oceans. Assessing their performance in protecting biodiversity requires innovative tools that can not only detect a wide range of often elusive, mobile organisms but are also cost-effective, reliable, and non-invasive.
       
     </div>
   </div>
@@ -479,9 +515,9 @@
 
   
   <p class="powered-by">
-    &copy; 2021 &middot; 
+    &copy; 2022 &middot; 
 
-    Powered by Hugo and designed by Phil Bouchet / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: <a href="https://www.instagram.com/manusanfelix_official/?hl=en" target="blank">Manu San Félix</a>
+    Powered by Hugo / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: Manu San Félix
       
     
     <span class="float-right" aria-hidden="true">
@@ -618,7 +654,22 @@
     
     
     <script src="/js/academic.min.eeda67bb2d1f96265d85659d1edc7a5e.js"></script>
-
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+      </script>
   </body>
 </html>
 

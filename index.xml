@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0200</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Example Talk</title>
       <link>/talk/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0100</pubDate>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0200</pubDate>
       
       <guid>/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
@@ -37,90 +37,117 @@
     </item>
     
     <item>
-      <title>Seascape ecology: identifying research priorities for an emerging ocean sustainability science</title>
-      <link>/publication/24-2021-pittman-meps/</link>
-      <pubDate>Wed, 31 Mar 2021 00:00:00 +0100</pubDate>
+      <title>Population consequences of multiple stressors</title>
+      <link>/project/pcoms/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0200</pubDate>
       
-      <guid>/publication/24-2021-pittman-meps/</guid>
+      <guid>/project/pcoms/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assessing the role of sampling uncertainty when predicting behavioral responses of tagged cetaceans exposed to naval sonar</title>
+      <link>/publication/25-2021-bouchet-fims/bouchet_etal_2021/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/25-2021-bouchet-fims/bouchet_etal_2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seascape ecology: Identifying research priorities for an emerging ocean sustainability science</title>
+      <link>/publication/24-2021-pittman-meps/pittman_etal_2021/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/24-2021-pittman-meps/pittman_etal_2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>True blue: Temporal and spatial stability of pelagic wildlife at a submarine canyon</title>
-      <link>/publication/23-2020-forrest-ecosphere/</link>
-      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      <link>/publication/23-2020-forrest-ecosphere/forrest_etal_2021/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0100</pubDate>
       
-      <guid>/publication/23-2020-forrest-ecosphere/</guid>
+      <guid>/publication/23-2020-forrest-ecosphere/forrest_etal_2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regional assessment of the conservation status of snubfin dolphins (Orcaella heinsohni) in the Kimberley region, Western Australia</title>
-      <link>/publication/22-2021-bouchet-frontiers/</link>
-      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      <link>/publication/22-2021-bouchet-frontiers/bouchet_etal_2021/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0100</pubDate>
       
-      <guid>/publication/22-2021-bouchet-frontiers/</guid>
+      <guid>/publication/22-2021-bouchet-frontiers/bouchet_etal_2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A field and video‐annotation guide for baited remote underwater stereo‐video surveys of demersal fish assemblages</title>
-      <link>/publication/21-2020-langlois-mee/</link>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 +0100</pubDate>
+      <link>/publication/21-2020-langlois-mee/langlois_etal_2020/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0200</pubDate>
       
-      <guid>/publication/21-2020-langlois-mee/</guid>
+      <guid>/publication/21-2020-langlois-mee/langlois_etal_2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dsmextra: Extrapolation assessment tools for density surface models</title>
-      <link>/publication/20-2020-bouchet-mee/</link>
-      <pubDate>Wed, 19 Aug 2020 00:00:00 +0100</pubDate>
+      <link>/publication/20-2020-bouchet-mee/bouchet_etal_2020/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0200</pubDate>
       
-      <guid>/publication/20-2020-bouchet-mee/</guid>
+      <guid>/publication/20-2020-bouchet-mee/bouchet_etal_2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Submerged carbonate banks aggregate pelagic megafauna in offshore tropical Australia</title>
-      <link>/publication/19-2020-bouchet-fmars/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0100</pubDate>
+      <link>/publication/19-2020-bouchet-fmars/bouchet_etal_2020/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0200</pubDate>
       
-      <guid>/publication/19-2020-bouchet-fmars/</guid>
+      <guid>/publication/19-2020-bouchet-fmars/bouchet_etal_2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Seasonal productivity drives aggregations of killer whales and other cetaceans over submarine canyons of the Bremer Sub-Basin, south-western Australia</title>
-      <link>/publication/18-2020-salgado-ausmam/</link>
-      <pubDate>Thu, 25 Jun 2020 00:00:00 +0100</pubDate>
+      <link>/publication/18-2020-salgado-ausmam/salgado_etal_2020/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0200</pubDate>
       
-      <guid>/publication/18-2020-salgado-ausmam/</guid>
+      <guid>/publication/18-2020-salgado-ausmam/salgado_etal_2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A standard protocol for describing species distribution models</title>
-      <link>/publication/17-2020-zurell-ecography/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0100</pubDate>
+      <link>/publication/17-2020-zurell-ecography/zurell_etal_2020/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0200</pubDate>
       
-      <guid>/publication/17-2020-zurell-ecography/</guid>
+      <guid>/publication/17-2020-zurell-ecography/zurell_etal_2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Remote reefs and seamounts are the last refuges for marine predators across the Indo-Pacific</title>
-      <link>/publication/16-2019-letessier-plosb/</link>
-      <pubDate>Tue, 06 Aug 2019 00:00:00 +0100</pubDate>
+      <link>/publication/16-2019-letessier-plosb/letessier_etal_2019/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0200</pubDate>
       
-      <guid>/publication/16-2019-letessier-plosb/</guid>
+      <guid>/publication/16-2019-letessier-plosb/letessier_etal_2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>From here and now to there and then: Practical recommendations for extrapolating cetacean density surface models to novel conditions</title>
       <link>/report/14-2019-bouchet-denmod/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0200</pubDate>
       
       <guid>/report/14-2019-bouchet-denmod/</guid>
       <description></description>
@@ -128,53 +155,53 @@
     
     <item>
       <title>Physiological response of the coralline alga Corallina officinalis L. to both predicted long-term increases in temperature and short-term heatwave events</title>
-      <link>/publication/15-2019-rendina-mer/</link>
-      <pubDate>Sat, 27 Jul 2019 00:00:00 +0100</pubDate>
+      <link>/publication/15-2019-rendina-mer/rendina_etal_2019/</link>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0200</pubDate>
       
-      <guid>/publication/15-2019-rendina-mer/</guid>
+      <guid>/publication/15-2019-rendina-mer/rendina_etal_2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Better Model Transfers Require Knowledge of Mechanisms</title>
-      <link>/publication/14-2019-bouchet-tree/</link>
-      <pubDate>Thu, 02 May 2019 00:00:00 +0100</pubDate>
+      <link>/publication/14-2019-bouchet-tree/bouchet_etal_2019/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0200</pubDate>
       
-      <guid>/publication/14-2019-bouchet-tree/</guid>
+      <guid>/publication/14-2019-bouchet-tree/bouchet_etal_2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Suite of Field Manuals for Marine Sampling to Monitor Australian Waters</title>
-      <link>/publication/13-2019-przeslawski-fmars/</link>
-      <pubDate>Fri, 05 Apr 2019 00:00:00 +0100</pubDate>
+      <link>/publication/13-2019-przeslawski-fmars/przeslawski_etal_2019/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0200</pubDate>
       
-      <guid>/publication/13-2019-przeslawski-fmars/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/contact/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/contact/</guid>
+      <guid>/publication/13-2019-przeslawski-fmars/przeslawski_etal_2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
       <link>/home/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0200</pubDate>
       
       <guid>/home/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Publications</title>
       <link>/publications/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0200</pubDate>
       
       <guid>/publications/</guid>
       <description></description>
@@ -183,7 +210,7 @@
     <item>
       <title>Reports</title>
       <link>/reports/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0200</pubDate>
       
       <guid>/reports/</guid>
       <description></description>
@@ -191,10 +218,10 @@
     
     <item>
       <title>First underwater sighting of Shepherd&#39;s beaked whale (Tasmacetus shepherdi)</title>
-      <link>/publication/12-2019-thompson-mbr/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <link>/publication/12-2019-thompson-mbr/thomspon_etal_2019/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0100</pubDate>
       
-      <guid>/publication/12-2019-thompson-mbr/</guid>
+      <guid>/publication/12-2019-thompson-mbr/thomspon_etal_2019/</guid>
       <description></description>
     </item>
     
@@ -264,7 +291,7 @@ rm Untitled.md
     <item>
       <title></title>
       <link>/talks/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
       
       <guid>/talks/</guid>
       <description></description>
@@ -273,7 +300,7 @@ rm Untitled.md
     <item>
       <title>Research</title>
       <link>/about/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
       
       <guid>/about/</guid>
       <description></description>
@@ -282,7 +309,7 @@ rm Untitled.md
     <item>
       <title>Research</title>
       <link>/research/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
       
       <guid>/research/</guid>
       <description></description>
@@ -290,118 +317,19 @@ rm Untitled.md
     
     <item>
       <title>Outstanding Challenges in the Transferability of Ecological Models</title>
-      <link>/publication/11-2018-bouchetyates-tree/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0100</pubDate>
+      <link>/publication/11-2018-bouchetyates-tree/bouchetyates_etal_2018/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0200</pubDate>
       
-      <guid>/publication/11-2018-bouchetyates-tree/</guid>
+      <guid>/publication/11-2018-bouchetyates-tree/bouchetyates_etal_2018/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Comparative assessment of pelagic sampling methods used in marine monitoring</title>
-      <link>/report/13-2018-bouchet-d2/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0100</pubDate>
+      <title>Model transferability</title>
+      <link>/project/transferability/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0200</pubDate>
       
-      <guid>/report/13-2018-bouchet-d2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chapter 6: Marine sampling field manual for pelagic BRUVS (Baited Remote Underwater Videos)</title>
-      <link>/report/12-2018-bouchet-fieldmanual/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/report/12-2018-bouchet-fieldmanual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chapter 5: Marine sampling field manual for benthic stereo BRUVS (Baited Remote Underwater Videos)</title>
-      <link>/report/11-2018-langlois-fieldmanual/</link>
-      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/report/11-2018-langlois-fieldmanual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bremer Canyon Emerging Priorities Project EP2: Occurrence and distribution of marine wildlife in the Bremer Bay region - Final Report</title>
-      <link>/report/10-2018-bouchet-nesp-emergingpriorities/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/report/10-2018-bouchet-nesp-emergingpriorities/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aerial visual survey of cetaceans and other megafauna in the Bremer Marine Park and surrounding areas</title>
-      <link>/report/09-2018-bouchet-bremeraerial/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/report/09-2018-bouchet-bremeraerial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Transferring biodiversity models for conservation: Opportunities and challenges</title>
-      <link>/publication/10-2018-sequeira-mee/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/10-2018-sequeira-mee/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Continental-scale hotspots of pelagic fish abundance inferred from commercial catch records</title>
-      <link>/publication/09-2018-bouchet-geb/</link>
-      <pubDate>Thu, 24 Aug 2017 00:00:00 +0100</pubDate>
-      
-      <guid>/publication/09-2018-bouchet-geb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Preliminary estimates of the abundance and fidelity of dolphins associating with a demersal trawl fishery</title>
-      <link>/publication/08-2017-allen-scirep/</link>
-      <pubDate>Mon, 10 Jul 2017 00:00:00 +0100</pubDate>
-      
-      <guid>/publication/08-2017-allen-scirep/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sampling mobile oceanic fishes and sharks: Implications for fisheries and conservation planning</title>
-      <link>/publication/07-2017-letessier-biolrev/</link>
-      <pubDate>Mon, 01 May 2017 00:00:00 +0100</pubDate>
-      
-      <guid>/publication/07-2017-letessier-biolrev/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NESP Project D1 Ecosystem understanding to support sustainable use, management and monitoring of marine assets in the North and North-West regions - Final Report 2016</title>
-      <link>/report/08-2017-miller-d1/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/report/08-2017-miller-d1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Project</title>
-      <link>/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>/project/internal-project/</guid>
+      <guid>/project/transferability/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -415,9 +343,117 @@ rm Untitled.md
     </item>
     
     <item>
+      <title>Ocean sampling</title>
+      <link>/project/ocean-sampling/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/project/ocean-sampling/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comparative assessment of pelagic sampling methods used in marine monitoring</title>
+      <link>/report/13-2018-bouchet-d2/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/report/13-2018-bouchet-d2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chapter 6: Marine sampling field manual for pelagic BRUVS (Baited Remote Underwater Videos)</title>
+      <link>/report/12-2018-bouchet-fieldmanual/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/report/12-2018-bouchet-fieldmanual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chapter 5: Marine sampling field manual for benthic stereo BRUVS (Baited Remote Underwater Videos)</title>
+      <link>/report/11-2018-langlois-fieldmanual/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/report/11-2018-langlois-fieldmanual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bremer Canyon Emerging Priorities Project EP2: Occurrence and distribution of marine wildlife in the Bremer Bay region - Final Report</title>
+      <link>/report/10-2018-bouchet-nesp-emergingpriorities/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/report/10-2018-bouchet-nesp-emergingpriorities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aerial visual survey of cetaceans and other megafauna in the Bremer Marine Park and surrounding areas</title>
+      <link>/report/09-2018-bouchet-bremeraerial/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/report/09-2018-bouchet-bremeraerial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transferring biodiversity models for conservation: Opportunities and challenges</title>
+      <link>/publication/10-2018-sequeira-mee/sequeira_etal_2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/10-2018-sequeira-mee/sequeira_etal_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continental-scale hotspots of pelagic fish abundance inferred from commercial catch records</title>
+      <link>/publication/09-2018-bouchet-geb/bouchet_etal_2018/</link>
+      <pubDate>Thu, 24 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/09-2018-bouchet-geb/bouchet_etal_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preliminary estimates of the abundance and fidelity of dolphins associating with a demersal trawl fishery</title>
+      <link>/publication/08-2017-allen-scirep/allen_etal_2017/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/08-2017-allen-scirep/allen_etal_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sampling mobile oceanic fishes and sharks: Implications for fisheries and conservation planning</title>
+      <link>/publication/07-2017-letessier-biolrev/letessier_etal_2017/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/07-2017-letessier-biolrev/letessier_etal_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NESP Project D1 Ecosystem understanding to support sustainable use, management and monitoring of marine assets in the North and North-West regions - Final Report 2016</title>
+      <link>/report/08-2017-miller-d1/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/report/08-2017-miller-d1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Academic: the website builder for Hugo</title>
       <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
       <guid>/post/getting-started/</guid>
       <description>
@@ -746,7 +782,7 @@ rm Untitled.md
     <item>
       <title>Bremer Canyon Science Report: Workshop held 25 October 2016</title>
       <link>/report/07-2016-meeuwig-bremer/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
       
       <guid>/report/07-2016-meeuwig-bremer/</guid>
       <description></description>
@@ -760,8 +796,6 @@ rm Untitled.md
       <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>
 &lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
@@ -809,7 +843,7 @@ Figure 1: A fancy pie chart.
     <item>
       <title>Oceanic Shoals Commonwealth Marine Reserve - A guide</title>
       <link>/report/06-2015-caley-oceanicshoals/</link>
-      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0100</pubDate>
       
       <guid>/report/06-2015-caley-oceanicshoals/</guid>
       <description></description>
@@ -817,26 +851,26 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>Drifting baited stereo-videography: A novel sampling tool for surveying pelagic wildlife in offshore marine reserves</title>
-      <link>/publication/06-2015-bouchet-ecosphere/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <link>/publication/06-2015-bouchet-ecosphere/bouchet_etal_2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
       
-      <guid>/publication/06-2015-bouchet-ecosphere/</guid>
+      <guid>/publication/06-2015-bouchet-ecosphere/bouchet_etal_2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Key research questions of global importance for cetacean conservation</title>
-      <link>/publication/05-2015-parsons-esr/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <link>/publication/05-2015-parsons-esr/parsons_etal_2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
       
-      <guid>/publication/05-2015-parsons-esr/</guid>
+      <guid>/publication/05-2015-parsons-esr/parsons_etal_2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NESP D1: Developing a toolbox of predictive models for the monitoring and management of KEFs and CMRs in the North and North-west regions</title>
       <link>/report/05-2015-przeslawski-d1/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
       
       <guid>/report/05-2015-przeslawski-d1/</guid>
       <description></description>
@@ -844,26 +878,26 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>Topographic determinants of mobile vertebrate predator hotspots: Current knowledge and future directions</title>
-      <link>/publication/04-2015-bouchet-biolrev/</link>
-      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <link>/publication/04-2015-bouchet-biolrev/bouchet_etal_2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
       
-      <guid>/publication/04-2015-bouchet-biolrev/</guid>
+      <guid>/publication/04-2015-bouchet-biolrev/bouchet_etal_2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Baited videography reveals remote foraging and migration behaviour of sea turtles</title>
-      <link>/publication/03-2014-letessier-mbio/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <link>/publication/03-2014-letessier-mbio/letessier_etal_2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
       
-      <guid>/publication/03-2014-letessier-mbio/</guid>
+      <guid>/publication/03-2014-letessier-mbio/letessier_etal_2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Australian marine environmental data: Descriptions and metadata</title>
       <link>/report/04-2013-huang-metadata/</link>
-      <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Feb 2013 00:00:00 +0100</pubDate>
       
       <guid>/report/04-2013-huang-metadata/</guid>
       <description></description>
@@ -871,17 +905,17 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>Assessing pelagic fish populations: The application of demersal video techniques to the mid-water environment</title>
-      <link>/publication/02-2013-letessier-mo/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <link>/publication/02-2013-letessier-mo/letessier_etal_2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0100</pubDate>
       
-      <guid>/publication/02-2013-letessier-mo/</guid>
+      <guid>/publication/02-2013-letessier-mo/letessier_etal_2013/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oceanic Shoals Commonwealth Marine Reserve (Timor Sea) Biodiversity Survey</title>
       <link>/report/03-2013-nichol-oceanicshoals/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0100</pubDate>
       
       <guid>/report/03-2013-nichol-oceanicshoals/</guid>
       <description></description>
@@ -889,17 +923,17 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>Southern Hemisphere Breeding Stock D humpback whale population estimates from North West Cape, Western Australia</title>
-      <link>/publication/01-2012-salgado-jcrm/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <link>/publication/01-2012-salgado-jcrm/salgado_etal_2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
       
-      <guid>/publication/01-2012-salgado-jcrm/</guid>
+      <guid>/publication/01-2012-salgado-jcrm/salgado_etal_2012/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A comparison of southern hemisphere breeding stock &#39;D&#39; humpback whale population estimates from two key locations along the Western Australian coast</title>
       <link>/report/02-2010-jenner-humpbacks/</link>
-      <pubDate>Wed, 31 Mar 2010 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 31 Mar 2010 00:00:00 +0200</pubDate>
       
       <guid>/report/02-2010-jenner-humpbacks/</guid>
       <description></description>
@@ -908,7 +942,7 @@ Figure 1: A fancy pie chart.
     <item>
       <title>Southern hemisphere breeding stock &#39;D&#39; humpback whale population estimates from North West cape, Western Australia</title>
       <link>/report/01-2010-salgado-humpbacks/</link>
-      <pubDate>Sun, 21 Mar 2010 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 21 Mar 2010 00:00:00 +0100</pubDate>
       
       <guid>/report/01-2010-salgado-humpbacks/</guid>
       <description></description>

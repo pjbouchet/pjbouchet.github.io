@@ -99,7 +99,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.67c533cf69b661d0df2f5d165d05f6a2.css">
+    <link rel="stylesheet" href="/css/academic.0e04aa067b4e80fcab7dede1b0354272.css">
   
 
   
@@ -119,6 +119,25 @@
     
   
   
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+
 
   
 
@@ -142,20 +161,20 @@
   
   <meta property="og:site_name" content="">
   <meta property="og:url" content="/contact/">
-  <meta property="og:title" content=" | ">
+  <meta property="og:title" content="Contact | ">
   <meta property="og:description" content=""><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-04-04T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2019-04-04T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2019-04-04T00:00:00&#43;01:00">
-  
-
+  <meta property="article:modified_time" content="2019-04-04T00:00:00&#43;02:00">
   
 
   
 
-  <title> | </title>
+  
+
+  <title>Contact | </title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -260,27 +279,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/research/">
-            
-            <span>Research</span>
-            
-            <span class="mastdiv">/</span>
-          </a>
-
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link" href="/publications/">
             
             <span>Publications</span>
@@ -315,21 +313,41 @@
         
 
         
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/software/">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             
             <span>Software</span>
             
+            
             <span class="mastdiv">/</span>
           </a>
-
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://densitymodelling.github.io/dsmextra/">
+                
+                <span>dsmextra</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://pjbouchet.github.io/respondR/">
+                
+                <span>respondR</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://github.com/pjbouchet/espresso/">
+                
+                <span>espresso</span>
+                
+                </a>
+            </li>
+            
+          </ul>
         </li>
 
         
@@ -481,12 +499,13 @@
 
 
 
-<div class="row-contact" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
+<div class="row-contact" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
       
-      <img class="portrait" src="https://s.gravatar.com/avatar/cd17cb5eff5a21511c84b1c12654f2fc?s=200')" itemprop="image" alt="Avatar">
+
+      <img class="portrait" src="../img/phil_bouchet.jpg" itemprop="image">
       
 
       <div class="portrait-title">
@@ -511,7 +530,7 @@
   <div class="row contact-widget">
   
     <div class="contact-links">
-      <p>Feel free to get in touch with any questions or comments. I am always looking for new collaborations and I am interested in hearing from prospective graduate students.</p>
+      <p>Don&rsquo;t hesitate to get in touch with any questions or comments. I love a good chat! I am also always looking for new collaborations and I am very interested in hearing about potential funding opportunities.</p>
 
       
 
@@ -520,21 +539,17 @@
         
         <li>
           <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-          <span id="person-email" itemprop="email"><a href="mailto:pjbouchet@gmail.com">pjbouchet@gmail.com</a></span>
+          <span id="person-email" itemprop="email"><a href="mailto:pb282@st-andrews.ac.uk">pb282@st-andrews.ac.uk</a><span class="number-divider"> |</span> <a href="mailto:pjbouchet@gmail.com">pjbouchet@gmail.com</a>
+          
         </li>
         
 
-        
-        <li>
-          <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-          <span id="person-telephone" itemprop="telephone"><a href="tel:%28&#43;44%29%20%280%297398%20342%20547">(&#43;44) (0)7398 342 547</a></span>
-        </li>
         
 
         
         <li>
           <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-          <span id="person-address" itemprop="address">Centre for Research into Ecological &amp; Environmental Modelling (CREEM)<br> The Observatory, Buchanan Gardens, University of St Andrews<br> St Andrews Fife KY16 9LZ Scotland (UK)</span>
+          <span id="person-address" itemprop="address">Centre for Research into Ecological &amp; Environmental Modelling (CREEM)<br> The Observatory, Buchanan Gardens, University of St Andrews<br> St Andrews, Fife, KY16 9LZ Scotland (UK)</span>
         </li>
         
 
@@ -584,8 +599,6 @@
 </div>
 
 
-<img src="/img/standrews.jpg" alt="Current affiliation: University of St Andrews"/>
-
 
 
 
@@ -600,9 +613,9 @@
 
   
   <p class="powered-by">
-    &copy; 2021 &middot; 
+    &copy; 2022 &middot; 
 
-    Powered by Hugo and designed by Phil Bouchet / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: <a href="https://www.instagram.com/manusanfelix_official/?hl=en" target="blank">Manu San Félix</a>
+    Powered by Hugo / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: Manu San Félix
       
     
     <span class="float-right" aria-hidden="true">
@@ -739,7 +752,22 @@
     
     
     <script src="/js/academic.min.eeda67bb2d1f96265d85659d1edc7a5e.js"></script>
-
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+      </script>
   </body>
 </html>
 

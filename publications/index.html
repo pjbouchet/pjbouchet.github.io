@@ -99,7 +99,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.67c533cf69b661d0df2f5d165d05f6a2.css">
+    <link rel="stylesheet" href="/css/academic.0e04aa067b4e80fcab7dede1b0354272.css">
   
 
   
@@ -119,6 +119,25 @@
     
   
   
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+
 
   
 
@@ -146,9 +165,9 @@
   <meta property="og:description" content=""><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-04-04T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2019-04-04T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2019-04-04T00:00:00&#43;01:00">
+  <meta property="article:modified_time" content="2019-04-04T00:00:00&#43;02:00">
   
 
   
@@ -260,27 +279,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/research/">
-            
-            <span>Research</span>
-            
-            <span class="mastdiv">/</span>
-          </a>
-
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link" href="/publications/">
             
             <span>Publications</span>
@@ -315,21 +313,41 @@
         
 
         
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/software/">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             
             <span>Software</span>
             
+            
             <span class="mastdiv">/</span>
           </a>
-
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://densitymodelling.github.io/dsmextra/">
+                
+                <span>dsmextra</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://pjbouchet.github.io/respondR/">
+                
+                <span>respondR</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://github.com/pjbouchet/espresso/">
+                
+                <span>espresso</span>
+                
+                </a>
+            </li>
+            
+          </ul>
         </li>
 
         
@@ -509,18 +527,20 @@
 
   <div class="publications-list">
 
-    <p><p>I strongly believe in transparent research that is accessible to all. My gold open access publications are indicated by the <i class="ai ai-open-access ai1x"></i> symbol, and I make all others available either on free institutional servers or on <a href="https://marxiv.org/" target="_blank">MarXiv</a>, the public domain research repository for the ocean and marine-climate sciences.</p>
+    <p><p>I strongly believe in transparent research that is accessible to all. My gold open access publications are indicated by the <i class="ai ai-open-access ai1x"></i> symbol. PDF copies of other articles can be downloaded using the links below.</p>
 
-<p>Take a look at my <a href="https://scholar.google.com/citations?user=X5SMt_8AAAAJ" target="_blank">Google scholar</a> and <a href="https://www.researchgate.net/profile/Phil_Bouchet" target="_blank">ResearchGate profiles</a> for scholarly impact statistics and additional citation metrics.</p>
+<p>Take a look at my <a href="https://scholar.google.com/citations?user=X5SMt_8AAAAJ" target="_blank">Google scholar</a> and <a href="https://www.researchgate.net/profile/Phil_Bouchet" target="_blank">ResearchGate</a> profiles for impact statistics and citation metrics.</p>
 </p>
 
     
       
         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -537,35 +557,27 @@
 
   
 
-  24<span class="number-divider"> |</span>
+
+  25<span class="number-divider"> |</span>
   
+
+  <span class="journalname">
+    Frontiers in Marine Science
+  </span>
 
   
   
 
-<a href="/publication/24-2021-pittman-meps/" itemprop="name">Seascape ecology: identifying research priorities for an emerging ocean sustainability science</a>.
+<p class="articletitle"><a itemprop="name" >Assessing the role of sampling uncertainty when predicting behavioral responses of tagged cetaceans exposed to naval sonar</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list">Pittman SJ, Yates KL, <b>Bouchet PJ</b>, Alvarez-Berastegui D, Andréfouët S, Bell SS, Berkström C, Boström C, Brown CJ, Connolly RM, Devillers R, Eggleston D, Gilby BL, Gullström M, Halpern BS, Hidalgo M, Holstein D, Hovel K, Huettmann F, Jackson EL, James WR, Kellner JB, Kot CY, Lecours V, Lepczyk C, Nagelkerken I, Nelson J, Olds AD, Santos RO, Scales KL, Schneider DC, Schilling HT, Simenstad C, Suthers IM, Treml EA, Wedding LM, Yates P, Young M</span> (2021).
-
-      Marine Ecology Progress Series,
-      
+    <span class="author_list"><b>Bouchet PJ</b>, Harris CM, Thomas L</span> (2021).
+</p>
 
 
-      
-      
 
-          
-          <b>663</b>:
-          
-
-          
-          <span>1–29</span>.
-          
-
-      
-
-  </p>
+   
 
   
 
@@ -573,7 +585,14 @@
 
   
 
-  <p class="publinks">
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -589,7 +608,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.int-res.com/articles/feature/m663p001.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://www.frontiersin.org/articles/10.3389/fmars.2021.674554/pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -598,1992 +619,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.3354/meps13661" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.3354/meps13661" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.3354/meps13661" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  <i class="ai ai-open-access ai1x"></i>
-  
-
-  
-
-  23<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/23-2020-forrest-ecosphere/" itemprop="name">True blue: Temporal and spatial stability of pelagic wildlife at a submarine canyon</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list">Forrest JAH, <b>Bouchet PJ</b>, Barley SC, McLennan AG, Meeuwig JJ</span> (2021).
-
-      Ecosphere,
-      
-
-
-      
-      
-
-          
-          <b>12</b>:
-          
-
-          
-          <span>e03423</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1002/ecs2.3423" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1002/ecs2.3423" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.1002/ecs2.3423" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.1002/ecs2.3423" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  <i class="ai ai-open-access ai1x"></i>
-  
-
-  
-
-  22<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/22-2021-bouchet-frontiers/" itemprop="name">Regional assessment of the conservation status of snubfin dolphins (Orcaella heinsohni) in the Kimberley region, Western Australia</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list"><b>Bouchet PJ</b>, Thiele D, Marley SA, Waples K, Weisenberger F, Balanggarra Rangers, Bardi Jawi Rangers, Dambimangari Rangers, Nyamba Buru Yawuru Rangers, Nyul Nyul Rangers, Uunguu Rangers, Raudino H</span> (2021).
-
-      Frontiers in Marine Science,
-      
-
-
-      
-      
-
-          
-          <b>7</b>:
-          
-
-          
-          <span>614852</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.frontiersin.org/articles/10.3389/fmars.2020.614852/pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.3389/fmars.2020.614852" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.3389/fmars.2020.614852" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.3389/fmars.2020.614852" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  <i class="ai ai-open-access ai1x"></i>
-  
-
-  
-
-  21<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/21-2020-langlois-mee/" itemprop="name">A field and video‐annotation guide for baited remote underwater stereo‐video surveys of demersal fish assemblages</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list">Langlois T, Goetze  T, Bond T, Monk J, Abesamis RA, Asher J, Barrett N, Bernard ATF, <b>Bouchet PJ</b>, Birt MJ, Cappo M, Currey‐Randall LM, Fairclough DV, Fullwood LAF, Gibbons BA, Harasti D, Heupel MR, Hicks J, Holmes TH, Huveneers C, Ierodiaconou D, Jordan A, Knott NA, Malcolm HA, McLean D, Meekan M, Miller D, Mitchell PJ, Newman SJ, Radford B, Rolim FA, Saunders BJ, Stowar M, Smith ANH, Travers MJ, Wakefield CB, Whitmarsh SK, Williams J, Driessen D, Harvey ES</span> (2020).
-
-      Methods in Ecology and Evolution,
-      
-
-
-      
-      
-
-          
-          <b>11</b>:
-          
-
-          
-          <span>1401–1409</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.13470" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1111/2041-210X.13470" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.1111/2041-210X.13470" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.1111/2041-210X.13470" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  <i class="ai ai-open-access ai1x"></i>
-  
-
-  
-
-  20<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/20-2020-bouchet-mee/" itemprop="name">dsmextra: Extrapolation assessment tools for density surface models</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list"><b>Bouchet PJ</b>, Miller DL, Roberts JJ, Mannocci L, Harris CM, Thomas L.</span> (2020).
-
-      Methods in Ecology and Evolution,
-      
-
-
-      
-      
-
-          
-          <b>11</b>:
-          
-
-          
-          <span>1464–1469</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.13469" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1111/2041-210X.13469" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.1111/2041-210X.13469" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.1111/2041-210X.13469" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  <i class="ai ai-open-access ai1x"></i>
-  
-
-  
-
-  19<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/19-2020-bouchet-fmars/" itemprop="name">Submerged carbonate banks aggregate pelagic megafauna in offshore tropical Australia</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list"><b>Bouchet PJ</b>, Letessier TBL, Caley MJ, Nichol SL, Hemmi J, Meeuwig JJ</span> (2020).
-
-      Frontiers in Marine Science,
-      
-
-
-      
-      
-
-          
-          <b>7</b>:
-          
-
-          
-          <span>530</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.frontiersin.org/articles/10.3389/fmars.2020.00530/pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.3389/fmars.2020.00530" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.3389/fmars.2020.00530" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.3389/fmars.2020.00530" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  <i class="ai ai-open-access ai1x"></i>
-  
-
-  
-
-  18<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/18-2020-salgado-ausmam/" itemprop="name">Seasonal productivity drives aggregations of killer whales and other cetaceans over submarine canyons of the Bremer Sub-Basin, south-western Australia</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list">Salgado Kent CP, <b>Bouchet PJ</b>, Wellard R, Parnum I, Fouda L, Erbe C</span> (2020).
-
-      Australian Mammalogy,
-      
-
-
-      
-      
-
-          
-          <b>In press</b>:
-          
-
-          
-          <span>n/a</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.publish.csiro.au/am/pdf/AM19058" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1071/AM19058" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.1071/AM19058" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.1071/AM19058" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  <i class="ai ai-open-access ai1x"></i>
-  
-
-  
-
-  17<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/17-2020-zurell-ecography/" itemprop="name">A standard protocol for describing species distribution models</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list">Zurell D, Franklin J, König C, <b>Bouchet PJ</b>, Serra-Diaz JM, Dormann CF, Elith J, Fandos Guzman G, Feng X, Guillera-Arroita G, Guisan A, Leitão PJ, Lahoz-Monfort JJ, Park DS, Peterson AT, Raacciuolo G, Schmatz DR, Schröder B, Thuiller W, Yates KL, Zimmermann NE, Merow C</span> (2020).
-
-      Ecography,
-      
-
-
-      
-      
-
-          
-          <b>43</b>:
-          
-
-          
-          <span>1261–1277</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ecog.04960" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1111/ecog.04960" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.1111/ecog.04960" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.1111/ecog.04960" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-  <div class="year-line">2019</div>
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  <i class="ai ai-open-access ai1x"></i>
-  
-
-  
-
-  16<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/16-2019-letessier-plosb/" itemprop="name">Remote reefs and seamounts are the last refuges for marine predators across the Indo-Pacific</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list">Letessier TB, Mouillot D, <b>Bouchet PJ</b>, Vigliola L, Fernandes MC, Thompson C, Boussarie G, Turner J, Juhel JB, Maire E, Caley MJ, Koldewey HJ, Friedlander A, Sala E, Meeuwig JJ</span> (2019).
-
-      PLoS Biology,
-      
-
-
-      
-      
-
-          
-          <b>17</b>:
-          
-
-          
-          <span>e3000366</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3000366&amp;type=printable" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-<a class="btn-download-bib" download href="/publication/16-2019-letessier-plosb/Letessier2019.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1371/journal.pbio.3000366" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.1371/journal.pbio.3000366" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pbio.3000366" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  
-  
-
-  
-
-  15<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/15-2019-rendina-mer/" itemprop="name">Physiological response of the coralline alga Corallina officinalis L. to both predicted long-term increases in temperature and short-term heatwave events</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list">Rendina F, <b>Bouchet PJ</b>, Appolloni L, Fulvio Russo G, Sandulli R, Kolzenburg R, Putra A, Ragazzola F</span> (2019).
-
-      Marine Environmental Research,
-      
-
-
-      
-      
-
-          
-          <b>150</b>:
-          
-
-          
-          <span>104764 2</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<a class="btn-download-bib" download href="/publication/15-2019-rendina-mer/Rendina2019.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.marenvres.2019.104764" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.1016/j.marenvres.2019.104764" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.1016/j.marenvres.2019.104764" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  
-  
-
-  
-
-  14<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/14-2019-bouchet-tree/" itemprop="name">Better Model Transfers Require Knowledge of Mechanisms</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list"><b>Bouchet PJ</b>, Peterson TA, Zurell D, Dormann CF, Schoeman D, Ross RE, Snelgrove P, Sequeira AMM, Whittingham MJ, Wang L, Rapacciuolo G, Oppel S, Mellin C, Lauria V, Krishnakumar PK, Jones AR, Heinänen S, Heikkinen RK, Gregr EJ, Fielding AH, Caley MJ, Barbose AM, Bamford AJ, Lozano-Montes H, Parnell S, Wenger S, Yates KL</span> (2019).
-
-      Trends in Ecology and Evolution,
-      
-
-
-      
-      
-
-          
-          <b>34</b>:
-          
-
-          
-          <span>489-490</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://marxiv.org/5rgej" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-<a class="btn-download-bib" download href="/publication/14-2019-bouchet-tree/Bouchet2019.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.tree.2019.04.006" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.1016/j.tree.2019.04.006" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.1016/j.tree.2019.04.006" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  <i class="ai ai-open-access ai1x"></i>
-  
-
-  
-
-  13<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/13-2019-przeslawski-fmars/" itemprop="name">A Suite of Field Manuals for Marine Sampling to Monitor Australian Waters</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list">Przeslawski R, Foster S, Monk J, Barrett N, <b>Bouchet P</b>, Carroll A, Langlois T, Lucieer V, Williams J, Bax N</span> (2019).
-
-      Frontiers in Marine Science,
-      
-
-
-      
-      
-
-          
-          <b>6</b>:
-          
-
-          
-          <span>177</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.frontiersin.org/articles/10.3389/fmars.2019.00177/pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-<a class="btn-download-bib" download href="/publication/13-2019-przeslawski-fmars/Przeslawski2019.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.3389/fmars.2019.00177" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.3389/fmars.2019.00177" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.3389/fmars.2019.00177" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  <i class="ai ai-open-access ai1x"></i>
-  
-
-  
-
-  12<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/12-2019-thompson-mbr/" itemprop="name">First underwater sighting of Shepherd&#39;s beaked whale (Tasmacetus shepherdi)</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list">Thompson CDH, <b>Bouchet PJ</b>, Meeuwig JJ</span> (2019).
-
-      Marine Biodiversity Records,
-      
-
-
-      
-      
-
-          
-          <b>12</b>:
-          
-
-          
-          <span>6</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://mbr.biomedcentral.com/track/pdf/10.1186/s41200-019-0165-6" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-<a class="btn-download-bib" download href="/publication/12-2019-thompson-mbr/Thomspon2019.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1186/s41200-019-0165-6" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.1186/s41200-019-0165-6" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.1186/s41200-019-0165-6" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-  <div class="year-line">2018</div>
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  <i class="ai ai-open-access ai1x"></i>
-  
-
-  
-
-  11<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/11-2018-bouchetyates-tree/" itemprop="name">Outstanding Challenges in the Transferability of Ecological Models</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list"><b>Bouchet PJ</b>/Yates KL, Caley MJ, Mengersen K, Randin CF, Parnell S, Fielding AH, Bamford AJ, Ban S, Barbosa AM, Dormann CF, Elith J, Embling CB, Ervin GN, Fisher R, Gould S, Graf RF, Gregr EJ, Halpin PN, Heikkinen RK, Heinänen S, Jones AR, Krishnakumar PK, Lauria V, Lozano-Montes H, Mannocci L, Mellin C, Mesgaran MB, Moreno-Amat E, Mormede S, Novaczek E, Oppel S, Ortuño Crespo G, Peterson AT, Rapacciuolo G, Roberts JJ, Ross RE, Scales KL, Schoeman D, Snelgrove P, Sundblad G, Thuiller W, Torres LG, Verbruggen H, Wang L, Wenger S, Whittingham MJ, Zharikov Y, Zurell D, Sequeira AMM</span> (2018).
-
-      Trends in Ecology and Evolution,
-      
-
-
-      
-      
-
-          
-          <b>33</b>:
-          
-
-          
-          <span>790-802</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.cell.com/action/showPdf?pii=S0169-5347%2818%2930181-2" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-<a class="btn-download-bib" download href="/publication/11-2018-bouchetyates-tree/BouchetYates2018.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.tree.2018.08.001" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.1016/j.tree.2018.08.001" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.1016/j.tree.2018.08.001" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  
-  
-
-  
-
-  10<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/10-2018-sequeira-mee/" itemprop="name">Transferring biodiversity models for conservation: Opportunities and challenges</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list">Sequeira AMM, <b>Bouchet PJ</b>, Yates KL, Mengersen K, Caley JM</span> (2018).
-
-      Methods in Ecology and Evolution,
-      
-
-
-      
-      
-
-          
-          <b>9</b>:
-          
-
-          
-          <span>1250-1264</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://api.research-repository.uwa.edu.au/portalfiles/portal/33974389/Sequeira_et_al_2018_Transferring_biodiversity_models.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-<a class="btn btn-SI my-1 mr-1 btn-sm" href="https://besjournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F2041-210X.12998&amp;file=mee312998-sup-0001-SupInfo1.pdf" target="_blank" rel="noopener">
+<a class="btn" href="https://ndownloader.figstatic.com/files/30967141" target="_blank" rel="noopener">
   Suppl.
 </a>
 <span class="button-separator">/</span>
@@ -2591,155 +627,6 @@
 
 
 
-<a class="btn-download-bib" download href="/publication/10-2018-sequeira-mee/Sequeira2018.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1111/2041-210X.12998" target="_blank" rel="noopener">
-  Web
-</a>
-
-
-</p>
-
-  
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-<div data-badge-type="donut" data-doi="10.1111/2041-210X.12998" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-<span class="__dimensions_badge_embed__" data-doi="10.1111/2041-210X.12998" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-</span>
-</th>
-</tr>
-</table>
-
-</div>
-
-        
-    
-      
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-
-  <table class="pub-table">
-    <tr>
-
-  
-
-      <th class="firstcol">
-
-  
-
-  
-  
-  
-
-  
-
-  09<span class="number-divider"> |</span>
-  
-
-  
-  
-
-<a href="/publication/09-2018-bouchet-geb/" itemprop="name">Continental-scale hotspots of pelagic fish abundance inferred from commercial catch records</a>.
-
-  <p itemprop="author" class="article-metadata li-cite-author">
-    <span class="author_list"><b>Bouchet PJ</b>, Meeuwig JJ, Huang Z, Letessier TBL, Nichol SL, Caley MJ, Watson RA</span> (2017).
-
-      Global Ecology and Biogeography,
-      
-
-
-      
-      
-
-          
-          <b>26</b>:
-          
-
-          
-          <span>1098-1111</span>.
-          
-
-      
-
-  </p>
-
-  
-
-  
-
-  
-
-  <p class="publinks">
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.nespmarine.edu.au/system/files/Bouchet%20et%20al%20Continental%20Scale%20models%20of%20pelagic%20fish%20hotspotsPREPRINT.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-<span class="button-separator">/</span>
-
-
-
-
-
-
-<a class="btn-download-bib" download href="/publication/09-2018-bouchet-geb/Bouchet2018.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
 
 
 
@@ -2748,7 +635,8 @@
   
     
   
-<a class="btn btn-outline-primary-code my-1 mr-1 btn-sm" href="https://github.com/pjbouchet/geb" target="_blank" rel="noopener">
+
+<a class="btn" href="https://github.com/pjbouchet/brs_uncertainty" target="_blank" rel="noopener">
   Code
 </a>
 <span class="button-separator">/</span>
@@ -2765,20 +653,2872 @@
 
 
 
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1111/geb.12619" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.3389/fmars.2021.674554" target="_blank" rel="noopener">
   Web
 </a>
 
 
-</p>
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Concerns over cetacean mortality events coincident with maritime warfare exercises have motivated efforts to characterize the effects of anthropogenic noise on free-ranging whales and dolphins. By monitoring the movement, diving, and acoustic behaviors of individual whales before, during, and after sound exposure, behavioral response studies (BRSs) have supported significant progress in our understanding of the sensitivity of various cetacean species to high-powered naval sonar signals. However, differences in the designs and sampling capabilities of animal-borne tags typically used in BRS experiments prompt questions about the influence of data resolution in quantitative assessments of noise impacts. We conducted simulations to examine how uncertainty in the acoustic dose either measured on high-resolution multi-sensor biologging tags or modeled from position-transmitting satellite telemetry tags may affect predictions of behavioral responses in Cuvier’s beaked whales (Ziphius cavirostris) exposed to low- and mid-frequency active sonar. We considered an array of scenarios representative of real-world BRSs and used posterior estimates of dose-response functions obtained under an established Bayesian hierarchical modeling framework to explore the consequences of different tag choices for management decision-making. Our results indicate that (1) the zone of impact from a sonar source is under-estimated in most test conditions, (2) substantial reductions in the uncertainty surrounding dose-response relationships are possible at higher sample sizes, and (3) this largely holds true irrespective of tag choice under the scenarios considered, unless positional fixes from satellite tags are consistently poor. Strategic monitoring approaches that combine both archival biologging and satellite biotelemetry are essential for characterizing complex patterns of behavioral change in cetaceans exposed to increasing levels of acoustic disturbance. We suggest ways in which BRS protocols can be optimized to curtail the effects of uncertainty.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.3389/fmars.2021.674554" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.3389/fmars.2021.674554" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
 
-</th>
+</div>
 
-<th class="secondcol">
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
-  <span class="altmetric_badge">
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  24<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Marine Ecology Progress Series
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >Seascape ecology: Identifying research priorities for an emerging ocean sustainability science</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list">Pittman SJ, Yates KL, <b>Bouchet PJ</b>, Alvarez-Berastegui D, Andréfouët S, Bell SS, Berkström C, Boström C, Brown CJ, Connolly RM, Devillers R, Eggleston D, Gilby BL, Gullström M, Halpern BS, Hidalgo M, Holstein D, Hovel K, Huettmann F, Jackson EL, James WR, Kellner JB, Kot CY, Lecours V, Lepczyk C, Nagelkerken I, Nelson J, Olds AD, Santos RO, Scales KL, Schneider DC, Schilling HT, Simenstad C, Suthers IM, Treml EA, Wedding LM, Yates P, Young M</span> (2021).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://www.int-res.com/articles/feature/m663p001.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://www.int-res.com/articles/suppl/m663p001_supp.pdf" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.3354/meps13661" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Seascape ecology, the marine-centric counterpart to landscape ecology, is rapidly emerging as an interdisciplinary and spatially explicit ecological science with relevance to marine management, biodiversity conservation, and restoration. While important progress in this field has been made in the past decade, there has been no coherent prioritisation of key research questions to help set the future research agenda for seascape ecology. We used a 2-stage modified Delphi method to solicit applied research questions from academic experts in seascape ecology and then asked respondents to identify priority questions across 9 interrelated research themes using 2 rounds of selection. We also invited senior management/conservation practitioners to prioritise the same research questions. Analyses highlighted congruence and discrepancies in perceived priorities for applied research. Themes related to both ecological concepts and management practice, and those identified as priorities include seascape change, seascape connectivity, spatial and temporal scale, ecosystem-based management, and emerging technologies and metrics. Highest-priority questions (upper tercile) received 50% agreement between respondent groups, and lowest priorities (lower tercile) received 58% agreement. Across all 3 priority tiers, 36 of the 55 questions were within a ±10% band of agreement. We present the most important applied research questions as determined by the proportion of votes received. For each theme, we provide a synthesis of the research challenges and the potential role of seascape ecology. These priority questions and themes serve as a roadmap for advancing applied seascape ecology during, and beyond, the UN Decade of Ocean Science for Sustainable Development (2021-2030).
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.3354/meps13661" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.3354/meps13661" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  23<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Ecosphere
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >True blue: Temporal and spatial stability of pelagic wildlife at a submarine canyon</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list">Forrest JAH, <b>Bouchet PJ</b>, Barley SC, McLennan AG, Meeuwig JJ</span> (2021).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1002/ecs2.3423" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://esajournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fecs2.3423&amp;file=ecs23423-sup-0001-AppendixS1.pdf" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1002/ecs2.3423" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        In coastal systems, marine protected areas (MPAs) have been shown to increase the diversity, abundance, and biomass of wildlife assemblages as well as their resilience to climate change. The effectiveness of pelagic MPAs is less clear, with arguments against their establishment typically based on the highly mobile nature of pelagic taxa. We used mid-water stereo-baited remote underwater video systems (stereo-BRUVS) and spatial predictive models to characterise the pelagic wildlife assemblage at the head of the Perth Canyon, one of the largest submarine canyons in Australia, over a 7-year period (2013–2019). The total number of unique taxa and mean values of taxonomic richness, abundance, fork length and biomass demonstrated strong interannual stability, although mean taxonomic richness and abundance were significantly lower in 2018 relative to other years. Seasonal variability was absent in 2016, but in 2018, taxonomic richness and abundance were three times greater in the Austral spring than in the autumn. Some mobile megafauna were only recorded at the Perth Canyon Marine Park (PCMP) in the autumn, suggesting a seasonal component to their occurrence. The fine-scale distribution of pelagic taxa at the canyon head was largely stable over time, with many areas of higher relative probability of presence located outside protected zones. Despite a degree of variability that may relate to the effect of the El Niño Southern Oscillation on the Leeuwin Current, the PCMP assemblage demonstrates a relatively high degree of spatiotemporal stability. Stronger protection of the PCMP (IUCN II or higher) would potentially improve conservation outcomes for many species of pelagic wildlife.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.1002/ecs2.3423" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.1002/ecs2.3423" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  22<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Frontiers in Marine Science
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >Regional assessment of the conservation status of snubfin dolphins (Orcaella heinsohni) in the Kimberley region, Western Australia</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list"><b>Bouchet PJ</b>, Thiele D, Marley SA, Waples K, Weisenberger F, Balanggarra Rangers, Bardi Jawi Rangers, Dambimangari Rangers, Nyamba Buru Yawuru Rangers, Nyul Nyul Rangers, Uunguu Rangers, Raudino H</span> (2021).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://www.frontiersin.org/articles/10.3389/fmars.2020.614852/pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://ndownloader.figstatic.com/files/26144681" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+<a class="btn" href="https://github.com/pjbouchet/orcaella_eoo" target="_blank" rel="noopener">
+  Code
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.3389/fmars.2020.614852" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Implementing conservation measures for data-limited species is a fundamental challenge for wildlife managers and policy-makers, and proves difficult for cryptic marine animals occurring in naturally low numbers across remote seascapes. There is currently scant information on the abundance and habitat preferences of Australian snubfin dolphins (Orcaella heinsohni) throughout much of their geographical range, and especially within the Kimberley region of northern Western Australia. Such knowledge gaps curtail rigorous threat assessments on both local and regional scales. To address this and assist future conservation listings, we built the first comprehensive catalog of snubfin dolphin sightings for the Kimberley. We used these data to estimate the species’ extent of occurrence (EOO) and area of occupancy (AOO) along the region’s 7,000 km coastline, following a simple Bootstrap bivariate kernel approach to combine datasets of varying quality and quantify uncertainty. Our catalog consists of 1,597 visual detections of snubfin dolphins made over a period of 17 years (2004–2020) and collated from multiple sources, including online biodiversity repositories, peer-reviewed scientific articles, citizen science programs, as well as dedicated marine wildlife surveys with local Indigenous communities and Ranger groups. Snubfin dolphins were consistently encountered in shallow waters (&lt;21 m depth) close to (&lt;15 km) freshwater inputs, with high detection rates in known hotspots (e.g., Roebuck Bay, Cygnet Bay) as well as in coastal habitats suspected to be suitable (e.g., Prince Regent River and surrounds, King Sound, Doubtful Bay, Napier Broome Bay and the upper Cambridge Gulf). Bootstrap estimates of EOO and AOO were 38,300 (95% CI: 25,451–42,437) km2 and 700 (656–736) km2 respectively, suggesting that snubfin dolphins in the Kimberley are likely Vulnerable under IUCN criteria B2 at a regional scale, in keeping with their global classification. Our study offers insights into the distribution of a vulnerable coastal cetacean species and demonstrates the value of integrating multiple data sources for informing conservation assessments in the face of uncertainty.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.3389/fmars.2020.614852" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.3389/fmars.2020.614852" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  21<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Methods in Ecology and Evolution
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >A field and video‐annotation guide for baited remote underwater stereo‐video surveys of demersal fish assemblages</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list">Langlois T, Goetze  T, Bond T, Monk J, Abesamis RA, Asher J, Barrett N, Bernard ATF, <b>Bouchet PJ</b>, Birt MJ, Cappo M, Currey‐Randall LM, Fairclough DV, Fullwood LAF, Gibbons BA, Harasti D, Heupel MR, Hicks J, Holmes TH, Huveneers C, Ierodiaconou D, Jordan A, Knott NA, Malcolm HA, McLean D, Meekan M, Miller D, Mitchell PJ, Newman SJ, Radford B, Rolim FA, Saunders BJ, Stowar M, Smith ANH, Travers MJ, Wakefield CB, Whitmarsh SK, Williams J, Driessen D, Harvey ES</span> (2020).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.13470" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13470#support-information-section" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1111/2041-210X.13470" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        1. Baited remote underwater stereo‐video systems (stereo‐BRUVs) are a popular tool to sample demersal fish assemblages and gather data on their relative abundance and body‐size structure in a robust, cost‐effective, and non‐invasive manner. Given the rapid uptake of the method, subtle differences have emerged in the way stereo‐BRUVs are deployed and how the resulting imagery are annotated. These disparities limit the interoperability of datasets obtained across studies, preventing broad‐scale insights into the dynamics of ecological systems. 2. We provide the first globally accepted guide for using stereo‐BRUVs to survey demersal fish assemblages and associated benthic habitats. 3. Information on stereo‐BRUV design, camera settings, field operations, and image annotation are outlined. Additionally, we provide links to protocols for data validation, archiving, and sharing. 4. Globally, the use of stereo‐BRUVs is spreading rapidly. We provide a standardised protocol that will reduce methodological variation among researchers and encourage the use of Findable, Accessible, Interoperable, and Reproducible (FAIR) workflows to increase the ability to synthesise global datasets and answer a broad suite of ecological questions.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.1111/2041-210X.13470" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/2041-210X.13470" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  20<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Methods in Ecology and Evolution
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >dsmextra: Extrapolation assessment tools for density surface models</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list"><b>Bouchet PJ</b>, Miller DL, Roberts JJ, Mannocci L, Harris CM, Thomas L.</span> (2020).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.13469" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://besjournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F2041-210X.13469&amp;file=mee313469-sup-0001-SuppInfo.pdf" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+<a class="btn" href="https://besjournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F2041-210X.13469&amp;file=mee313469-sup-0002-RCode.R" target="_blank" rel="noopener">
+  Code
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn" href="https://besjournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F2041-210X.13469&amp;file=mee313469-sup-0003-R_SupplementaryData.zip" target="_blank" rel="noopener">
+  Dataset
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1111/2041-210X.13469" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        1. Forecasting the responses of biodiversity to global change has never been more important. However, many ecologists faced with limited sample sizes and shoestring budgets often resort to extrapolating predictive models beyond the range of their data to support management actions in data‐deficient contexts. This can lead to error‐prone inference that has the potential to misdirect conservation interventions and undermine decision‐making. Despite the perils associated with extrapolation, little guidance exists on the best way to identify it when it occurs, leaving users questioning how much credence they should place in model outputs. To address this, we present dsmextra, a new R package for measuring, summarising, and visualising extrapolation in multivariate environmental space. 2. dsmextra automates the process of conducting quantitative, spatially‐explicit assessments of extrapolation on the basis of two established metrics: the Extrapolation Detection (ExDet) tool, and the percentage of data nearby (%N). The package provides user‐friendly functions to (a) calculate these metrics, (b) create tabular and graphical summaries, (c) explore combinations of covariate sets as a means of informing covariate selection, and (d) produce visual displays in the form of interactive html maps. 3. dsmextra implements a model‐agnostic approach to extrapolation detection that is applicable across taxonomic groups, modelling techniques, and datasets. We present a case study fitting a density surface model to visual detections of pantropical spotted dolphins (Stenella attenuata) in the Gulf of Mexico. 4. Predictive modelling seeks to deliver actionable information about the states and trajectories of ecological systems, yet model performance can be strongly impaired out‐of‐sample. By assessing conditions under which models are likely to fail or succeed in extrapolating, ecologists are likely to gain a better understanding of biological patterns and their underlying drivers. Critical to this is a concerted effort to standardise best practice in model evaluation, with an emphasis on extrapolative capacity.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.1111/2041-210X.13469" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/2041-210X.13469" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  19<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Frontiers in Marine Science
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >Submerged carbonate banks aggregate pelagic megafauna in offshore tropical Australia</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list"><b>Bouchet PJ</b>, Letessier TBL, Caley MJ, Nichol SL, Hemmi J, Meeuwig JJ</span> (2020).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://www.frontiersin.org/articles/10.3389/fmars.2020.00530/pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://ndownloader.figstatic.com/files/23554061" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+<a class="btn" href="https://github.com/pjbouchet/oceanicshoals" target="_blank" rel="noopener">
+  Code
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn" href="https://goo.gl/DGa9hE" target="_blank" rel="noopener">
+  Video
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.3389/fmars.2020.00530" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        The conservation of marine biodiversity is firmly embedded in national and international policy frameworks. However, the difficulties associated with conducting broad-scale surveys of oceanic environments restrict the evidence base available for applied management in pelagic waters. For example, the Oceanic Shoals Australian Marine Park (AMP) was established in 2012 in a part of Australia’s continental shelf where unique topographic features are thought to support significant levels of biodiversity, yet where our understanding of ecological processes remains limited. We deployed midwater baited remote underwater video systems (midwater BRUVs) in the Oceanic Shoals AMP to provide the first non-extractive baseline assessment of pelagic wildlife communities in the area. We used these observations and high-resolution multibeam swaths of the seafloor to explore potential relationships between prominent geomorphological features and the (i) composition, (ii) richness, and (iii) total abundance of pelagic communities. We documented 32 vertebrate species across three sampling areas, ranging from small baitfish to large sharks and rays, and estimated that up to twice as many taxa may occur within the region as a whole. This highlights the Oceanic Shoals AMP as a reservoir of biodiversity comparable to other documented offshore oceanic hotspots. Our results also confirm the AMP as a possible distant foraging destination for IUCN red listed sea turtles, and a potential breeding and/or nursing ground for a number of charismatic cetaceans. Model outputs indicate that both species richness and abundance increase in proximity to raised geomorphic structures such as submerged banks and pinnacles, highlighting the influence of submarine topography on megafauna distribution. By providing a foundational understanding of spatial patterns in pelagic wildlife communities throughout a little studied region, our work demonstrates how a combination of non-destructive sampling techniques and predictive models can provide new opportunities to support decision-making under data shortage.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.3389/fmars.2020.00530" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.3389/fmars.2020.00530" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  18<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Australian Mammalogy
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >Seasonal productivity drives aggregations of killer whales and other cetaceans over submarine canyons of the Bremer Sub-Basin, south-western Australia</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list">Salgado Kent CP, <b>Bouchet PJ</b>, Wellard R, Parnum I, Fouda L, Erbe C</span> (2020).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://www.publish.csiro.au/am/pdf/AM19058" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://www.publish.csiro.au/am/acc/AM19058/AM19058_AC.pdf" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1071/AM19058" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Cetaceans are iconic predators that serve as important indicators of marine ecosystem health. The Bremer Sub-Basin, south-western Australia, supports a diverse cetacean community including the largest documented aggregation of killer whales (Orcinus orca) in Australian waters. Knowledge of cetacean distributions is critical for managing the area’s thriving ecotourism industry, yet is largely sporadic. Here we combined aerial with opportunistic ship-borne surveys during 2015–2017 to describe the occurrence of multiple cetacean species on a regional scale. We used generalised estimating equations to model variation in killer whale relative density as a function of both static and dynamic covariates, including seabed depth, slope, and chlorophyll a concentration, while accounting for autocorrelation. Encountered cetacean groups included: killer (n = 177), sperm (n = 69), long-finned pilot (n = 29), false killer (n = 2), and strap-toothed beaked (n = 1) whales, as well as bottlenose (n = 12) and common (n = 5) dolphins. Killer whale numbers peaked in areas of low temperatures and high primary productivity, likely due to seasonal upwelling of nutrient-rich waters supporting high prey biomass. The best predictive model highlighted potential killer whale ‘hotspots’ in the Henry, Hood, Pallinup and Bremer Canyons. This study demonstrates the value of abundance data from platforms of opportunity for marine planning and wildlife management in the open ocean.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.1071/AM19058" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.1071/AM19058" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  17<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Ecography
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >A standard protocol for describing species distribution models</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list">Zurell D, Franklin J, König C, <b>Bouchet PJ</b>, Serra-Diaz JM, Dormann CF, Elith J, Fandos Guzman G, Feng X, Guillera-Arroita G, Guisan A, Leitão PJ, Lahoz-Monfort JJ, Park DS, Peterson AT, Raacciuolo G, Schmatz DR, Schröder B, Thuiller W, Yates KL, Zimmermann NE, Merow C</span> (2020).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/ecog.04960" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1111/ecog.04960" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Species distribution models (SDMs) constitute the most common class of models across ecology, evolution and conservation. The advent of ready‐to‐use software packages and increasing availability of digital geoinformation have considerably assisted the application of SDMs in the past decade, greatly enabling their broader use for informing conservation and management, and for quantifying impacts from global change. However, models must be fit for purpose, with all important aspects of their development and applications properly considered. Despite the widespread use of SDMs, standardisation and documentation of modelling protocols remain limited, which makes it hard to assess whether development steps are appropriate for end use. To address these issues, we propose a standard protocol for reporting SDMs, with an emphasis on describing how a study&#39;s objective is achieved through a series of modeling decisions. We call this the ODMAP (Overview, Data, Model, Assessment and Prediction) protocol, as its components reflect the main steps involved in building SDMs and other empirically‐based biodiversity models. The ODMAP protocol serves two main purposes. First, it provides a checklist for authors, detailing key steps for model building and analyses, and thus represents a quick guide and generic workflow for modern SDMs. Second, it introduces a structured format for documenting and communicating the models, ensuring transparency and reproducibility, facilitating peer review and expert evaluation of model quality, as well as meta‐analyses. We detail all elements of ODMAP, and explain how it can be used for different model objectives and applications, and how it complements efforts to store associated metadata and define modelling standards. We illustrate its utility by revisiting nine previously published case studies, and provide an interactive web‐based application to facilitate its use. We plan to advance ODMAP by encouraging its further refinement and adoption by the scientific community.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.1111/ecog.04960" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/ecog.04960" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+  <div class="year-line">2019</div>
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  16<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    PLoS Biology
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >Remote reefs and seamounts are the last refuges for marine predators across the Indo-Pacific</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list">Letessier TB, Mouillot D, <b>Bouchet PJ</b>, Vigliola L, Fernandes MC, Thompson C, Boussarie G, Turner J, Juhel JB, Maire E, Caley MJ, Koldewey HJ, Friedlander A, Sala E, Meeuwig JJ</span> (2019).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.3000366&amp;type=printable" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://ndownloader.figstatic.com/articles/9273758/versions/1" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1371/journal.pbio.3000366" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Since the 1950s, industrial fisheries have expanded globally, as fishing vessels are required to travel further afield for fishing opportunities. Technological advancements and fishery subsidies have granted ever-increasing access to populations of sharks, tunas, billfishes, and other predators. Wilderness refuges, defined here as areas beyond the detectable range of human influence, are therefore increasingly rare. In order to achieve marine resources sustainability, large no-take marine protected areas (MPAs) with pelagic components are being implemented. However, such conservation efforts require knowledge of the critical habitats for predators, both across shallow reefs and the deeper ocean. Here, we fill this gap in knowledge across the Indo-Pacific by using 1,041 midwater baited videos to survey sharks and other pelagic predators such as rainbow runner (&lt;em&gt;Elagatis bipinnulata&lt;/em&gt;), mahi-mahi (&lt;em&gt;Coryphaena hippurus&lt;/em&gt;), and black marlin (&lt;em&gt;Istiompax indica&lt;/em&gt;). We modeled three key predator community attributes: vertebrate species richness, mean maximum body size, and shark abundance as a function of geomorphology, environmental conditions, and human pressures. All attributes were primarily driven by geomorphology (35%−62% variance explained) and environmental conditions (14%−49%). While human pressures had no influence on species richness, both body size and shark abundance responded strongly to distance to human markets (12%−20%). Refuges were identified at more than 1,250 km from human markets for body size and for shark abundance. These refuges were identified as remote and shallow seabed features, such as seamounts, submerged banks, and reefs. Worryingly, hotpots of large individuals and of shark abundance are presently under-represented within no-take MPAs that aim to effectively protect marine predators, such as the British Indian Ocean Territory. Population recovery of predators is unlikely to occur without strategic placement and effective enforcement of large no-take MPAs in both coastal and remote locations
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.1371/journal.pbio.3000366" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pbio.3000366" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  
+  
+
+  
+
+
+  15<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Marine Environmental Research
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >Physiological response of the coralline alga Corallina officinalis L. to both predicted long-term increases in temperature and short-term heatwave events</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list">Rendina F, <b>Bouchet PJ</b>, Appolloni L, Fulvio Russo G, Sandulli R, Kolzenburg R, Putra A, Ragazzola F</span> (2019).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="/static/files/Rendina_etal_2019.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://doi.pangaea.de/10.1594/PANGAEA.904406" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1016/j.marenvres.2019.104764" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Climate change is leading to an increase of mean sea surface temperatures and extreme heat events. There is an urgent need to better understand the capabilities of marine macroalgae to adapt to these rapid changes. In this study, the responses of photosynthesis, respiration, and calcification to elevated temperature in a global warming scenario were investigated in the coralline alga Corallina officinalis. Algae were cultured for 7 weeks under 4 temperature treatments: (1) control under ambient-summer conditions (C, ∼20 °C), (2) simulating a one-week heatwave of 1 °C (HW, Tcontrol&#43;1 °C), (3) elevated temperature (&#43;3, Tcontrol &#43;3 °C), (4) combination of the two previous treatments (HW&#43;3, T&#43;3&#43;1 °C). After exposure at T&#43;3 (up to a Tmax of ∼23 °C), respiration and photosynthesis increased significantly. After 5 weeks, calcification rates were higher at elevated temperatures (T&#43;3 and THW&#43;3) compared to Tcontrol, but at the end of the experiment (7 weeks) calcification decreased significantly at those temperatures beyond the thermal optimum (six-fold at T&#43;3, and three-fold at THW&#43;3, respectively). The same trend was noted for all the physiological processes, suggesting that a prolonged exposure to high temperatures (7 weeks up to T&#43;3) negatively affect the physiology of C. officinalis, as a possible consequence of thermal stress. A one-week heatwave of &#43;1 °C with respect to Tcontrol (at THW) did not affect respiration, photosynthesis, or calcification rates. Conversely, a heatwave of 1 °C, when combined with the 3 °C increase predicted by the end of the century (at THW&#43;3), induced a reduction of physiological rates. Continued increases in both the intensity and frequency of heatwaves under anthropogenic climate change may lead to reduced growth and survival of primary producers such as C. officinalis.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.1016/j.marenvres.2019.104764" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.marenvres.2019.104764" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  
+  
+
+  
+
+
+  14<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Trends in Ecology and Evolution
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >Better Model Transfers Require Knowledge of Mechanisms</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list"><b>Bouchet PJ</b>, Peterson TA, Zurell D, Dormann CF, Schoeman D, Ross RE, Snelgrove P, Sequeira AMM, Whittingham MJ, Wang L, Rapacciuolo G, Oppel S, Mellin C, Lauria V, Krishnakumar PK, Jones AR, Heinänen S, Heikkinen RK, Gregr EJ, Fielding AH, Caley MJ, Barbose AM, Bamford AJ, Lozano-Montes H, Parnell S, Wenger S, Yates KL</span> (2019).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://marxiv.org/5rgej" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1016/j.tree.2019.04.006" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.1016/j.tree.2019.04.006" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.tree.2019.04.006" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  13<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Frontiers in Marine Science
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >A Suite of Field Manuals for Marine Sampling to Monitor Australian Waters</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list">Przeslawski R, Foster S, Monk J, Barrett N, <b>Bouchet P</b>, Carroll A, Langlois T, Lucieer V, Williams J, Bax N</span> (2019).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://www.frontiersin.org/articles/10.3389/fmars.2019.00177/pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://ndownloader.figstatic.com/files/14810096" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.3389/fmars.2019.00177" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        One of the main challenges in assessing marine biodiversity is the lack of consistent approaches to monitor it. This threatens to undermine ocean best practice in marine monitoring, as it impedes a reduction in the bias and variance of sampled data and restricts the confidence in the advice that can be given. In particular, there is potential for confounding between the monitoring methods, their measured ecological properties, and the questions they seek to answer. Australia has developed significant long-term marine monitoring and observing programs and has one of the largest marine estates, including the world&#39;s largest representative network of marine parks. This new network will require ongoing monitoring and evaluation, beyond what direct funding can support, so needs to be integrated in a standardised way with other national programs to develop sufficient monitoring capacity. The aim of this paper is to describe the process undertaken in developing a suite of field manuals that provide standard operating procedures (SOPs) for marine sampling in Australian waters so that data are comparable over time and space, thereby supporting a robust, cost-effective, and objective national monitoring program. We encourage readers to refer to the complete manuals of interest at www.nespmarine.edu.au/field-manuals. Collaboration was a key characteristic of our approach so rather than single groups trying to impose their standards, more than 70 individuals from over 30 organisations contributed to the first version of this field manual package.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.3389/fmars.2019.00177" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.3389/fmars.2019.00177" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  12<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Marine Biodiversity Records
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >First underwater sighting of Shepherd&#39;s beaked whale (Tasmacetus shepherdi)</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list">Thompson CDH, <b>Bouchet PJ</b>, Meeuwig JJ</span> (2019).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://mbr.biomedcentral.com/track/pdf/10.1186/s41200-019-0165-6" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1186/s41200-019-0165-6" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Here we describe the first underwater sighting of Shepherd&#39;s beaked whale (Tasmacetus shepherdi). Two individuals were observed together on video footage obtained via mid-water stereo-Baited Remote Underwater Video Systems (BRUVS) deployed off the coast of Inaccessible Island, Tristan da Cunha, in the South Atlantic. This observation constitutes the first recorded live sighting of this species in the waters of Tristan da Cunha since 2002 and provides further evidence for the persistence of a population of this species in the region. The observed individuals lacked the dark flipper stripe observed in previous descriptions, indicating that the species may exhibit greater variation in pigmentation than previous records indicate. The planned implementation of a marine reserve in the region along with the current low level of fishing pressure and remote location of this archipelago provide a good context to ensure the appropriate management and protection of this rare species. The recent establishment of an ongoing mid-water stereo-BRUVS monitoring programme, in concert with other methods targeted at marine mammals, may yield further information about this little known species and aid in informing management decisions in the future.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.1186/s41200-019-0165-6" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.1186/s41200-019-0165-6" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+  <div class="year-line">2018</div>
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  11<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Trends in Ecology and Evolution
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >Outstanding Challenges in the Transferability of Ecological Models</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list"><b>Bouchet PJ</b>/Yates KL, Caley MJ, Mengersen K, Randin CF, Parnell S, Fielding AH, Bamford AJ, Ban S, Barbosa AM, Dormann CF, Elith J, Embling CB, Ervin GN, Fisher R, Gould S, Graf RF, Gregr EJ, Halpin PN, Heikkinen RK, Heinänen S, Jones AR, Krishnakumar PK, Lauria V, Lozano-Montes H, Mannocci L, Mellin C, Mesgaran MB, Moreno-Amat E, Mormede S, Novaczek E, Oppel S, Ortuño Crespo G, Peterson AT, Rapacciuolo G, Roberts JJ, Ross RE, Scales KL, Schoeman D, Snelgrove P, Sundblad G, Thuiller W, Torres LG, Verbruggen H, Wang L, Wenger S, Whittingham MJ, Zharikov Y, Zurell D, Sequeira AMM</span> (2018).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://www.cell.com/action/showPdf?pii=S0169-5347%2818%2930181-2" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://ars.els-cdn.com/content/image/1-s2.0-S0169534718301812-mmc1.docx" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1016/j.tree.2018.08.001" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Predictive models are central to many scientific disciplines and vital for informing management in a rapidly changing world. However, limited understanding of the accuracy and precision of models transferred to novel conditions (their ‘transferability&#39;) undermines confidence in their predictions. Here, 50 experts identified priority knowledge gaps which, if filled, will most improve model transfers. These are summarized into six technical and six fundamental challenges, which underlie the combined need to intensify research on the determinants of ecological predictability, including species traits and data quality, and develop best practices for transferring models. Of high importance is the identification of a widely applicable set of transferability metrics, with appropriate tools to quantify the sources and impacts of prediction uncertainty under novel conditions.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.1016/j.tree.2018.08.001" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.1016/j.tree.2018.08.001" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  <i class="ai ai-open-access ai1x"></i>
+  
+
+  
+
+
+  10<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Methods in Ecology and Evolution
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >Transferring biodiversity models for conservation: Opportunities and challenges</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list">Sequeira AMM, <b>Bouchet PJ</b>, Yates KL, Mengersen K, Caley JM</span> (2018).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.12998" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://besjournals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2F2041-210X.12998&amp;file=mee312998-sup-0001-SupInfo1.pdf" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1111/2041-210X.12998" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        After decades of extensive surveying, knowledge of the global distribution of species still remains inadequate for many purposes. In the short to medium term, such knowledge is unlikely to improve greatly given the often prohibitive costs of surveying and the typically limited resources available. By forecasting biodiversity patterns in time and space, predictive models can help fill critical knowledge gaps and prioritise research to support better conservation and management. The ability of a model to predict biodiversity metrics in novel environments is termed &#39;transferability&#39;, and models with high transferability will be the most useful in this context. Despite their potentially broad utility, little guidance exists on what confers high transferability to biodiversity models. We synthesise recent advances in biodiversity model transfers to facilitate increased understanding of what underpins successful model transferability, demonstrating that a consistent approach has so far been lacking but is essential for achieving high levels of repeatability, transparency and accountability of model transfers. We provide a set of guidelines to support efficient learning and the improvement of model transferability.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+<div data-badge-type="donut" data-doi="10.1111/2041-210X.12998" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+<span class="__dimensions_badge_embed__" data-doi="10.1111/2041-210X.12998" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
+
+</div>
+
+        
+    
+      
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
+
+<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <table class="pub-table">
+    
+    <tr>
+
+  
+
+      <th class="firstcol">
+
+  
+
+  
+  
+  
+
+  
+
+
+  09<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Global Ecology and Biogeography
+  </span>
+
+  
+  
+
+<p class="articletitle"><a itemprop="name" >Continental-scale hotspots of pelagic fish abundance inferred from commercial catch records</a></p>
+
+
+  <p itemprop="author" class="article-metadata li-cite-author">
+    <span class="author_list"><b>Bouchet PJ</b>, Meeuwig JJ, Huang Z, Letessier TBL, Nichol SL, Caley MJ, Watson RA</span> (2017).
+</p>
+
+
+
+   
+
+  
+
+  
+
+  
+
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+<a class="btn" href="https://www.nespmarine.edu.au/system/files/Bouchet%20et%20al%20Continental%20Scale%20models%20of%20pelagic%20fish%20hotspotsPREPRINT.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+<a class="btn" href="https://onlinelibrary.wiley.com/doi/10.1111/geb.12619#support-information-section" target="_blank" rel="noopener">
+  Suppl.
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+<a class="btn" href="https://github.com/pjbouchet/geb" target="_blank" rel="noopener">
+  Code
+</a>
+<span class="button-separator">/</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1111/geb.12619" target="_blank" rel="noopener">
+  Web
+</a>
+
+
+
+
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Aim Protected areas have become pivotal to the modern conservation planning toolbox, but a limited understanding of marine macroecology is hampering their efficient design and implementation in pelagic environments. We explored the respective contributions of environmental factors and human impacts in capturing the distribution of an assemblage of commercially valuable, large-bodied, open-water predators (tunas, marlins and mackerels). Location Western Australia. Time period 1997-2006. Major taxa studied Pelagic fishes. Methods We compiled 10 years of commercial fishing records from the Sea Around Us Project and derived relative abundance indices from standardized catch rates while accounting for confounding effects of effort, year and gear type. We used these indices to map pelagic hotspots over a 0.5°-resolution grid and built random forests to estimate the importance of 33 geophysical, oceanographic and anthropogenic predictors in explaining their locations. We additionally examined the spatial congruence between these hotspots and an extensive network of marine reserves and determined whether patterns of co-occurrence deviated from random expectations using null model simulations. Results First, we identified several pelagic hotspots off the coast of Western Australia. Second, geomorphometrics explained up to 50% of the variance in relative abundance of pelagic fishes, and submarine canyon presence ranked as the most influential variable in the North bioregion. Seafloor complexity, geodiversity, salinity, temperature variability, primary production, ocean energy, current regimes and human impacts were also identified as important predictors. Third, spatial overlap between hotspots and marine reserves was limited, with most high-abundance areas primarily found in zones where anthropogenic activities are subject to few regulations. Main conclusions This study reveals geomorphometrics as valuable indicators of the distribution of mobile fish species and highlights the relevance of harnessing static topography as a key element in any blueprint for ocean zoning and spatial management. [ABSTRACT FROM AUTHOR] Copyright of Global Ecology &amp; Biogeography is the property of Wiley-Blackwell and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder&#39;s express written permission. However, users may print, download, or email articles for individual use. This abstract may be abridged. No warranty is given about the accuracy of the copy. Users should refer to the original published version of the material for the full abstract. (Copyright applies to all Abstracts.)
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
 
 
 
@@ -2789,7 +3529,7 @@
 <div data-badge-type="donut" data-doi="10.1111/geb.12619" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
 
 </span>
-  <span class="dimensions_badge">
+      <span class="dimensions_badge">
 
 
 
@@ -2800,9 +3540,11 @@
 <span class="__dimensions_badge_embed__" data-doi="10.1111/geb.12619" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 </span>
-</th>
-</tr>
-</table>
+     </th>
+  </tr>
+  </table>
+
+  
 
 </div>
 
@@ -2810,10 +3552,12 @@
     
       
         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -2830,34 +3574,27 @@
 
   
 
+
+  08<span class="number-divider"> |</span>
   
+
+  <span class="journalname">
+    Scientific Reports
+  </span>
 
   
   
 
-<a href="/publication/08-2017-allen-scirep/" itemprop="name">Preliminary estimates of the abundance and fidelity of dolphins associating with a demersal trawl fishery</a>.
+<p class="articletitle"><a itemprop="name" >Preliminary estimates of the abundance and fidelity of dolphins associating with a demersal trawl fishery</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Allen SJ, Pollock KH, <b>Bouchet PJ</b>, Kobryn HT, McElligott DB, Nicholson KE, Smith JN, Loneragan NR</span> (2017).
-
-      Scientific Reports,
-      
+</p>
 
 
-      
-      
 
-          
-          <b>7</b>:
-          
-
-          
-          <span>4995</span>.
-          
-
-      
-
-  </p>
+   
 
   
 
@@ -2865,7 +3602,14 @@
 
   
 
-  <p class="publinks">
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -2881,7 +3625,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41598-017-05189-0" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://www.nature.com/articles/s41598-017-05189-0.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -2891,10 +3637,6 @@
 
 
 
-<a class="btn-download-bib" download href="/publication/08-2017-allen-scirep/Allen2017.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
 
 
 
@@ -2911,20 +3653,41 @@
 
 
 
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41598-017-05189-0" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1038/s41598-017-05189-0" target="_blank" rel="noopener">
   Web
 </a>
 
 
-</p>
 
-  
 
-</th>
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        The incidental capture of wildlife in fishing gear presents a global conservation challenge. As a baseline to inform assessments of the impact of bycatch on bottlenose dolphins (Tursiops truncatus) interacting with an Australian trawl fishery, we conducted an aerial survey to estimate dolphin abundance across the fishery. Concurrently, we carried out boat-based dolphin photo-identification to assess short-term fidelity to foraging around trawlers, and used photographic and genetic data to infer longer-term fidelity to the fishery. We estimated abundance at ≈ 2,300 dolphins (95% CI = 1,247–4,214) over the ≈ 25,880-km2 fishery. Mark-recapture estimates yielded 226 (SE = 38.5) dolphins associating with one trawler and some individuals photographed up to seven times over 12 capture periods. Moreover, photographic and genetic re-sampling over three years confirmed that some individuals show long-term fidelity to trawler-associated foraging. Our study presents the first abundance estimate for any Australian pelagic dolphin community and documents individuals associating with trawlers over days, months and years. Without trend data or correction factors for dolphin availability, the impact of bycatch on this dolphin population&#39;s conservation status remains unknown. These results should be taken into account by management agencies assessing the impact of fisheries-related mortality on this protected species.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
 
-<th class="secondcol">
-
-  <span class="altmetric_badge">
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
 
 
 
@@ -2935,7 +3698,7 @@
 <div data-badge-type="donut" data-doi="10.1038/s41598-017-05189-0" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
 
 </span>
-  <span class="dimensions_badge">
+      <span class="dimensions_badge">
 
 
 
@@ -2946,9 +3709,11 @@
 <span class="__dimensions_badge_embed__" data-doi="10.1038/s41598-017-05189-0" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 </span>
-</th>
-</tr>
-</table>
+     </th>
+  </tr>
+  </table>
+
+  
 
 </div>
 
@@ -2956,10 +3721,12 @@
     
       
         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -2974,34 +3741,27 @@
 
   
 
+
+  07<span class="number-divider"> |</span>
   
+
+  <span class="journalname">
+    Biological Reviews
+  </span>
 
   
   
 
-<a href="/publication/07-2017-letessier-biolrev/" itemprop="name">Sampling mobile oceanic fishes and sharks: Implications for fisheries and conservation planning</a>.
+<p class="articletitle"><a itemprop="name" >Sampling mobile oceanic fishes and sharks: Implications for fisheries and conservation planning</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Letessier TB, <b>Bouchet PJ</b>, Meeuwig JJ</span> (2017).
-
-      Biological Reviews,
-      
+</p>
 
 
-      
-      
 
-          
-          <b>92</b>:
-          
-
-          
-          <span>627–646</span>.
-          
-
-      
-
-  </p>
+   
 
   
 
@@ -3009,7 +3769,14 @@
 
   
 
-  <p class="publinks">
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -3020,16 +3787,24 @@
 
 
   
+    
+  
 
 
 
 
 
+<a class="btn" href="/static/files/Letessier_etal_2017.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+<span class="button-separator">/</span>
 
 
 
-<a class="btn-download-bib" download href="/publication/07-2017-letessier-biolrev/Letessier2017.bib">
-  Cite
+
+
+<a class="btn" href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fbrv.12246&amp;file=brv12246-sup-0001-AppendixS1.xls" target="_blank" rel="noopener">
+  Suppl.
 </a>
 <span class="button-separator">/</span>
 
@@ -3048,20 +3823,45 @@
 
 
 
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1111/brv.12246" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1111/brv.12246" target="_blank" rel="noopener">
   Web
 </a>
 
 
-</p>
 
-  
 
-</th>
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Tuna, billfish, and oceanic sharks [hereafter referred to as ‘mobile oceanic fishes and sharks’ (MOFS)] are characterised by conservative life‐history strategies and highly migratory behaviour across large, transnational ranges. Intense exploitation over the past 65 years by a rapidly expanding high‐seas fishing fleet has left many populations depleted, with consequences at the ecosystem level due to top‐down control and trophic cascades. Despite increases in both CITES and IUCN Red Listings, the demographic trajectories of oceanic sharks and billfish are poorly quantified and resolved at geographic and population levels. Amongst MOFS trajectories, those of tunas are generally considered better understood, yet several populations remain either overfished or of unknown status. MOFS population trends and declines therefore remain contentious, partly due to challenges in deriving accurate abundance and biomass indices. Two major management strategies are currently recognised to address conservation issues surrounding MOFS: (i) internationally ratified legal frameworks and their associated regional fisheries management organisations (RFMOs); and (ii) spatio‐temporal fishery closures, including no‐take marine protected areas (MPAs). In this context, we first review fishery‐dependent studies relying on data derived from catch records and from material accessible through fishing extraction, under the umbrella of RFMO‐administrated management. Challenges in interpreting catch statistics notwithstanding, we find that fishery‐dependent studies have enhanced the accuracy of biomass indices and the management strategies they inform, by addressing biases in reporting and non‐random effort, and predicting drivers of spatial variability across meso‐ and oceanic scales in order to inform stock assessments. By contrast and motivated by the increase in global MPA coverage restricting extractive activities, we then detail ways in which fishery‐independent methods are increasingly improving and steering management by exploring facets of MOFS ecology thus far poorly grasped. Advances in telemetry are increasingly used to explore ontogenic and seasonal movements, and provide means to consider MOFS migration corridors and residency patterns. The characterisation of trophic relationships and prey distribution through biochemical analysis and hydro‐acoustics surveys has enabled the tracking of dietary shifts and mapping of high‐quality foraging grounds. We conclude that while a scientific framework is available to inform initial design and subsequent implementation of MPAs, there is a shortage in the capacity to answer basic but critical questions about MOFS ecology (who, when, where?) required to track populations non‐extractively, thereby presenting a barrier to assessing empirically the performance of MPA‐based management for MOFS. This sampling gap is exacerbated by the increased establishment of large (&gt;10,000 km2) and very large MPAs (VLMPAs, &gt;100,000 km2) ‐ great expanses of ocean lacking effective monitoring strategies and survey regimes appropriate to those scales. To address this shortcoming, we demonstrate the use of a non‐extractive protocol to measure MOFS population recovery and MPA efficiency. We further identify technological avenues for monitoring at the VLMPA scale, through the use of spotter planes, drones, satellite technology, and horizontal acoustics, and highlight their relevance to the ecosystem‐based framework of MOFS management.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
 
-<th class="secondcol">
-
-  <span class="altmetric_badge">
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
 
 
 
@@ -3072,7 +3872,7 @@
 <div data-badge-type="donut" data-doi="10.1111/brv.12246" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
 
 </span>
-  <span class="dimensions_badge">
+      <span class="dimensions_badge">
 
 
 
@@ -3083,9 +3883,11 @@
 <span class="__dimensions_badge_embed__" data-doi="10.1111/brv.12246" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 </span>
-</th>
-</tr>
-</table>
+     </th>
+  </tr>
+  </table>
+
+  
 
 </div>
 
@@ -3093,10 +3895,12 @@
     
       
         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -3113,34 +3917,27 @@
 
   
 
+
+  06<span class="number-divider"> |</span>
   
+
+  <span class="journalname">
+    Ecosphere
+  </span>
 
   
   
 
-<a href="/publication/06-2015-bouchet-ecosphere/" itemprop="name">Drifting baited stereo-videography: A novel sampling tool for surveying pelagic wildlife in offshore marine reserves</a>.
+<p class="articletitle"><a itemprop="name" >Drifting baited stereo-videography: A novel sampling tool for surveying pelagic wildlife in offshore marine reserves</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list"><b>Bouchet PJ</b>, Meeuwig JJ</span> (2015).
-
-      Ecosphere,
-      
+</p>
 
 
-      
-      
 
-          
-          <b>6</b>:
-          
-
-          
-          <span>art137</span>.
-          
-
-      
-
-  </p>
+   
 
   
 
@@ -3148,7 +3945,14 @@
 
   
 
-  <p class="publinks">
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -3164,7 +3968,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1890/ES14-00380.1" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1890/ES14-00380.1" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -3174,10 +3980,6 @@
 
 
 
-<a class="btn-download-bib" download href="/publication/06-2015-bouchet-ecosphere/Bouchet2015b.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
 
 
 
@@ -3194,20 +3996,41 @@
 
 
 
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1890/ES14-00380.1" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1890/ES14-00380.1" target="_blank" rel="noopener">
   Web
 </a>
 
 
-</p>
 
-  
 
-</th>
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        We present a novel system of drifting pelagic baited stereo-video cameras that operate in deep-water, topographically complex environments typically considered inaccessible for sampling. The instruments are portable, semi-autonomous and inexpensive, allowing the recording of high-definition video footage in near-real time and over broad stretches of ocean space. We illustrate their benefits and potential as non-extractive monitoring tools for offshore marine reserves with a pilot study conducted within the newly established Perth Canyon Commonwealth Marine Reserve, southwestern Australia (32° S, 115° E). Using occupancy and maximum entropy models, we predict the distribution of midwater fishes and sharks and show that their most suitable habitat encompasses a wider fraction of the canyon head than is covered by park boundaries. Our proof-of-concept study demonstrates that drifting pelagic stereo-video cameras can serve as appropriate field platforms for the construction of species distribution models with implications for ocean zoning and conservation planning efforts.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
 
-<th class="secondcol">
-
-  <span class="altmetric_badge">
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
 
 
 
@@ -3218,7 +4041,7 @@
 <div data-badge-type="donut" data-doi="10.1890/ES14-00380.1" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
 
 </span>
-  <span class="dimensions_badge">
+      <span class="dimensions_badge">
 
 
 
@@ -3229,9 +4052,11 @@
 <span class="__dimensions_badge_embed__" data-doi="10.1890/ES14-00380.1" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 </span>
-</th>
-</tr>
-</table>
+     </th>
+  </tr>
+  </table>
+
+  
 
 </div>
 
@@ -3239,10 +4064,12 @@
     
       
         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -3257,34 +4084,27 @@
 
   
 
+
+  05<span class="number-divider"> |</span>
   
+
+  <span class="journalname">
+    Endangered Species Research
+  </span>
 
   
   
 
-<a href="/publication/05-2015-parsons-esr/" itemprop="name">Key research questions of global importance for cetacean conservation</a>.
+<p class="articletitle"><a itemprop="name" >Key research questions of global importance for cetacean conservation</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Parsons ECM, Baulch S, Bechshoft T, Bellazzi G, Bouchet PJ, Cosentino AM, Godard-Codding CAJ, Gulland F, Hoffmann-Kuhnt M, Hoyt E, Livermore S, MacLeod CD, Matrai E, Munger L, Ochiai M, Peyman A, Recalde-Salas A, Regnery R, Rojas-Bracho L, Salgado-Kent CP, Slooten E, Wang JY, Wilson SC, Wright AJ, Young S, Zwamborn E, Sutherland WJ</span> (2015).
-
-      Endangered Species Research,
-      
+</p>
 
 
-      
-      
 
-          
-          <b>27</b>:
-          
-
-          
-          <span>113-118</span>.
-          
-
-      
-
-  </p>
+   
 
   
 
@@ -3292,7 +4112,14 @@
 
   
 
-  <p class="publinks">
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -3308,7 +4135,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.int-res.com/articles/esr2015/27/n027p113.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://www.int-res.com/articles/esr2015/27/n027p113.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -3318,10 +4147,6 @@
 
 
 
-<a class="btn-download-bib" download href="/publication/05-2015-parsons-esr/Parsons2015.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
 
 
 
@@ -3338,20 +4163,41 @@
 
 
 
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.3354/esr00655" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.3354/esr00655" target="_blank" rel="noopener">
   Web
 </a>
 
 
-</p>
 
-  
 
-</th>
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Limited resources and increasing environmental concerns have prompted calls to identify the critical questions that most need to be answered to advance conservation, thereby providing an agenda for scientific research priorities. Cetaceans are often keystone indicator species but also high profile, charismatic flagship taxa that capture public and media attention as well as political interest. A dedicated workshop was held at the conference of the Society for Marine Mammalogy (December 2013, New Zealand) to identify where lack of data was hindering cetacean conservation and which questions need to be addressed most urgently. This paper summarizes 15 themes and component questions prioritized during the workshop. We hope this list will encourage cetacean conservation-orientated research and help agencies and policy makers to prioritize funding and future activities. This will ultimately remove some of the current obstacles to science-based cetacean conservation.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
 
-<th class="secondcol">
-
-  <span class="altmetric_badge">
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
 
 
 
@@ -3362,7 +4208,7 @@
 <div data-badge-type="donut" data-doi="10.3354/esr00655" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
 
 </span>
-  <span class="dimensions_badge">
+      <span class="dimensions_badge">
 
 
 
@@ -3373,9 +4219,11 @@
 <span class="__dimensions_badge_embed__" data-doi="10.3354/esr00655" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 </span>
-</th>
-</tr>
-</table>
+     </th>
+  </tr>
+  </table>
+
+  
 
 </div>
 
@@ -3383,10 +4231,12 @@
     
       
         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -3401,34 +4251,27 @@
 
   
 
+
+  04<span class="number-divider"> |</span>
   
+
+  <span class="journalname">
+    Biological Reviews
+  </span>
 
   
   
 
-<a href="/publication/04-2015-bouchet-biolrev/" itemprop="name">Topographic determinants of mobile vertebrate predator hotspots: Current knowledge and future directions</a>.
+<p class="articletitle"><a itemprop="name" >Topographic determinants of mobile vertebrate predator hotspots: Current knowledge and future directions</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list"><b>Bouchet PJ</b>, Meeuwig JJ, Salgado Kent CP, Letessier TB, Jenner CK</span> (2015).
-
-      Biological Reviews,
-      
+</p>
 
 
-      
-      
 
-          
-          <b>90</b>:
-          
-
-          
-          <span>699-728</span>.
-          
-
-      
-
-  </p>
+   
 
   
 
@@ -3436,7 +4279,14 @@
 
   
 
-  <p class="publinks">
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -3447,16 +4297,15 @@
 
 
   
+    
+  
 
 
 
 
 
-
-
-
-<a class="btn-download-bib" download href="/publication/04-2015-bouchet-biolrev/Bouchet2015a.bib">
-  Cite
+<a class="btn" href="/static/files/Bouchet_etal_2015.pdf" target="_blank" rel="noopener">
+  PDF
 </a>
 <span class="button-separator">/</span>
 
@@ -3475,20 +4324,47 @@
 
 
 
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1111/brv.12130" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1111/brv.12130" target="_blank" rel="noopener">
   Web
 </a>
 
 
-</p>
 
-  
 
-</th>
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Despite being identified as a driver of mobile predator aggregations (hotspots) in both marine and terrestrial environments, topographic complexity has long remained a challenging concept for scientists to visualise and a difficult parameter to estimate. It is only with the advent of high-speed computers and the recent popularisation of geographical information systems (GIS) that terrain attributes have begun to be quantitatively measured in three-dimensional space and related to wildlife dynamics, making the well-established field of geomorphometry (or &#39;digital terrain modelling&#39;) a discipline of growing appeal to biologists. Although a diverse array of numerical metrics is now available to describe the shape, geometry and physical properties of natural habitats, few of these are known to, or adequately used by, ecologists. In this review, we examine the nature and usage of 56 geomorphometrics extracted from the ecological modelling literature over a period of 32 years (1979-2011). We show that, in studies of mobile predators, numerous topographic variables have largely been overlooked in favour of single basic metrics that do not, on their own, fully capture the complexity of continuous landscapes. Based on a simulation approach, we assess the redundancy and correlation structure of these metrics and demonstrate that a majority are highly collinear. We highlight a suite of 7-8 complementary metrics which best explain topographic patterns across a bathymetric grid of the west Australian seafloor, and contend that field and analytical protocols should prioritise variables of these types, particularly when the responses of predator populations to physical habitat features are of interest. We suggest that prominent structures such as canyons, seamounts or mountain chains can serve as useful proxies for predator hotspots, especially in remote locations where access to high-resolution biological data is often limited.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
 
-<th class="secondcol">
-
-  <span class="altmetric_badge">
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
 
 
 
@@ -3499,7 +4375,7 @@
 <div data-badge-type="donut" data-doi="10.1111/brv.12130" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
 
 </span>
-  <span class="dimensions_badge">
+      <span class="dimensions_badge">
 
 
 
@@ -3510,9 +4386,11 @@
 <span class="__dimensions_badge_embed__" data-doi="10.1111/brv.12130" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 </span>
-</th>
-</tr>
-</table>
+     </th>
+  </tr>
+  </table>
+
+  
 
 </div>
 
@@ -3520,10 +4398,12 @@
     
       
         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -3535,39 +4415,32 @@
   
 
   
-  <i class="ai ai-open-access ai1x"></i>
   
-
   
 
   
 
+
+  03<span class="number-divider"> |</span>
+  
+
+  <span class="journalname">
+    Marine Biodiversity
+  </span>
+
   
   
 
-<a href="/publication/03-2014-letessier-mbio/" itemprop="name">Baited videography reveals remote foraging and migration behaviour of sea turtles</a>.
+<p class="articletitle"><a itemprop="name" >Baited videography reveals remote foraging and migration behaviour of sea turtles</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Letessier TBL, <b>Bouchet PJ</b>, Reisser J, Meeuwig JJ</span> (2014).
-
-      Marine Biodiversity,
-      
+</p>
 
 
-      
-      
 
-          
-          <b>45</b>:
-          
-
-          
-          <span>609-610</span>.
-          
-
-      
-
-  </p>
+   
 
   
 
@@ -3575,7 +4448,14 @@
 
   
 
-  <p class="publinks">
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -3591,7 +4471,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://link.springer.com/content/pdf/10.1007%2Fs12526-014-0287-3.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="/static/files/Letessier_etal_2014.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -3601,10 +4483,6 @@
 
 
 
-<a class="btn-download-bib" download href="/publication/03-2014-letessier-mbio/Letessier2014.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
 
 
 
@@ -3621,20 +4499,41 @@
 
 
 
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1007/s12526-014-0287-3" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1007/s12526-014-0287-3" target="_blank" rel="noopener">
   Web
 </a>
 
 
-</p>
 
-  
 
-</th>
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Studying sea turtles when they leave coastal areas is a particular challenge for research and conservation. As part of a large-scale fish monitoring programme, we have deployed mid-water stereo baited remote underwater video systems (BRUVS, Letessier et al. 2013) at 181 sites around northwestern Australia. From 27 turtle observations, we identified 11 green turtles (Chelonia mydas) around Dirk Hartog Island, west of Shark Bay (April 2012) and three olive ridley turtles (Lepidochelys olivacea) on the Australian shelf of the Timor Sea (September 2012, Fig. 1). Turtle encounter rates were 37 % inside the shallow Dirk Hartog pass (mean depth 11 m) compared with 0 % on the seaward side of the island, and 2.5 % in the Timor Sea (mean depth 113 m). Straight carapace length (SCL) was measured for one olive ridley (70.0 cm, an adult female) and four green turtles (SCL =40.6–89.5 cm). At least two olive ridleys and three greens actively inspected the bait (see electronic supplementary material).
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
 
-<th class="secondcol">
-
-  <span class="altmetric_badge">
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
 
 
 
@@ -3645,7 +4544,7 @@
 <div data-badge-type="donut" data-doi="10.1007/s12526-014-0287-3" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
 
 </span>
-  <span class="dimensions_badge">
+      <span class="dimensions_badge">
 
 
 
@@ -3656,9 +4555,11 @@
 <span class="__dimensions_badge_embed__" data-doi="10.1007/s12526-014-0287-3" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 </span>
-</th>
-</tr>
-</table>
+     </th>
+  </tr>
+  </table>
+
+  
 
 </div>
 
@@ -3666,10 +4567,12 @@
     
       
         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -3686,34 +4589,27 @@
 
   
 
+
+  02<span class="number-divider"> |</span>
   
+
+  <span class="journalname">
+    Methods in Oceanography
+  </span>
 
   
   
 
-<a href="/publication/02-2013-letessier-mo/" itemprop="name">Assessing pelagic fish populations: The application of demersal video techniques to the mid-water environment</a>.
+<p class="articletitle"><a itemprop="name" >Assessing pelagic fish populations: The application of demersal video techniques to the mid-water environment</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Letessier TB, Meeuwig JJ, Gollock M, Groves L, <b>Bouchet PJ</b>, Chapuis L, Vianna G, Kemp K, Koldewey H</span> (2013).
-
-      Methods in Oceanography,
-      
+</p>
 
 
-      
-      
 
-          
-          <b>8</b>:
-          
-
-          
-          <span>41-55</span>.
-          
-
-      
-
-  </p>
+   
 
   
 
@@ -3721,7 +4617,14 @@
 
   
 
-  <p class="publinks">
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -3732,16 +4635,15 @@
 
 
   
+    
+  
 
 
 
 
 
-
-
-
-<a class="btn-download-bib" download href="/publication/02-2013-letessier-mo/Letessier2013.bib">
-  Cite
+<a class="btn" href="/static/files/Letessier_etal_2013.pdf" target="_blank" rel="noopener">
+  PDF
 </a>
 <span class="button-separator">/</span>
 
@@ -3760,20 +4662,47 @@
 
 
 
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.1016/j.mio.2013.11.003" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.1016/j.mio.2013.11.003" target="_blank" rel="noopener">
   Web
 </a>
 
 
-</p>
 
-  
 
-</th>
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        In the open ocean, the movements and habitat use of large mobile predators are driven by dynamic interactions between biological and physical variables and complex predator–prey relationships. Understanding the spatial and temporal distributions of pelagic fishes and sharks is a critical component of conservation and fisheries management. Here, we report on a novel nonextractive method for the study of pelagic wildlife, based on baited stereo-camera rigs. The mid-water rigs were derived from existing methodology commonly used in demersal fish surveys. We present new data from 66 moored deployments in Shark Bay, Western Australia (26 °10 ′ S, 113 °06E) in seabed depths of up to 60 m as a demonstration of the rigs’ ability to resolve spatial variability in pelagic fish and shark assemblages, and to make accurate stereo-measurements of animal lengths. We observed 248 pelagic fishes and sharks from 27 species and 10 families and were able to distinguish between assemblages based nominally on location. We make some general recommendations on optimal deployment protocols and sampling effort regimes, based upon species accumulation rates and times of Max N (maximum number of individuals of a given species in a single video frame). Regression analyses between high quality and low quality stereo-measurements of fish fork-lengths and range were highly significant, indicating that body lengths and distance estimates were consistent even when stereomeasurements were deemed of low quality. Mid-water stereovideo camera rigs represent an efficient tool for the rapid and non-extractive monitoring of pelagic fish and shark populations, with particular relevance for application in no-take marine protected areas.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
 
-<th class="secondcol">
-
-  <span class="altmetric_badge">
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
 
 
 
@@ -3784,7 +4713,7 @@
 <div data-badge-type="donut" data-doi="10.1016/j.mio.2013.11.003" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
 
 </span>
-  <span class="dimensions_badge">
+      <span class="dimensions_badge">
 
 
 
@@ -3795,9 +4724,11 @@
 <span class="__dimensions_badge_embed__" data-doi="10.1016/j.mio.2013.11.003" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 </span>
-</th>
-</tr>
-</table>
+     </th>
+  </tr>
+  </table>
+
+  
 
 </div>
 
@@ -3805,10 +4736,12 @@
     
       
         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -3825,34 +4758,26 @@
 
   
 
+
   
+
+  <span class="journalname">
+    Journal of Cetacean Research and Management
+  </span>
 
   
   
 
-<a href="/publication/01-2012-salgado-jcrm/" itemprop="name">Southern Hemisphere Breeding Stock D humpback whale population estimates from North West Cape, Western Australia</a>.
+<p class="articletitle"><a itemprop="name" >Southern Hemisphere Breeding Stock D humpback whale population estimates from North West Cape, Western Australia</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Salgado-Kent CP, Jenner C, Jenner M, <b>Bouchet PJ</b>, Rexstad E</span> (2012).
-
-      Journal of Cetacean Research and Management,
-      
+</p>
 
 
-      
-      
 
-          
-          <b>12</b>:
-          
-
-          
-          <span>29-38</span>.
-          
-
-      
-
-  </p>
+   
 
   
 
@@ -3860,7 +4785,14 @@
 
   
 
-  <p class="publinks">
+        
+
+    
+
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -3876,7 +4808,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://marxiv.org/m94xh/" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://osf.io/preprints/marxiv/m94xh/download" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -3886,10 +4820,6 @@
 
 
 
-<a class="btn-download-bib" download href="/publication/01-2012-salgado-jcrm/Salgado2012.bib">
-  Cite
-</a>
-<span class="button-separator">/</span>
 
 
 
@@ -3906,20 +4836,41 @@
 
 
 
-<a class="btn btn-doi my-1 mr-1 btn-sm" href="https://doi.org/10.31230/osf.io/m94xh" target="_blank" rel="noopener">
+
+
+
+
+
+
+
+
+
+<a class="btn" href="https://doi.org/10.31230/osf.io/m94xh" target="_blank" rel="noopener">
   Web
 </a>
 
 
-</p>
 
-  
 
-</th>
+</span>
+      
+      
+       <span class="button-separator">/</span>
+      
+      <details>
+        <summary>Abstract</summary>
+        Estimates of the abundance of Breeding Stock D humpback whales (Megaptera novaeangliae) are key to the conservation and management of what is thought to be one of the largest populations of the species. Five years (2000, 2001, 2006, 2007 and 2008) of aerial surveys carried out over an eight-year period at North West Cape (Western Australia) using line transect methodology allowed trends in whale numbers to be investigated, and provided a base for comparison with estimates made approximately 400km south at Shark Bay (Western Australia). A total of 3,127 whale detections were made during 74 surveys of the 7,043km 2 study area west of NWC. Pod abundance for each flight was computed using a HorvitzThompson like estimator and converted to an absolute measure of abundance after corrections were made for estimated mean cluster size, unsurveyed time, swimming speed and animal availability. Resulting estimates from the migration model of best fit with the most credible assumptions were 7,276 (CI = 4,993–10,167) for 2000, 12,280 (CI = 6,830–49,434) for 2001, 18,692 (CI = 12,980–24,477) for 2006, 20,044 (CI = 13,815–31,646) for 2007, and 26,100 (CI = 20,152–33,272) for 2008. Based on these data, the trend model with the greatest r 2 was exponential with an annual increase rate of 13% (CI = 5.6%–18.1%). While this value is above the species’ estimated maximum plausible growth rate of 11.8%, it is reasonably close to previous reports of between 10–12%. The coefficient of variation, however, was too large for a reliable trend estimate. Perception bias was also not accounted for in these calculations. Based on a crude appraisal which yielded an estimated p(0) of 0.783 (from independent observer effort, CV = 0.973), the 2008 humpback population size may be as large as 33,300. In conclusion, the work here provides evidence of an increasing Breeding Stock D population, but further surveys are necessary to confirm whether the population is indeed increasing at its maximum rate.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
 
-<th class="secondcol">
-
-  <span class="altmetric_badge">
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
 
 
 
@@ -3930,7 +4881,7 @@
 <div data-badge-type="donut" data-doi="10.31230/osf.io/m94xh" data-badge-popover="right" data-condensed="true" data-hide-no-mentions="true" data-hide-less-than="1" class="altmetric-embed"></div>
 
 </span>
-  <span class="dimensions_badge">
+      <span class="dimensions_badge">
 
 
 
@@ -3941,9 +4892,11 @@
 <span class="__dimensions_badge_embed__" data-doi="10.31230/osf.io/m94xh" data-legend="hover-right" data-style="small_rectangle" data-hide-zero-citations="true"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 </span>
-</th>
-</tr>
-</table>
+     </th>
+  </tr>
+  </table>
+
+  
 
 </div>
 
@@ -3964,9 +4917,9 @@
 
   
   <p class="powered-by">
-    &copy; 2021 &middot; 
+    &copy; 2022 &middot; 
 
-    Powered by Hugo and designed by Phil Bouchet / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: <a href="https://www.instagram.com/manusanfelix_official/?hl=en" target="blank">Manu San Félix</a>
+    Powered by Hugo / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: Manu San Félix
       
     
     <span class="float-right" aria-hidden="true">
@@ -4103,7 +5056,22 @@
     
     
     <script src="/js/academic.min.eeda67bb2d1f96265d85659d1edc7a5e.js"></script>
-
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+      </script>
   </body>
 </html>
 

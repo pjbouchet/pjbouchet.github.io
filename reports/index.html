@@ -99,7 +99,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.67c533cf69b661d0df2f5d165d05f6a2.css">
+    <link rel="stylesheet" href="/css/academic.0e04aa067b4e80fcab7dede1b0354272.css">
   
 
   
@@ -119,6 +119,25 @@
     
   
   
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+
 
   
 
@@ -146,9 +165,9 @@
   <meta property="og:description" content=""><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-04-04T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2019-04-04T00:00:00&#43;02:00">
   
-  <meta property="article:modified_time" content="2019-04-04T00:00:00&#43;01:00">
+  <meta property="article:modified_time" content="2019-04-04T00:00:00&#43;02:00">
   
 
   
@@ -260,27 +279,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/research/">
-            
-            <span>Research</span>
-            
-            <span class="mastdiv">/</span>
-          </a>
-
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link" href="/publications/">
             
             <span>Publications</span>
@@ -315,21 +313,41 @@
         
 
         
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/software/">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             
             <span>Software</span>
             
+            
             <span class="mastdiv">/</span>
           </a>
-
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://densitymodelling.github.io/dsmextra/">
+                
+                <span>dsmextra</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://pjbouchet.github.io/respondR/">
+                
+                <span>respondR</span>
+                
+                </a>
+            </li>
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="https://github.com/pjbouchet/espresso/">
+                
+                <span>espresso</span>
+                
+                </a>
+            </li>
+            
+          </ul>
         </li>
 
         
@@ -514,10 +532,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -534,44 +554,51 @@
 
   
 
+
   14<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    CREEM Technical Report No. 2019-01
+  </span>
+
   
   
 
-<a href="/report/14-2019-bouchet-denmod/" itemprop="name">From here and now to there and then: Practical recommendations for extrapolating cetacean density surface models to novel conditions</a>.
+<p class="articletitle"><a itemprop="name" >From here and now to there and then: Practical recommendations for extrapolating cetacean density surface models to novel conditions</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list"><strong>Bouchet PJ</strong>, Miller DL, Roberts J, Mannocci L, Harris CM, Thomas L</span> (2019).
-
-      CREEM Technical Report No. 2019-01,
-      
+</p>
 
 
-      
-      
 
-        University of St Andrews,
-        
+   
 
-        St Andrews,
-        
+  
 
-        59<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    University of St Andrews,
+    
+  
+    St Andrews,
+    
+  
+    59<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -587,7 +614,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/18509/Denmod_ExtrapolationReport_final_Aug2019.pdf?sequence=1&amp;isAllowed=y" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/18509/Denmod_ExtrapolationReport_final_Aug2019.pdf?sequence=1&amp;isAllowed=y" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -613,35 +642,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        Density surface models (DSMs) are clearly established as a method of choice for the analysis of cetacean line transect survey data, and are increasingly used to inform risk assessments in remote marine areas subject to rising anthropogenic impacts (e.g. the high seas). However, despite persistent skepticism about the validity of extrapolated models, more and more DSMs are being applied well beyond the boundaries of the study regions where field sampling originally took place. This leads to potentially uncertain and error-prone model predictions that may mislead on-the-ground management interventions and undermine conservation decision-making. In addition, no consensus currently exists on the best way to define and measure extrapolation when it occurs, leaving users without the tools they require to audit models projected into novel conditions. Consequently, a transparent and consistent protocol for identifying scenarios under which extrapolation may be appropriate (or conversely, ill-advised) is urgently needed to better gauge how models behave outside the boundaries of sample data and to know how much faith can be placed in their outputs. This report aims to address this gap by synthesising recent advances in extrapolation detection, and presenting recommendations for a minimum standard for measuring extrapolation in novel environmental space. Such guidelines are essential to promoting transparency, replicability, and quality control, and will help marine scientists, managers and policy agencies to (i) better interpret density surfaces and their associated uncertainty; (ii) refine model development and selection approaches; and (iii) optimise the allocation of future survey effort by identifying priority knowledge gaps, e.g. by delineating areas where model predictions are the least supported by data. Our review is accompanied by supplementary R code offering a user-friendly framework for quantifying, summarising and visualising various forms of extrapolation in multivariate environmental space a priori (ahead of model fitting). We illustrate its application with case studies designed to revisit previously published predictions of sperm whale (Physeter macrocephalus) and beaked whale (Ziphiidae spp.) densities in the Northwest Atlantic, and evaluate them in light of several extrapolation metrics. Very early in their training, ecologists are given strong warnings against extrapolating, as model predictions made in data-deficient contexts rely heavily on assumptions that may not hold outside the range of sampled conditions. Navigating the ‘uncharted waters’ of extrapolation, however, is critical to scientific progress, and will be best achieved with a clear understanding of the mechanics, benefits, and limitations of extrapolated models.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -649,10 +697,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -666,45 +716,52 @@
   
 
   
+
 
   13<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    Report to the NESP Marine Biodiversity Hub
+  </span>
+
   
   
 
-<a href="/report/13-2018-bouchet-d2/" itemprop="name">Comparative assessment of pelagic sampling methods used in marine monitoring</a>.
+<p class="articletitle"><a itemprop="name" >Comparative assessment of pelagic sampling methods used in marine monitoring</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list"><strong>Bouchet PJ</strong>, Phillips C, Huang Z, Meeuwig J, Foster S, Przeslawski R</span> (2018).
-
-      Report to the National Environmental Science Programme (NESP) Marine Biodiversity Hub,
-      
+</p>
 
 
-      
-      
 
-        University of Western Australia,
-        
+   
 
-        Perth,
-        
+  
 
-        149<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    National Environmental Science Programme,
+    
+  
+    University of Western Australia,
+    
+  
+    149<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -720,7 +777,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.nespmarine.edu.au/system/files/Bouchet%20et%20al%20Comparative%20assessment%20of%20pelgic%20sampling%20methods_Milestone%2015%20RPv3.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://www.nespmarine.edu.au/system/files/Bouchet%20et%20al%20Comparative%20assessment%20of%20pelgic%20sampling%20methods_Milestone%2015%20RPv3.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -746,35 +805,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        Australia’s Exclusive Economic Zone (EEZ) is the third largest maritime territory in the world. Monitoring its dynamics is fundamental to understanding and reporting on how the ocean is responding to human pressures and global environmental change. Increasingly stringent conservation budgets, however, are placing a strong emphasis on strategic resource allocation. Faced with mounting pressures to build accountability, managers and policy advisors must now more than ever make monitoring investment decisions that are both impactful and cost-effective. This can be challenging given the smorgasbord of modern survey tools currently available, most of which differ widely in costs, capabilities, mobilisation constraints, resolution, or sensitivity, and are evolving rapidly without always being critically evaluated or compared. Whilst pelagic waters present fascinating opportunities for ecological investigation, their extreme horizontal, vertical and temporal patchiness, as well as the huge size range of organisms inhabiting the open ocean, also pose important methodological challenges for sampling. Early pelagic studies relied heavily on capture sampling using nets. While these remain a critical component of biological and oceanographic research today, a rapidly increasing array of innovative technologies (e.g. drifting baited videography, environmental DNA, unmanned aerial vehicles) with various degrees of autonomy and sensory capabilities is revolutionising the way we quantify biophysical processes and observe wildlife in remote habitats. Protocols for choosing optimal combinations of methods for a given region, taxonomic/indicator group, or habitat remain generally unavailable. There is thus an urgent need to synthesise and compare these methods to determine how they can best support and strengthen the empirical evidence base available for implementing marine monitoring programmes. The aim of the present report is to provide a comparative assessment of commonly used pelagic sampling methods. We do this by undertaking a qualitative, yet comprehensive, review of the published literature to identify their potential advantages, limitations, and their relevance to monitoring efforts.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -782,10 +860,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -799,45 +879,52 @@
   
 
   
+
 
   12<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    In: Field Manuals for Marine Sampling to Monitor Australian Waters
+  </span>
+
   
   
 
-<a href="/report/12-2018-bouchet-fieldmanual/" itemprop="name">Chapter 6: Marine sampling field manual for pelagic BRUVS (Baited Remote Underwater Videos)</a>.
+<p class="articletitle"><a itemprop="name" >Chapter 6: Marine sampling field manual for pelagic BRUVS (Baited Remote Underwater Videos)</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list"><strong>Bouchet PJ</strong>, Meeuwig J, Huveneers C, Langlois T, Letessier T, Lowry M, Rees M, Santana-Garcon J, Scott M, Taylor M, Thompson C, Vigliola L, Whitmarsh S</span> (2018).
-
-      In: Field Manuals for Marine Sampling to Monitor Australian Waters,
-      
+</p>
 
 
-      
-      
 
-        National Environmental Science Programme (NESP),
-        
+   
 
-        Australia,
-        
+  
 
-        105-132<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    National Environmental Science Programme (NESP),
+    
+  
+    Australia,
+    
+  
+    105-132<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -853,7 +940,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.nespmarine.edu.au/sites/default/files/_PUBLIC_/FieldManuals_NESPMarineHub_Chapter6_PBRUV_v1.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://www.nespmarine.edu.au/sites/default/files/_PUBLIC_/FieldManuals_NESPMarineHub_Chapter6_PBRUV_v1.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -879,35 +968,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        This manual relates to gear designed to acquire digital video imagery of macro-organisms living in the ocean’s water column, from small zooplankton to marine megavertebrates. A sister chapter on benthic BRUVs is included in the field package and addresses sampling protocols for demersal fish and shark assemblages (Chapter 5). The document aims to span everything from pre-survey planning to equipment preparation, field procedures, and on-board data acquisition to guarantee the efficient and correct use of pelagic BRUVs as monitoring tools in Australian Marine Parks (AMPs) and other Commonwealth waters. Such information is critical for supporting the development of consistent, concise, transparent and standardised guidelines in the collection and processing of pelagic BRUV data that can allow statistically robust comparisons between studies, sites, projects, and institutions.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -915,10 +1023,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -932,45 +1042,52 @@
   
 
   
+
 
   11<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    In: Field Manuals for Marine Sampling to Monitor Australian Waters
+  </span>
+
   
   
 
-<a href="/report/11-2018-langlois-fieldmanual/" itemprop="name">Chapter 5: Marine sampling field manual for benthic stereo BRUVS (Baited Remote Underwater Videos)</a>.
+<p class="articletitle"><a itemprop="name" >Chapter 5: Marine sampling field manual for benthic stereo BRUVS (Baited Remote Underwater Videos)</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Langlois T, Williams J, Monk J, <strong>Bouchet PJ</strong>, Currey L, Goetze J, Harasti D, Huveneers C, Lerodiaconou D, Malcolm H, Whitmarsh S</span> (2018).
-
-      In: Field Manuals for Marine Sampling to Monitor Australian Waters,
-      
+</p>
 
 
-      
-      
 
-        National Environmental Science Programme (NESP),
-        
+   
 
-        Australia,
-        
+  
 
-        82-104<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    National Environmental Science Programme (NESP),
+    
+  
+    Australia,
+    
+  
+    82-104<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -986,7 +1103,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.nespmarine.edu.au/sites/default/files/_PUBLIC_/FieldManuals_NESPMarineHub_Chapter5_BRUV_v1.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://www.nespmarine.edu.au/sites/default/files/_PUBLIC_/FieldManuals_NESPMarineHub_Chapter5_BRUV_v1.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -1012,35 +1131,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        This benthic stereo-BRUVs Field Manual includes gear designed to acquire imagery of demersal fish assemblages and their habitat within the field of view. A separate manual will address sampling pelagic fish assemblages using BRUVs (Chapter 6). This field manual covers everything required from equipment, pre-survey preparation, field procedures, post-survey procedures and data management for using benthic BRUVs to sample and monitor fish assemblages. The aim is to develop a consistent approach to using this field equipment and allow statistically sound comparisons between studies. Stereo-BRUVs are recommended, over mono-BRUVs, when monitoring demersal fish assemblages. Stereo-BRUVs consist of two cameras strategically and accurately placed on a frame that enable lengths and distance measurements to be made through the use of specialised software. These data are crucial to help monitor changes in fish assemblages over time. Therefore, the following standard operating procedures are written based on the use of stereo video.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -1048,10 +1186,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -1065,45 +1205,52 @@
   
 
   
+
 
   10<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    Report to the NESP Marine Biodiversity Hub
+  </span>
+
   
   
 
-<a href="/report/10-2018-bouchet-nesp-emergingpriorities/" itemprop="name">Bremer Canyon Emerging Priorities Project EP2: Occurrence and distribution of marine wildlife in the Bremer Bay region - Final Report</a>.
+<p class="articletitle"><a itemprop="name" >Bremer Canyon Emerging Priorities Project EP2: Occurrence and distribution of marine wildlife in the Bremer Bay region - Final Report</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list"><strong>Bouchet PJ</strong>, Meeuwig J, Erbe C, Salgado-Kent C, Wellard R, Pattiaratchi C</span> (2018).
-
-      Report to the National Environmental Science Programme (NESP) Marine Biodiversity Hub,
-      
+</p>
 
 
-      
-      
 
-        University of Western Australia,
-        
+   
 
-        Perth,
-        
+  
 
-        32<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    National Environmental Science Programme,
+    
+  
+    University of Western Australia,
+    
+  
+    32<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -1119,7 +1266,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.nespmarine.edu.au/system/files/Bouchet%20et%20al%20Bremer%20Canyon%20Final%20%20Report_Milestone%207_19March2018.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://www.nespmarine.edu.au/system/files/Bouchet%20et%20al%20Bremer%20Canyon%20Final%20%20Report_Milestone%207_19March2018.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -1145,35 +1294,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        Approximately 70 kilometres south-east of Bremer Bay (119.4°E, 34.4°S) off southern Western Australia’s coast lies a group of submarine canyons that incise the continental slope, plunging to depths of more than 1,000 metres. Charismatic pelagic organisms such as cetaceans, sharks, seabirds and squid are known to concentrate in high abundance above these features. In particular, the canyons are the site of the largest reported seasonal aggregation of killer whales (Orcinus orca) in the Southern Hemisphere, with over 100 identified individuals in the local population, many of which are regularly sighted. Existing data suggest that the majority of killer whale encounters occur west of the Bremer Marine Park, around the heads of the Knob and Henry Canyons. It is unclear, however, whether this area represents a discrete and unique killer whale hotspot or whether the park may support other aggregations, be they from separate individuals or the same animals frequenting the hotspot. Furthermore, the mechanisms underpinning ocean productivity in these otherwise relatively oligotrophic waters remain largely unresolved.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -1181,10 +1349,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -1199,44 +1369,51 @@
 
   
 
+
   9<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    Short communication prepared for the NESP Marine Biodiversity Hub
+  </span>
+
   
   
 
-<a href="/report/09-2018-bouchet-bremeraerial/" itemprop="name">Aerial visual survey of cetaceans and other megafauna in the Bremer Marine Park and surrounding areas</a>.
+<p class="articletitle"><a itemprop="name" >Aerial visual survey of cetaceans and other megafauna in the Bremer Marine Park and surrounding areas</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list"><strong>Bouchet PJ</strong>, Wellard R, Erbe C, Meeuwig J</span> (2018).
-
-      Short communication prepared for the National Environmental Science Programme (NESP) Marine Biodiversity Hub,
-      
+</p>
 
 
-      
-      
 
-        University of Western Australia,
-        
+   
 
-        Perth,
-        
+  
 
-        5<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    National Environmental Science Programme,
+    
+  
+    University of Western Australia,
+    
+  
+    5<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -1252,7 +1429,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.nespmarine.edu.au/system/files/Bouchet%20et%20al%20Aerial%20visual%20survey%20of%20cetaceans%20megafauna%20BremerNESP_EP2_ShortCommunication_Aerial_final.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://www.nespmarine.edu.au/system/files/Bouchet%20et%20al%20Aerial%20visual%20survey%20of%20cetaceans%20megafauna%20BremerNESP_EP2_ShortCommunication_Aerial_final.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -1278,35 +1457,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        Cetaceans are some of the most iconic animals on the planet, yet few of the 45 species of whales, dolphins and porpoises known to occur in Australian waters have been extensively studied to date. Historical commercial whaling records and recent modelling studies suggest that the submarine canyons within and around the Bremer Marine Park provide favourable habitats for a number of cetaceans, including sperm, beaked, and killer whales. The latter have been reported to concentrate in unprecedented numbers in the Bremer Sub-Basin over the austral summer months, forming what is likely the largest seasonal aggregation of the species in the Southern Hemisphere. However, little data on the animals’ ecology, population abundance, or movements currently exist, and while the majority of killer whale encounters have occurred around the heads of the Knob and Henry Canyons to date, it remains unclear whether this area represents a discrete and unique hotspot or whether the Bremer Marine Park may support additional aggregations. Under the NESP Emerging Priorities scheme, the Minister for the Environment and Energy, the Honourable Josh Frydenberg MP, accordingly committed research funds to the Marine Biodiversity Hub (MBH) to assess the extent and likely drivers of the Bremer megafauna hotspot, which is currently fuelling a rapidly growing tourism industry. As part of the programme, aerial surveys were implemented to assess the presence, numbers, behaviour and distribution of large air-breathing vertebrates throughout the region. The resulting data provide a critical baseline for understanding when and how cetaceans and other charismatic predators use the Bremer Marine Park. Such knowledge is key to helping managers and policy-makers meet national legislative requirements regarding the adequate conservation of Environment Protection and Biodiversity Conservation Act 1999 (EPBC Act) listed species.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -1314,10 +1512,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -1334,44 +1534,51 @@
 
   
 
+
   8<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    Report to the National Environmental Science Programme, Marine Biodiversity Hub
+  </span>
+
   
   
 
-<a href="/report/08-2017-miller-d1/" itemprop="name">NESP Project D1 Ecosystem understanding to support sustainable use, management and monitoring of marine assets in the North and North-West regions - Final Report 2016</a>.
+<p class="articletitle"><a itemprop="name" >NESP Project D1 Ecosystem understanding to support sustainable use, management and monitoring of marine assets in the North and North-West regions - Final Report 2016</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Miller K, Puotinen M, Przeslawski R, Huang Z, <strong>Bouchet PJ</strong>, Radford B, Li J, Kool J, Picard K, Thums M, Meeuwig J, Nichol S</span> (2017).
-
-      Report to the National Environmental Science Programme, Marine Biodiversity Hub,
-      
+</p>
 
 
-      
-      
 
-        Australian Institute of Marine Science,
-        
+   
 
-        Perth,
-        
+  
 
-        146<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    Australian Institute of Marine Science,
+    
+  
+    Perth,
+    
+  
+    146<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -1387,7 +1594,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://d28rz98at9flks.cloudfront.net/75846/Rec2013_021.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://d28rz98at9flks.cloudfront.net/75846/Rec2013_021.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -1413,35 +1622,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        This report provides detailed descriptions (metadata) of 45 Australian marine environmental datasets that have been generated and collated by the Marine Biodiversity Hub as part of Theme 3 - National Ecosystems Knowledge, Project 1 - Shelf and Canyon Ecosystems Functions and Processes. The report also includes a map for each dataset to illustrate coverage and general spatial structure. The datasets contain both marine environmental and biological variables from diverse data sources and include both new and updated information. Among them, the national bathymetry grid and derived products, seabed sediment grids, seabed exposure (GEOMACS) parameters, water quality data, the national canyon dataset and connectivity layers were produced by Geoscience Australia. Other environmental and biological datasets are the outputs of oceanographic models and collections of various governmental and research organisations. These datasets are important for the success of marine biodiversity research in Theme 3 Project 1 in that they describe key aspects of Australian marine physical, geochemical and biological environments. The physical and geochemical datasets not only characterise the static seabed features but also capture the temporal variation and three-dimensional interactions within marine ecosystems. The biological datasets represent a unique collection of fish and megafauna data available at the national scale. Together, these marine environmental datasets enhance our understanding of large-scale ecological processes driving marine biodiversity patterns. However, we should be aware of the uncertainties and potential errors exist in these datasets due to limitations of data collection and processing methods. Data quality issues of individual datasets have been documented in this report where possible.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -1449,10 +1677,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -1469,44 +1699,51 @@
 
   
 
+
   7<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    Report to the National Environmental Science Programme, Marine Biodiversity Hub
+  </span>
+
   
   
 
-<a href="/report/07-2016-meeuwig-bremer/" itemprop="name">Bremer Canyon Science Report: Workshop held 25 October 2016</a>.
+<p class="articletitle"><a itemprop="name" >Bremer Canyon Science Report: Workshop held 25 October 2016</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Meeuwig JJ, Turner J, <strong>Bouchet PJ</strong></span> (2016).
-
-      Report to the National Environmental Science Programme, Marine Biodiversity Hub,
-      
+</p>
 
 
-      
-      
 
-        University of Western Australia,
-        
+   
 
-        Perth,
-        
+  
 
-        27<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    University of Western Australia,
+    
+  
+    Perth,
+    
+  
+    27<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -1522,7 +1759,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.nespmarine.edu.au/system/files/Meeuwig%20et%20al%20Bremer%20Canyon%20Progress%20Report_Milestone%204%20FINAL_30Jun2017.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://www.nespmarine.edu.au/system/files/Meeuwig%20et%20al%20Bremer%20Canyon%20Progress%20Report_Milestone%204%20FINAL_30Jun2017.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -1548,35 +1787,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        In October 2016, researchers, park managers and a tourist operator interested in the Bremer Bay region came together at the University of Western Australia with the aim of assessing the extent and likely drivers of a megafauna aggregation, including orca Orcinus orca, long-finned pilot whales Globicephala melas, sperm whales Physeter microcephalus and several shark species that are currently the focus of tourism activities in an area inside and adjacent to the western margin of the Bremer Commonwealth Marine Reserve (CMR). The Minister for Environment and Energy, the Honourable Josh Frydenberg, committed $100,000 to the National Environmental Science Programme’s Marine Biodiversity Hub (MBH) to (1) convene a scientific workshop to design a research plan that may help answer these core questions and (2) conduct priority research in a short time frame. The October 2016, workshop participants identified two areas of priority over the short term as relevant to the needs of the Minister, namely determining the the distribution of marine mammals beyond the recognised aggregation and in relation to the Bremer CMR; and developing science communication tools to assist in decision making. Parks Australia offered an additional $50,000 to extend the survey options and communication possibilities. The NESP Marine Biodiversity Hub and Integrated Marine Observing System (IMOS) supported deployment of a Seaglider at the time of the aggregation. Researchers from numerous institutions including but not exclusive to the University of Western Australia (UWA), Curtin University, Marine Information and Research Group (MIRG) Australia and IMOS, conducted an array of sampling methods from February 2017, with the aim of capturing the key actions identified at the workshop. This report summarises the current outcomes of these research programs.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -1584,10 +1842,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -1604,44 +1864,51 @@
 
   
 
+
   6<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    Brochure produced for the National Environmental Research Programme (NERP)
+  </span>
+
   
   
 
-<a href="/report/06-2015-caley-oceanicshoals/" itemprop="name">Oceanic Shoals Commonwealth Marine Reserve - A guide</a>.
+<p class="articletitle"><a itemprop="name" >Oceanic Shoals Commonwealth Marine Reserve - A guide</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Caley J, <strong>Bouchet PJ</strong>, Kool J, Meeuwig J, Nichol S, Przeslawski R</span> (2015).
-
-      Brochure produced for the National Environmental Research Programme (NERP),
-      
+</p>
 
 
-      
-      
 
-        Australian Institute of Marine Science,
-        
+   
 
-        Perth,
-        
+  
 
-        13<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    Australian Institute of Marine Science,
+    
+  
+    Perth,
+    
+  
+    13<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -1657,7 +1924,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.nespmarine.edu.au/system/files/Oceanic%20Shoals%20Commonwealth%20Marine%20Reserve%20-%20a%20guide%20_fact%20sheet.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://www.nespmarine.edu.au/system/files/Oceanic%20Shoals%20Commonwealth%20Marine%20Reserve%20-%20a%20guide%20_fact%20sheet.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -1683,35 +1952,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        The broad continental shelf of northern Australia is characterised by extensive areas of carbonate banks, terraces and isolated pinnacles that provide hard substrates for sponge gardens and associated benthic fauna. The conservation values of these seabed features is recognised in marine bioregional plans through their assignment as Key Ecological Features (KEFs) of regional significance. These KEFs include: the carbonate banks and terraces of the Van Diemen Rise (North Marine Region); the carbonate banks and terraces of the Sahul Shelf (Northwest Marine Region), and; the pinnacles of the Bonaparte Basin (North and Northwest Marine Regions). Previous geological studies provide context for understanding the origin and distribution of modern benthic habitats within the Oceanic Shoals Marine Park. However, significant knowledge gaps around biodiversity patterns remain, with very few field observations of biota made to date in the region. A 25-day collaborative scientific voyage was undertaken by the Marine Biodiversity Hub in 2012 to sample previously unexplored carbonate terraces, banks, and pinnacles. The survey was designed to collect information to generate high-resolution seabed maps, gather samples of benthic biological material, and observe communities of fishes and other vertebrate species.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -1719,10 +2007,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -1737,44 +2027,51 @@
 
   
 
+
   5<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    Scientific workshop report to NESP Marine Biodiversity Hub
+  </span>
+
   
   
 
-<a href="/report/05-2015-przeslawski-d1/" itemprop="name">NESP D1: Developing a toolbox of predictive models for the monitoring and management of KEFs and CMRs in the North and North-west regions</a>.
+<p class="articletitle"><a itemprop="name" >NESP D1: Developing a toolbox of predictive models for the monitoring and management of KEFs and CMRs in the North and North-west regions</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Przeslawski R, Miller K, Nichol S, <strong>Bouchet PJ</strong>, Huang Z, Kool J, Radford B, Thums M</span> (2015).
-
-      Scientific workshop report to the National Environmental Science Programme Marine Biodiversity Hub,
-      
+</p>
 
 
-      
-      
 
-        Australian Institute of Marine Science,
-        
+   
 
-        Perth,
-        
+  
 
-        23<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    National Environmental Science Programme,
+    
+  
+    Australian Institute of Marine Science,
+    
+  
+    23<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -1790,7 +2087,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://www.nespmarine.edu.au/system/files/NESP%20Marine%20Hub%20D1%20Developing%20toolbox%20predictive%20models%20workshop%20report%202015_FINAL_AO.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://www.nespmarine.edu.au/system/files/NESP%20Marine%20Hub%20D1%20Developing%20toolbox%20predictive%20models%20workshop%20report%202015_FINAL_AO.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -1816,35 +2115,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        This report summarises the outcomes of a scientific workshop conducted at Geoscience Australia as part of the NESP D1 Project. The objectives of the workshop were to discuss future research priorities for the North and North-West regions and to define current knowledge gaps by consolidating existing datasets from numerous research institutions.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -1852,10 +2170,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -1872,44 +2192,51 @@
 
   
 
+
   4<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    Record 2013-21
+  </span>
+
   
   
 
-<a href="/report/04-2013-huang-metadata/" itemprop="name">Australian marine environmental data: Descriptions and metadata</a>.
+<p class="articletitle"><a itemprop="name" >Australian marine environmental data: Descriptions and metadata</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Huang Z, Przeslawski R, Kool J, Li J, <strong>Bouchet PJ</strong>, Nichol S</span> (2013).
-
-      Record 2013-21,
-      
+</p>
 
 
-      
-      
 
-        Geoscience Australia,
-        
+   
 
-        Canberra,
-        
+  
 
-        214<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    Geoscience Australia,
+    
+  
+    Canberra,
+    
+  
+    214<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -1925,7 +2252,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://d28rz98at9flks.cloudfront.net/75846/Rec2013_021.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://d28rz98at9flks.cloudfront.net/75846/Rec2013_021.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -1951,35 +2280,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        This report provides detailed descriptions (metadata) of 45 Australian marine environmental datasets that have been generated and collated by the Marine Biodiversity Hub as part of Theme 3 - National Ecosystems Knowledge, Project 1 - Shelf and Canyon Ecosystems Functions and Processes. The report also includes a map for each dataset to illustrate coverage and general spatial structure. The datasets contain both marine environmental and biological variables from diverse data sources and include both new and updated information. Among them, the national bathymetry grid and derived products, seabed sediment grids, seabed exposure (GEOMACS) parameters, water quality data, the national canyon dataset and connectivity layers were produced by Geoscience Australia. Other environmental and biological datasets are the outputs of oceanographic models and collections of various governmental and research organisations. These datasets are important for the success of marine biodiversity research in Theme 3 Project 1 in that they describe key aspects of Australian marine physical, geochemical and biological environments. The physical and geochemical datasets not only characterise the static seabed features but also capture the temporal variation and three-dimensional interactions within marine ecosystems. The biological datasets represent a unique collection of fish and megafauna data available at the national scale. Together, these marine environmental datasets enhance our understanding of large-scale ecological processes driving marine biodiversity patterns. However, we should be aware of the uncertainties and potential errors exist in these datasets due to limitations of data collection and processing methods. Data quality issues of individual datasets have been documented in this report where possible.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -1987,10 +2335,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -2005,44 +2355,51 @@
 
   
 
+
   3<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    Record 2013-38
+  </span>
+
   
   
 
-<a href="/report/03-2013-nichol-oceanicshoals/" itemprop="name">Oceanic Shoals Commonwealth Marine Reserve (Timor Sea) Biodiversity Survey</a>.
+<p class="articletitle"><a itemprop="name" >Oceanic Shoals Commonwealth Marine Reserve (Timor Sea) Biodiversity Survey</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Nichol SL, Howard FJF, Kool J, Stowar M, <strong>Bouchet PJ</strong>, Radke L, Siwabessy J, Przeslawski R, Picard K, Alvarez de Glasby B, Colquhoun J, Letessier T, Heyward A</span> (2013).
-
-      Record 2013-38,
-      
+</p>
 
 
-      
-      
 
-        Geoscience Australia,
-        
+   
 
-        Canberra,
-        
+  
 
-        112<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    Geoscience Australia,
+    
+  
+    Canberra,
+    
+  
+    112<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -2058,7 +2415,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="https://d28rz98at9flks.cloudfront.net/76658/Rec2013_038.pdf" target="_blank" rel="noopener">
+
+
+<a class="btn" href="https://d28rz98at9flks.cloudfront.net/76658/Rec2013_038.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -2084,35 +2443,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        This report provides details of activities undertaken by the Australian Institute of Marine Science (AIMS), Geoscience Australia, the University of Western Australia and the Museum and Art Gallery of the Northern Territory during a marine biodiversity survey to the Oceanic Shoals Commonwealth Marine Reserve (Timor Sea) in 2012. The survey was an activity within the Australian Government’s National Environmental Research Program Marine Biodiversity Hub and is a key component of Theme 4 - Regional Biodiversity Discovery to Support Marine Bioregional Plans. Data collected during the survey will be used to support research being undertaken in other Themes of the Marine Biodiversity Hub, including the modelling of ecosystem processes for the northern region, and to support the work programs of the Department of Environment.
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -2120,10 +2498,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -2140,44 +2520,51 @@
 
   
 
+
   2<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    Report to the Australian Marine Mammal Centre
+  </span>
+
   
   
 
-<a href="/report/02-2010-jenner-humpbacks/" itemprop="name">A comparison of southern hemisphere breeding stock &#39;D&#39; humpback whale population estimates from two key locations along the Western Australian coast</a>.
+<p class="articletitle"><a itemprop="name" >A comparison of southern hemisphere breeding stock &#39;D&#39; humpback whale population estimates from two key locations along the Western Australian coast</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Jenner C, Jenner M, Salgado-Kent CP, <strong>Bouchet PJ</strong>, Dunlop R, Burton C</span> (2010).
-
-      Report to the Australian Marine Mammal Centre,
-      
+</p>
 
 
-      
-      
 
-        Centre for Whale Research WA Inc.,
-        
+   
 
-        Perth,
-        
+  
 
-        23<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    Centre for Whale Research WA Inc.,
+    
+  
+    Perth,
+    
+  
+    23<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -2193,7 +2580,9 @@
 
 
 
-<a class="btn btn-pdf my-1 mr-1 btn-sm" href="http://marxiv.org/5skqb" target="_blank" rel="noopener">
+
+
+<a class="btn" href="http://marxiv.org/5skqb" target="_blank" rel="noopener">
   PDF
 </a>
 <span class="button-separator">/</span>
@@ -2219,35 +2608,54 @@
 
 
 
-</p>
+
+
+
+
+
+
+
+
+
+</span>
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        This report aims to compare recent population estimates of southern hemisphere breeding stock D humpback whales (Megaptera novaeangliae) based on data collected at two key locations along the Western Australian coastline, namely North West Cape (NWC) and Shark Bay, ~400 km south of NWC. The report additionally investigates the efficacy and practicality of current survey designs, and serves as a reference point for future improvement in whale monitoring strategies (location of surveys, field protocols, etc.).
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
+
+
+
+
+
+
+
+</span>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
 
   
-
-</th>
-
-<th class="secondcol">
-
-  <span class="altmetric_badge">
-
-
-
-
-
-
-
-</span>
-  <span class="dimensions_badge">
-
-
-
-
-
-
-
-</span>
-</th>
-</tr>
-</table>
 
 </div>
 
@@ -2255,10 +2663,12 @@
     
       
           <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<script type="text/javascript" src="/js/text-expand.js"></script>
 
 <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
 
   <table class="pub-table">
+    
     <tr>
 
   
@@ -2273,45 +2683,51 @@
 
   
 
+
   1<span class="number-divider"> |</span>
   
 
+  <span class="journalname">
+    Report to the Australian Marine Mammal Centre
+  </span>
+
   
   
 
-<a href="/report/01-2010-salgado-humpbacks/" itemprop="name">Southern hemisphere breeding stock &#39;D&#39; humpback whale population estimates from North West cape, Western Australia</a>.
+<p class="articletitle"><a itemprop="name" >Southern hemisphere breeding stock &#39;D&#39; humpback whale population estimates from North West cape, Western Australia</a></p>
+
 
   <p itemprop="author" class="article-metadata li-cite-author">
     <span class="author_list">Salgado-Kent CP, Jenner C, Jenner M, <strong>Bouchet PJ</strong></span> (2010).
-
-      Report to the Australian Marine Mammal Centre,
-      
+</p>
 
 
-      
-      
 
-        Centre for Whale Research WA Inc.,
-        
+   
 
-        Perth,
-        
+  
 
-        61<span> p.</span>
-        
+  
 
-      
+  
 
+  <p class="report_details">
+    Centre for Whale Research WA Inc.,
+    
+  
+    Perth,
+    
+  
+    61<span> p.</span>
+    
   </p>
 
   
 
-  
-
-  
-
-  <p class="publinks">
-
+    <table>
+    <tr>
+    <th class="col1">   
+      <span class="publinks">
 
 
 
@@ -2320,40 +2736,33 @@
 
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
 
   
 
-</th>
 
-<th class="secondcol">
 
-  <span class="altmetric_badge">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2362,7 +2771,22 @@
 
 
 </span>
-  <span class="dimensions_badge">
+      
+      
+      <details>
+        <summary>Abstract</summary>
+        This report comprises the first of three reports prepared for the AMMC (Australian Marine Mammal Centre) with the general aim of assessing the current status of the humpback whale population that migrates along the western Australian coastline each year. The work presented in this report includes the analysis of five years of aerial survey data from North West Cape (NWC) to estimate the population size and trend. Adjoining CWR Report #2010-01 presents a comparison of results from NWC to those from Shark Bay, ~400 km south of NWC, and CMST Report #2010-16 present an analysis of sex ratio data from NWC. The population estimate was based on the application of distance sampling techniques to line transect aerial surveys conducted during 2000, 2001, 2006, 2007, and 2008 at NWC. Estimates of group abundance for each survey were computed using a Horvitz-Thompson like estimator. The detection function was then fitted to the data by specifying likelihood of detection at perpendicular distances from the track line. A number of multipliers were then applied to obtain final estimates including, estimated mean group size, time period not surveyed, and a correction factor for availability (and perception bias for 2008). A variety of migration models were trialed. The modeling approach considered to have the most credible assumptions and the best fit was selected. Results from the best models indicated that the humpback whale population size was around 7,276 (CI = 4,993-10,167) in 2000, 10,548 (CI = 6,502-48,622) in 2001, 18,692 (CI = 12,980-24,477) in 2006, 20,044 (CI = 13,815-31,646) in 2007, and 26,100 (CI = 20,152-33,272) in 2008. The trend associated with these estimates that fit the data best was an exponential model with an increase rate of 14.1%. While this increase rate is considered to be above the maximum plausible increase rate of 11.8% (Zerbini et al., 2010), it is not far off from previous estimates of between 10-12%
+      </details>
+      
+    </th>
+    <th class="col2">
+    </th>
+    </tr>
+    </table>
+
+     </th>
+     <th class = "secondcol">
+      <span class="altmetric_badge">
 
 
 
@@ -2371,9 +2795,20 @@
 
 
 </span>
-</th>
-</tr>
-</table>
+      <span class="dimensions_badge">
+
+
+
+
+
+
+
+</span>
+     </th>
+  </tr>
+  </table>
+
+  
 
 </div>
 
@@ -2394,9 +2829,9 @@
 
   
   <p class="powered-by">
-    &copy; 2021 &middot; 
+    &copy; 2022 &middot; 
 
-    Powered by Hugo and designed by Phil Bouchet / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: <a href="https://www.instagram.com/manusanfelix_official/?hl=en" target="blank">Manu San Félix</a>
+    Powered by Hugo / <a class="cc-by-link" href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US" target="_blank" rel="noopener">CC BY-NC Licensed</a> / Cover photo: Manu San Félix
       
     
     <span class="float-right" aria-hidden="true">
@@ -2533,7 +2968,22 @@
     
     
     <script src="/js/academic.min.eeda67bb2d1f96265d85659d1edc7a5e.js"></script>
-
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+      </script>
   </body>
 </html>
 
