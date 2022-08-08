@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/ecology/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Seascape ecology: Identifying research priorities for an emerging ocean sustainability science</title>
       <link>/publication/24-2021-pittman-meps/pittman_etal_2021/</link>
-      <pubDate>Wed, 31 Mar 2021 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0100</pubDate>
       
       <guid>/publication/24-2021-pittman-meps/pittman_etal_2021/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>True blue: Temporal and spatial stability of pelagic wildlife at a submarine canyon</title>
       <link>/publication/23-2020-forrest-ecosphere/forrest_etal_2021/</link>
-      <pubDate>Fri, 05 Mar 2021 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>/publication/23-2020-forrest-ecosphere/forrest_etal_2021/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Regional assessment of the conservation status of snubfin dolphins (Orcaella heinsohni) in the Kimberley region, Western Australia</title>
       <link>/publication/22-2021-bouchet-frontiers/bouchet_etal_2021/</link>
-      <pubDate>Thu, 21 Jan 2021 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/publication/22-2021-bouchet-frontiers/bouchet_etal_2021/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>A field and video‐annotation guide for baited remote underwater stereo‐video surveys of demersal fish assemblages</title>
       <link>/publication/21-2020-langlois-mee/langlois_etal_2020/</link>
-      <pubDate>Thu, 20 Aug 2020 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0100</pubDate>
       
       <guid>/publication/21-2020-langlois-mee/langlois_etal_2020/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>dsmextra: Extrapolation assessment tools for density surface models</title>
       <link>/publication/20-2020-bouchet-mee/bouchet_etal_2020/</link>
-      <pubDate>Wed, 19 Aug 2020 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0100</pubDate>
       
       <guid>/publication/20-2020-bouchet-mee/bouchet_etal_2020/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Submerged carbonate banks aggregate pelagic megafauna in offshore tropical Australia</title>
       <link>/publication/19-2020-bouchet-fmars/bouchet_etal_2020/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0100</pubDate>
       
       <guid>/publication/19-2020-bouchet-fmars/bouchet_etal_2020/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>Seasonal productivity drives aggregations of killer whales and other cetaceans over submarine canyons of the Bremer Sub-Basin, south-western Australia</title>
       <link>/publication/18-2020-salgado-ausmam/salgado_etal_2020/</link>
-      <pubDate>Thu, 25 Jun 2020 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0100</pubDate>
       
       <guid>/publication/18-2020-salgado-ausmam/salgado_etal_2020/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>A standard protocol for describing species distribution models</title>
       <link>/publication/17-2020-zurell-ecography/zurell_etal_2020/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0100</pubDate>
       
       <guid>/publication/17-2020-zurell-ecography/zurell_etal_2020/</guid>
       <description></description>
@@ -87,7 +87,7 @@
     <item>
       <title>Remote reefs and seamounts are the last refuges for marine predators across the Indo-Pacific</title>
       <link>/publication/16-2019-letessier-plosb/letessier_etal_2019/</link>
-      <pubDate>Tue, 06 Aug 2019 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0100</pubDate>
       
       <guid>/publication/16-2019-letessier-plosb/letessier_etal_2019/</guid>
       <description></description>
@@ -96,7 +96,7 @@
     <item>
       <title>Physiological response of the coralline alga Corallina officinalis L. to both predicted long-term increases in temperature and short-term heatwave events</title>
       <link>/publication/15-2019-rendina-mer/rendina_etal_2019/</link>
-      <pubDate>Sat, 27 Jul 2019 00:00:00 +0200</pubDate>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0100</pubDate>
       
       <guid>/publication/15-2019-rendina-mer/rendina_etal_2019/</guid>
       <description></description>
@@ -105,7 +105,7 @@
     <item>
       <title>Better Model Transfers Require Knowledge of Mechanisms</title>
       <link>/publication/14-2019-bouchet-tree/bouchet_etal_2019/</link>
-      <pubDate>Thu, 02 May 2019 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0100</pubDate>
       
       <guid>/publication/14-2019-bouchet-tree/bouchet_etal_2019/</guid>
       <description></description>
@@ -114,7 +114,7 @@
     <item>
       <title>First underwater sighting of Shepherd&#39;s beaked whale (Tasmacetus shepherdi)</title>
       <link>/publication/12-2019-thompson-mbr/thomspon_etal_2019/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/publication/12-2019-thompson-mbr/thomspon_etal_2019/</guid>
       <description></description>

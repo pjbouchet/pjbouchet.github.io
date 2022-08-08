@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 15 Aug 2018 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 15 Aug 2018 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/predictions/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Model transferability</title>
       <link>/project/transferability/</link>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0100</pubDate>
       
       <guid>/project/transferability/</guid>
       <description>Predictive models have become ubiquitous in ecology, where they are used to understand where and why species occur, and what impacts anthropogenic change may have on biodiversity. Very often, the need for model predictions is highest in systems, areas, or time periods where little or even no biological knowledge currently exists. Models that can produce accurate and precise predictions when transferred into these novel conditions are both highly desirable and of great utility for conservation and management.</description>
@@ -24,7 +24,7 @@
     <item>
       <title>Ocean sampling</title>
       <link>/project/ocean-sampling/</link>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0100</pubDate>
       
       <guid>/project/ocean-sampling/</guid>
       <description>Pelagic protected areas have undergone exponential growth on a global scale in response to concerns over the footprint of human activities on the world&amp;rsquo;s oceans. Assessing their performance in protecting biodiversity requires innovative tools that can not only detect a wide range of often elusive, mobile organisms but are also cost-effective, reliable, and non-invasive.</description>

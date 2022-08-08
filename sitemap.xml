@@ -4,211 +4,216 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2030-06-01T13:00:00+02:00</lastmod>
+    <lastmod>2030-06-01T13:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+02:00</lastmod>
+    <lastmod>2030-06-01T13:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/pcoms/</loc>
-    <lastmod>2022-04-17T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/project/pcoms/</loc>
-    <lastmod>2022-04-17T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2022-04-17T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2022-04-17T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/bioenergetics/</loc>
-    <lastmod>2022-04-17T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/offshore-wind/</loc>
-    <lastmod>2022-04-17T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/right-whales/</loc>
-    <lastmod>2022-04-17T00:00:00+02:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2030-06-01T13:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/2/</loc>
-    <lastmod>2021-04-07T00:00:00+02:00</lastmod>
+    <lastmod>2022-08-08T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/25-2021-bouchet-fims/bouchet_etal_2021/</loc>
-    <lastmod>2021-04-07T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/</loc>
-    <lastmod>2021-04-07T00:00:00+02:00</lastmod>
+    <lastmod>2022-08-08T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/</loc>
-    <lastmod>2021-04-07T00:00:00+02:00</lastmod>
+    <lastmod>2022-08-08T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/26-2022-robbins-mpb/robbins_etal_2022/</loc>
+    <lastmod>2022-08-08T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/pcoms/</loc>
+    <lastmod>2022-04-17T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/project/pcoms/</loc>
+    <lastmod>2022-04-17T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2022-04-17T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2022-04-17T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bioenergetics/</loc>
+    <lastmod>2022-04-17T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/offshore-wind/</loc>
+    <lastmod>2022-04-17T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/right-whales/</loc>
+    <lastmod>2022-04-17T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/25-2021-bouchet-fims/bouchet_etal_2021/</loc>
+    <lastmod>2021-04-07T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/ecology/</loc>
-    <lastmod>2021-03-31T00:00:00+02:00</lastmod>
+    <lastmod>2021-03-31T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/24-2021-pittman-meps/pittman_etal_2021/</loc>
-    <lastmod>2021-03-31T00:00:00+02:00</lastmod>
+    <lastmod>2021-03-31T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/23-2020-forrest-ecosphere/forrest_etal_2021/</loc>
-    <lastmod>2021-03-05T00:00:00+01:00</lastmod>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/22-2021-bouchet-frontiers/bouchet_etal_2021/</loc>
-    <lastmod>2021-01-21T00:00:00+01:00</lastmod>
+    <lastmod>2021-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/21-2020-langlois-mee/langlois_etal_2020/</loc>
-    <lastmod>2020-08-20T00:00:00+02:00</lastmod>
+    <lastmod>2020-08-20T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/20-2020-bouchet-mee/bouchet_etal_2020/</loc>
-    <lastmod>2020-08-19T00:00:00+02:00</lastmod>
+    <lastmod>2020-08-19T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/19-2020-bouchet-fmars/bouchet_etal_2020/</loc>
-    <lastmod>2020-06-30T00:00:00+02:00</lastmod>
+    <lastmod>2020-06-30T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/18-2020-salgado-ausmam/salgado_etal_2020/</loc>
-    <lastmod>2020-06-25T00:00:00+02:00</lastmod>
+    <lastmod>2020-06-25T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/17-2020-zurell-ecography/zurell_etal_2020/</loc>
-    <lastmod>2020-06-01T00:00:00+02:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/16-2019-letessier-plosb/letessier_etal_2019/</loc>
-    <lastmod>2019-08-06T00:00:00+02:00</lastmod>
+    <lastmod>2019-08-06T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication_types/4/</loc>
-    <lastmod>2019-08-01T00:00:00+02:00</lastmod>
+    <lastmod>2019-08-01T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/report/14-2019-bouchet-denmod/</loc>
-    <lastmod>2019-08-01T00:00:00+02:00</lastmod>
+    <lastmod>2019-08-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/report/</loc>
-    <lastmod>2019-08-01T00:00:00+02:00</lastmod>
+    <lastmod>2019-08-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/freshwater-marine-ecology/</loc>
-    <lastmod>2019-07-27T00:00:00+02:00</lastmod>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/marine-freshwater-sciences/</loc>
-    <lastmod>2019-07-27T00:00:00+02:00</lastmod>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/15-2019-rendina-mer/rendina_etal_2019/</loc>
-    <lastmod>2019-07-27T00:00:00+02:00</lastmod>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/zoology/</loc>
-    <lastmod>2019-07-27T00:00:00+02:00</lastmod>
+    <lastmod>2019-07-27T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/14-2019-bouchet-tree/bouchet_etal_2019/</loc>
-    <lastmod>2019-05-02T00:00:00+02:00</lastmod>
+    <lastmod>2019-05-02T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/13-2019-przeslawski-fmars/przeslawski_etal_2019/</loc>
-    <lastmod>2019-04-05T00:00:00+02:00</lastmod>
+    <lastmod>2019-04-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/home/</loc>
-    <lastmod>2019-04-04T00:00:00+02:00</lastmod>
+    <lastmod>2019-04-04T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/contact/</loc>
-    <lastmod>2019-04-04T00:00:00+02:00</lastmod>
+    <lastmod>2019-04-04T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publications/</loc>
-    <lastmod>2019-04-04T00:00:00+02:00</lastmod>
+    <lastmod>2019-04-04T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/reports/</loc>
-    <lastmod>2019-04-04T00:00:00+02:00</lastmod>
+    <lastmod>2019-04-04T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/12-2019-thompson-mbr/thomspon_etal_2019/</loc>
-    <lastmod>2019-03-01T00:00:00+01:00</lastmod>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2019-04-17T00:00:00+02:00</lastmod>
+    <lastmod>2019-04-17T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -219,7 +224,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-04-17T00:00:00+02:00</lastmod>
+    <lastmod>2019-04-17T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -230,212 +235,212 @@
   
   <url>
     <loc>/talks/</loc>
-    <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/about/</loc>
-    <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/research/</loc>
-    <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/11-2018-bouchetyates-tree/bouchetyates_etal_2018/</loc>
-    <lastmod>2018-10-01T00:00:00+02:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/predictive-modeling/</loc>
-    <lastmod>2018-10-01T00:00:00+02:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/extrapolation/</loc>
-    <lastmod>2018-10-01T00:00:00+02:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/generality/</loc>
-    <lastmod>2018-10-01T00:00:00+02:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/habitat-models/</loc>
-    <lastmod>2018-10-01T00:00:00+02:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/model-transfers/</loc>
-    <lastmod>2018-10-01T00:00:00+02:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/species-distribution-models/</loc>
-    <lastmod>2018-10-01T00:00:00+02:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/uncertainty/</loc>
-    <lastmod>2018-10-01T00:00:00+02:00</lastmod>
+    <lastmod>2018-10-01T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/project/transferability/</loc>
-    <lastmod>2018-08-15T00:00:00+02:00</lastmod>
+    <lastmod>2018-08-15T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/project/ocean-sampling/</loc>
-    <lastmod>2018-08-15T00:00:00+02:00</lastmod>
+    <lastmod>2018-08-15T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/predictions/</loc>
-    <lastmod>2018-08-15T00:00:00+02:00</lastmod>
+    <lastmod>2018-08-15T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/report/13-2018-bouchet-d2/</loc>
-    <lastmod>2018-05-01T00:00:00+02:00</lastmod>
+    <lastmod>2018-05-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/report/12-2018-bouchet-fieldmanual/</loc>
-    <lastmod>2018-04-01T00:00:00+02:00</lastmod>
+    <lastmod>2018-04-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/report/11-2018-langlois-fieldmanual/</loc>
-    <lastmod>2018-03-01T00:00:00+01:00</lastmod>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/report/10-2018-bouchet-nesp-emergingpriorities/</loc>
-    <lastmod>2018-02-01T00:00:00+01:00</lastmod>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/report/09-2018-bouchet-bremeraerial/</loc>
-    <lastmod>2018-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/10-2018-sequeira-mee/sequeira_etal_2018/</loc>
-    <lastmod>2018-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/09-2018-bouchet-geb/bouchet_etal_2018/</loc>
-    <lastmod>2017-08-24T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/topography/</loc>
-    <lastmod>2017-08-24T00:00:00+02:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/catch-rate-standardization/</loc>
-    <lastmod>2017-08-24T00:00:00+02:00</lastmod>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/fisheries-data/</loc>
-    <lastmod>2017-08-24T00:00:00+02:00</lastmod>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/geomorphometrics/</loc>
-    <lastmod>2017-08-24T00:00:00+02:00</lastmod>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/hotspot/</loc>
-    <lastmod>2017-08-24T00:00:00+02:00</lastmod>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/marine-reserves/</loc>
-    <lastmod>2017-08-24T00:00:00+02:00</lastmod>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/pelagic-fishes/</loc>
-    <lastmod>2017-08-24T00:00:00+02:00</lastmod>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/random-forest/</loc>
-    <lastmod>2017-08-24T00:00:00+02:00</lastmod>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/spatial-modelling/</loc>
-    <lastmod>2017-08-24T00:00:00+02:00</lastmod>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/submarine-canyons/</loc>
-    <lastmod>2017-08-24T00:00:00+02:00</lastmod>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/topography/</loc>
+    <lastmod>2017-08-24T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/08-2017-allen-scirep/allen_etal_2017/</loc>
-    <lastmod>2017-07-10T00:00:00+02:00</lastmod>
+    <lastmod>2017-07-10T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/07-2017-letessier-biolrev/letessier_etal_2017/</loc>
-    <lastmod>2017-05-01T00:00:00+02:00</lastmod>
+    <lastmod>2017-05-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/report/08-2017-miller-d1/</loc>
-    <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+02:00</lastmod>
+    <lastmod>2019-04-17T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+02:00</lastmod>
+    <lastmod>2019-04-17T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/phil/</loc>
-    <lastmod>2019-04-17T00:00:00+02:00</lastmod>
+    <lastmod>2019-04-17T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/report/07-2016-meeuwig-bremer/</loc>
-    <lastmod>2016-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -475,182 +480,182 @@
   
   <url>
     <loc>/report/06-2015-caley-oceanicshoals/</loc>
-    <lastmod>2015-02-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/aggregations/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/biodiversity-monitoring/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/complexity/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/06-2015-bouchet-ecosphere/bouchet_etal_2015/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/geomorphometry/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/hotspots/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/05-2015-parsons-esr/parsons_etal_2015/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/landscape/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/marine-reserve/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/marine-spatial-planning/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/maxent/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/metrics/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/mid-water-bruvs/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/report/05-2015-przeslawski-d1/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/occupancy-modeling/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/offshore-sampling/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/pelagic-fish-and-sharks/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/perth-canyon/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/predators/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/stereo-videography/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/04-2015-bouchet-biolrev/bouchet_etal_2015/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/western-australia/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/wildlife-conservation/</loc>
-    <lastmod>2015-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/03-2014-letessier-mbio/letessier_etal_2014/</loc>
-    <lastmod>2014-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/report/04-2013-huang-metadata/</loc>
-    <lastmod>2013-02-01T00:00:00+01:00</lastmod>
+    <lastmod>2013-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/02-2013-letessier-mo/letessier_etal_2013/</loc>
-    <lastmod>2013-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/report/03-2013-nichol-oceanicshoals/</loc>
-    <lastmod>2013-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/source-themes/</loc>
-    <lastmod>2013-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/01-2012-salgado-jcrm/salgado_etal_2012/</loc>
-    <lastmod>2012-01-01T00:00:00+01:00</lastmod>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/report/02-2010-jenner-humpbacks/</loc>
-    <lastmod>2010-03-31T00:00:00+02:00</lastmod>
+    <lastmod>2010-03-31T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/report/01-2010-salgado-humpbacks/</loc>
-    <lastmod>2010-03-21T00:00:00+01:00</lastmod>
+    <lastmod>2010-03-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
